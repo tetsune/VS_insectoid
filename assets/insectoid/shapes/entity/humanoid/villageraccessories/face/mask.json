@@ -1,0 +1,59 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/villager-female",
+		"collapsedPaths": "Root/bandN/toothR1,Root/bandN/toothL1",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"facetex": "entity/humanoid/villagerclothes/face/hunter"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"stepParentName": "Head",
+			"from": [ -0.4, 1.6, 2.3 ],
+			"to": [ -0.4, 1.6, 2.3 ],
+			"uv": [ 999.0, 999.0 ],
+			"rotationOrigin": [ -0.4, 1.6, 2.3 ],
+			"rotationZ": 3.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Mask",
+					"from": [ 0.2, -3.0, -2.35 ],
+					"to": [ 6.0, 0.5, 2.75 ],
+					"renderPass": 1,
+					"unwrapMode": 4,
+					"autoUnwrap": false,
+					"uv": [ 1.0, 4.0 ],
+					"rotationOrigin": [ 0.2, -3.0, -2.4 ],
+					"faces": {
+						"north": { "texture": "#facetex", "uv": [ 1.5, 4.0, 7.0, 7.5 ] },
+						"east": { "texture": "#facetex", "uv": [ 18.0, 4.0, 23.0, 7.5 ] },
+						"south": { "texture": "#facetex", "uv": [ 12.0, 4.0, 17.5, 7.5 ] },
+						"west": { "texture": "#facetex", "uv": [ 7.0, 4.0, 12.0, 7.5 ] }
+					},
+					"children": [
+						{
+							"name": "Bottom",
+							"from": [ 0.0, 1.0, 0.0 ],
+							"to": [ 5.8, 1.0, 5.1 ],
+							"unwrapMode": 6,
+							"unwrapRotation": 1,
+							"uv": [ 18.0, 0.5 ],
+							"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+							"faces": {
+								"down": { "texture": "#facetex", "uv": [ 18.0, 0.5, 23.0, 6.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

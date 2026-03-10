@@ -1,0 +1,805 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"bug-body": [32,76],
+		"bug-wing": [16,16]
+	},
+	"textures": {
+		"bug-wing": "parts/wings/wings1"
+	},
+	"elements": [
+		{
+			"name": "Wings_Wasp",
+			"stepParentName": "Wings",
+			"from": [ -1.4, -2.25, -2.0 ],
+			"to": [ 1.6, 3.75, 2.0 ],
+			"climateColorMap": "",
+			"seasonColorMap": "",
+			"renderPass": 0,
+			"autoUnwrap": false,
+			"uv": [ 8.0, 12.5 ],
+			"rotationOrigin": [ 1.2, 0.7, 0.0 ],
+			"rotationZ": 17.5,
+			"faces": {
+				"north": { "texture": "#bug-wing", "uv": [ 4.0, 0.0, 6.0, 6.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#bug-wing", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#bug-wing", "uv": [ 6.0, 0.0, 8.0, 6.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#bug-wing", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+				"up": { "texture": "#bug-wing", "uv": [ 4.0, 3.0, 8.0, 0.0 ], "rotation": 270, "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#bug-wing", "uv": [ 4.0, 3.0, 8.0, 6.0 ], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "LWasp",
+					"from": [ 2.5, -3.2, 5.0 ],
+					"to": [ 15.0, 6.8, 5.0 ],
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 0,
+					"autoUnwrap": false,
+					"uv": [ 8.0, 12.5 ],
+					"rotationOrigin": [ 3.0, 1.0, 3.0 ],
+					"rotationX": -30.0,
+					"rotationY": -22.5,
+					"faces": {
+						"north": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"east": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"south": { "texture": "#bug-wing", "uv": [ 8.0, 6.0, 0.0, 16.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#bug-wing", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"up": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"down": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "LWasp_1",
+							"from": [ 0.0, 2.0, -1.5 ],
+							"to": [ 9.0, 8.0, -1.5 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"autoUnwrap": false,
+							"uv": [ 8.0, 12.5 ],
+							"rotationOrigin": [ 1.0, 4.0, -0.1 ],
+							"rotationX": -7.0,
+							"rotationY": 10.0,
+							"rotationZ": -35.0,
+							"faces": {
+								"north": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+								"east": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+								"south": { "texture": "#bug-wing", "uv": [ 12.0, 0.0, 8.0, 6.0 ], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+								"up": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+								"down": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "RWasp",
+					"from": [ 2.5, -3.2, -1.0 ],
+					"to": [ 15.0, 6.8, -1.0 ],
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 0,
+					"autoUnwrap": false,
+					"uv": [ 8.0, 12.5 ],
+					"rotationOrigin": [ 3.0, 1.0, 1.0 ],
+					"rotationX": 30.0,
+					"rotationY": 22.5,
+					"faces": {
+						"north": { "texture": "#bug-wing", "uv": [ 16.0, 6.0, 8.0, 16.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"south": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"west": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"up": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"down": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "RWasp_1",
+							"from": [ 0.0, 2.0, 1.5 ],
+							"to": [ 9.0, 8.0, 1.5 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"autoUnwrap": false,
+							"uv": [ 8.0, 12.5 ],
+							"rotationOrigin": [ 1.0, 4.0, 1.1 ],
+							"rotationX": 7.0,
+							"rotationY": -10.0,
+							"rotationZ": -35.0,
+							"faces": {
+								"north": { "texture": "#bug-wing", "uv": [ 12.0, 6.0, 16.0, 0.0 ], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+								"south": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+								"west": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+								"up": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+								"down": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": [
+		{
+			"name": "Walk",
+			"code": "walk",
+			"quantityframes": 25,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Wings_Wasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LWasp_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 5,
+					"elements": {
+						"LWasp_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
+						"RWasp_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 }
+					}
+				},
+				{
+					"frame": 7,
+					"elements": {
+						"Wings_Wasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": -5.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": -5.0 }
+					}
+				},
+				{
+					"frame": 13,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 15.0, "rotationZ": 5.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": -15.0, "rotationZ": 5.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 19,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Sprint",
+			"code": "sprint",
+			"quantityframes": 24,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 2,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 4,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 6,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 8,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 12,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 18,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 22,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Jump",
+			"code": "jump",
+			"quantityframes": 20,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 8,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 18,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": -30.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 30.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 19,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Glide",
+			"code": "glide",
+			"quantityframes": 40,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RWasp": { "rotationX": -50.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 50.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"LWasp_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 2,
+					"elements": {
+						"LWasp": { "rotationX": 50.0, "rotationY": -52.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": -50.0, "rotationY": 52.0, "rotationZ": 0.0 },
+						"LWasp_1": { "rotationX": 0.0, "rotationY": -5.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 4,
+					"elements": {
+						"LWasp": { "rotationX": 50.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": -50.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LWasp_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 6,
+					"elements": {
+						"LWasp": { "rotationX": 50.0, "rotationY": -52.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": -50.0, "rotationY": 52.0, "rotationZ": 0.0 },
+						"LWasp_1": { "rotationX": 0.0, "rotationY": -5.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 8,
+					"elements": {
+						"LWasp": { "rotationX": 50.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": -50.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LWasp_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"LWasp": { "rotationX": 50.0, "rotationY": -52.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": -50.0, "rotationY": 52.0, "rotationZ": 0.0 },
+						"LWasp_1": { "rotationX": 0.0, "rotationY": -5.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 12,
+					"elements": {
+						"RWasp": { "rotationX": -50.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LWasp_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Creativefly",
+			"code": "creativefly",
+			"quantityframes": 40,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 2,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 4,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 6,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 8,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 12,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 18,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": -60.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 22,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": -70.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 70.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 24,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 26,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 28,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 32,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 34,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 36,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 38,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Land",
+			"code": "land",
+			"quantityframes": 15,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 6,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 11,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 13,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "HeavyImpact",
+			"code": "heavyimpact",
+			"quantityframes": 42,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 3,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": -30.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 30.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 5,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 7,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 25.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": -25.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 23,
+					"elements": {
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "SneakWalk",
+			"code": "sneakwalk",
+			"quantityframes": 40,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LWasp": { "rotationX": 30.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": -30.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "SneakIdle",
+			"code": "sneakidle",
+			"quantityframes": 35,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RWasp": { "rotationX": -30.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 30.0, "rotationY": -50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 17,
+					"elements": {
+						"LWasp": { "rotationX": 30.0, "rotationY": -55.0, "rotationZ": 0.0 },
+						"RWasp": { "rotationX": -30.0, "rotationY": 55.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Swim",
+			"code": "swim",
+			"quantityframes": 55,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RWasp": { "rotationX": -30.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 30.0, "rotationY": -50.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "SwimIdle",
+			"code": "swimidle",
+			"quantityframes": 55,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LWasp": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RWasp": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": -45.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"RWasp": { "rotationX": -45.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 45.0, "rotationY": 10.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Idle1",
+			"code": "idle1",
+			"quantityframes": 50,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 9,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 17,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 18,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 22,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 24,
+					"elements": {
+						"RWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LWasp": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		}
+	]
+}

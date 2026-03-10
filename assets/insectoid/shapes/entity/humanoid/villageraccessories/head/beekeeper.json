@@ -1,0 +1,54 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/villager-female",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"headtexture": "entity/humanoid/villagerclothes/head/beekeeper"
+	},
+	"elements": [
+		{
+			"name": "hood",
+			"stepParentName": "Head",
+			"from": [ -0.18, -2.93, -0.25 ],
+			"to": [ 5.72, 5.47, 5.15 ],
+			"renderPass": 1,
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 0.5, 0.5 ],
+			"rotationOrigin": [ 2.1481, 1.17, 2.6 ],
+			"rotationZ": 2.0,
+			"faces": {
+				"north": { "texture": "#headtexture", "uv": [ 0.0, 8.0, 5.5, 16.0 ] },
+				"east": { "texture": "#headtexture", "uv": [ 16.0, 8.0, 21.0, 16.0 ] },
+				"south": { "texture": "#headtexture", "uv": [ 10.5, 8.0, 16.0, 16.0 ] },
+				"west": { "texture": "#headtexture", "uv": [ 5.5, 8.0, 10.5, 16.0 ] },
+				"up": { "texture": "#headtexture", "uv": [ 5.5, 2.5, 10.5, 8.0 ], "rotation": 90 }
+			},
+			"children": [
+				{
+					"name": "face",
+					"from": [ -0.5, 3.5, 0.7 ],
+					"to": [ 0.0, 7.5, 4.7 ],
+					"autoUnwrap": false,
+					"uv": [ 16.5, -0.5 ],
+					"rotationOrigin": [ 0.0, 3.5, 1.0 ],
+					"faces": {
+						"north": { "texture": "#headtexture", "uv": [ 19.0, 0.5, 19.5, 4.5 ] },
+						"south": { "texture": "#headtexture", "uv": [ 23.5, 0.5, 24.0, 4.5 ] },
+						"west": { "texture": "#headtexture", "uv": [ 19.5, 0.5, 23.5, 4.5 ] },
+						"up": { "texture": "#headtexture", "uv": [ 19.5, 0.0, 23.5, 0.5 ], "rotation": 90 },
+						"down": { "texture": "#headtexture", "uv": [ 19.5, 4.5, 23.5, 5.0 ], "rotation": 90 }
+					}
+				}
+			]
+		}
+	],
+	"animations": [
+	]
+}

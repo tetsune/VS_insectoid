@@ -1,0 +1,206 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/villager-female",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"waisttexture": "entity/humanoid/villagerclothes/waist/barber"
+	},
+	"elements": [
+		{
+			"name": "Belt",
+			"stepParentName": "LowerTorso",
+			"from": [ -0.1, 1.5, -0.2 ],
+			"to": [ 5.1, 2.5, 6.2 ],
+			"autoUnwrap": false,
+			"uv": [ 0.0, 1.0 ],
+			"rotationOrigin": [ 2.0, 2.0, 0.0 ],
+			"rotationX": 4.0,
+			"faces": {
+				"north": { "texture": "#waisttexture", "uv": [ 0.0, 7.0, 5.0, 8.0 ] },
+				"east": { "texture": "#waisttexture", "uv": [ 0.0, 6.0, 6.0, 7.0 ] },
+				"south": { "texture": "#waisttexture", "uv": [ 11.0, 7.0, 16.0, 8.0 ] },
+				"west": { "texture": "#waisttexture", "uv": [ 5.0, 7.0, 11.0, 8.0 ] },
+				"up": { "texture": "#waisttexture", "uv": [ 11.0, 0.0, 16.0, 6.0 ] },
+				"down": { "texture": "#waisttexture", "uv": [ 11.0, 0.0, 16.0, 6.0 ] }
+			},
+			"children": [
+				{
+					"name": "Buckle",
+					"from": [ 0.1, -0.1, 1.0 ],
+					"to": [ 0.3, 1.1, 2.0 ],
+					"autoUnwrap": false,
+					"uv": [ 6.0, 4.5 ],
+					"rotationOrigin": [ 0.1, 0.5, 1.0 ],
+					"rotationX": -2.0,
+					"rotationY": -10.0,
+					"faces": {
+						"north": { "texture": "#waisttexture", "uv": [ 12.5, 6.0, 13.0, 7.0 ] },
+						"east": { "texture": "#waisttexture", "uv": [ 12.0, 6.0, 13.0, 7.0 ] },
+						"south": { "texture": "#waisttexture", "uv": [ 12.0, 6.5, 13.0, 7.0 ], "rotation": 90 },
+						"west": { "texture": "#waisttexture", "uv": [ 12.0, 6.0, 13.0, 7.0 ], "rotation": 90 },
+						"up": { "texture": "#waisttexture", "uv": [ 12.0, 6.0, 13.0, 6.5 ], "rotation": 90 },
+						"down": { "texture": "#waisttexture", "uv": [ 12.0, 6.0, 12.5, 7.0 ] }
+					}
+				},
+				{
+					"name": "Pin",
+					"from": [ -0.1, 0.4, 1.5 ],
+					"to": [ 0.0, 0.6, 2.5 ],
+					"autoUnwrap": false,
+					"uv": [ 6.0, 5.0 ],
+					"rotationOrigin": [ 0.0, 0.5, 1.5 ],
+					"rotationX": 5.0,
+					"faces": {
+						"north": { "texture": "#waisttexture", "uv": [ 15.0, 6.0, 15.5, 6.5 ] },
+						"south": { "texture": "#waisttexture", "uv": [ 14.5, 6.0, 15.0, 6.5 ] },
+						"west": { "texture": "#waisttexture", "uv": [ 14.5, 6.5, 15.5, 7.0 ] },
+						"up": { "texture": "#waisttexture", "uv": [ 14.5, 6.0, 15.0, 7.0 ] },
+						"down": { "texture": "#waisttexture", "uv": [ 15.0, 6.0, 15.5, 7.0 ] }
+					}
+				},
+				{
+					"name": "Strap",
+					"from": [ 0.0, -3.0, 3.0 ],
+					"to": [ 0.3, 0.5, 4.0 ],
+					"autoUnwrap": false,
+					"uv": [ 6.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.5, 3.0 ],
+					"rotationX": -3.0,
+					"rotationZ": -10.0,
+					"faces": {
+						"north": { "texture": "#waisttexture", "uv": [ 2.5, 0.0, 3.0, 3.5 ] },
+						"east": { "texture": "#waisttexture", "uv": [ 3.0, 0.0, 4.0, 3.5 ] },
+						"south": { "texture": "#waisttexture", "uv": [ 4.0, 0.0, 4.5, 3.5 ] },
+						"west": { "texture": "#waisttexture", "uv": [ 3.0, 0.0, 4.0, 3.5 ] }
+					},
+					"children": [
+						{
+							"name": "Cap",
+							"from": [ -0.05, -0.2, -0.05 ],
+							"to": [ 0.35, 0.0, 1.05 ],
+							"autoUnwrap": false,
+							"uv": [ 8.5, 6.0 ],
+							"faces": {
+								"north": { "texture": "#waisttexture", "uv": [ 10.5, 6.0, 11.0, 6.5 ] },
+								"east": { "texture": "#waisttexture", "uv": [ 10.0, 6.0, 11.0, 6.5 ] },
+								"south": { "texture": "#waisttexture", "uv": [ 10.0, 6.5, 10.5, 7.0 ] },
+								"west": { "texture": "#waisttexture", "uv": [ 10.0, 6.5, 11.0, 7.0 ] },
+								"up": { "texture": "#waisttexture", "uv": [ 10.0, 6.0, 10.5, 7.0 ] },
+								"down": { "texture": "#waisttexture", "uv": [ 10.0, 6.0, 11.0, 6.5 ], "rotation": 90 }
+							}
+						}
+					]
+				},
+				{
+					"name": "Pouch1",
+					"from": [ -0.5, -1.8, 4.9 ],
+					"to": [ 0.0, 1.2, 5.9 ],
+					"autoUnwrap": false,
+					"uv": [ 1.0, 0.5 ],
+					"rotationOrigin": [ 0.0, 1.0, 5.4 ],
+					"rotationX": -2.0,
+					"rotationZ": -5.0,
+					"faces": {
+						"north": { "texture": "#waisttexture", "uv": [ 0.0, 0.5, 0.5, 3.5 ] },
+						"east": { "texture": "#waisttexture", "uv": [ 0.5, 0.5, 1.5, 3.5 ] },
+						"south": { "texture": "#waisttexture", "uv": [ 1.5, 0.5, 2.0, 3.5 ] },
+						"west": { "texture": "#waisttexture", "uv": [ 0.5, 0.5, 1.5, 3.5 ] },
+						"up": { "texture": "#waisttexture", "uv": [ 0.5, 0.0, 1.5, 0.5 ], "rotation": 90 },
+						"down": { "texture": "#waisttexture", "uv": [ 0.5, 3.5, 1.5, 4.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+					},
+					"children": [
+						{
+							"name": "Top1",
+							"from": [ -0.05, 2.1, 0.1 ],
+							"to": [ 0.55, 3.1, 0.9 ],
+							"autoUnwrap": false,
+							"uv": [ 4.5, 0.5 ],
+							"rotationOrigin": [ 0.2, 2.0, 0.5 ],
+							"faces": {
+								"north": { "texture": "#waisttexture", "uv": [ 5.0, 1.0, 5.5, 2.0 ] },
+								"east": { "texture": "#waisttexture", "uv": [ 5.0, 0.5, 5.5, 1.5 ] },
+								"south": { "texture": "#waisttexture", "uv": [ 5.5, 0.5, 6.0, 1.5 ] },
+								"west": { "texture": "#waisttexture", "uv": [ 6.0, 0.5, 6.5, 1.5 ] },
+								"up": { "texture": "#waisttexture", "uv": [ 6.0, 1.5, 6.5, 2.0 ] },
+								"down": { "texture": "#waisttexture", "uv": [ 5.5, 1.5, 6.0, 2.0 ] }
+							}
+						},
+						{
+							"name": "Tie1",
+							"from": [ -0.1, 2.4, -0.05 ],
+							"to": [ 0.6, 2.5, 1.05 ],
+							"autoUnwrap": false,
+							"uv": [ 0.0, 4.0 ],
+							"rotationOrigin": [ 0.0, 2.4, 0.0 ],
+							"faces": {
+								"north": { "texture": "#waisttexture", "uv": [ 1.5, 5.0, 2.0, 5.5 ] },
+								"south": { "texture": "#waisttexture", "uv": [ 0.0, 5.0, 0.5, 5.5 ] },
+								"west": { "texture": "#waisttexture", "uv": [ 0.0, 4.5, 1.0, 5.0 ] },
+								"up": { "texture": "#waisttexture", "uv": [ 0.5, 5.0, 1.5, 5.5 ], "rotation": 90 },
+								"down": { "texture": "#waisttexture", "uv": [ 0.5, 4.5, 1.5, 5.0 ], "rotation": 90 }
+							}
+						}
+					]
+				},
+				{
+					"name": "Pouch2",
+					"from": [ -0.4, -2.5, 6.3 ],
+					"to": [ 2.6, 0.5, 7.3 ],
+					"autoUnwrap": false,
+					"uv": [ 6.0, 0.5 ],
+					"rotationOrigin": [ 1.1, 0.5, 6.4 ],
+					"rotationX": -5.0,
+					"rotationY": -5.0,
+					"rotationZ": 5.0,
+					"faces": {
+						"north": { "texture": "#waisttexture", "uv": [ 7.0, 2.0, 10.0, 5.0 ] },
+						"east": { "texture": "#waisttexture", "uv": [ 6.0, 2.0, 7.0, 5.0 ] },
+						"south": { "texture": "#waisttexture", "uv": [ 7.0, 2.0, 10.0, 5.0 ] },
+						"west": { "texture": "#waisttexture", "uv": [ 10.0, 2.0, 11.0, 5.0 ] },
+						"up": { "texture": "#waisttexture", "uv": [ 7.0, 5.0, 10.0, 6.0 ] },
+						"down": { "texture": "#waisttexture", "uv": [ 7.0, 5.0, 10.0, 6.0 ] }
+					},
+					"children": [
+						{
+							"name": "Top2",
+							"from": [ 0.1, 2.1, 0.1 ],
+							"to": [ 2.9, 3.1, 1.1 ],
+							"autoUnwrap": false,
+							"uv": [ 4.0, 0.0 ],
+							"rotationOrigin": [ 0.1, 2.1, 0.1 ],
+							"faces": {
+								"north": { "texture": "#waisttexture", "uv": [ 7.5, 0.0, 10.0, 1.0 ] },
+								"east": { "texture": "#waisttexture", "uv": [ 10.0, 1.0, 11.0, 2.0 ] },
+								"south": { "texture": "#waisttexture", "uv": [ 7.5, 1.0, 10.0, 2.0 ] },
+								"west": { "texture": "#waisttexture", "uv": [ 6.5, 1.0, 7.5, 2.0 ] },
+								"up": { "texture": "#waisttexture", "uv": [ 7.5, 0.0, 10.0, 1.0 ] },
+								"down": { "texture": "#waisttexture", "uv": [ 7.5, 1.0, 10.0, 2.0 ] }
+							},
+							"children": [
+								{
+									"name": "Tie2",
+									"from": [ 1.0, 0.2, 0.9 ],
+									"to": [ 2.0, 0.4, 1.1 ],
+									"uv": [ 2.5, 4.5 ],
+									"rotationOrigin": [ 1.5, 0.2, 0.9 ],
+									"faces": {
+										"east": { "texture": "#waisttexture", "uv": [ 2.5, 5.0, 3.0, 5.5 ] },
+										"south": { "texture": "#waisttexture", "uv": [ 3.0, 5.0, 4.0, 5.5 ] },
+										"west": { "texture": "#waisttexture", "uv": [ 4.0, 5.0, 4.5, 5.5 ] },
+										"up": { "texture": "#waisttexture", "uv": [ 2.5, 4.5, 3.5, 5.0 ] },
+										"down": { "texture": "#waisttexture", "uv": [ 3.5, 4.5, 4.5, 5.0 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,286 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/villager-female",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"normal": [16,16],
+		"bone4": [16,16],
+		"necklace": [16,8]
+	},
+	"textures": {
+		"necklace": "entity/humanoid/villagerclothes/waist/musician"
+	},
+	"elements": [
+		{
+			"name": "hideme",
+			"stepParentName": "UpperTorso",
+			"from": [ 0.0, 5.0, 3.2 ],
+			"to": [ 0.0, 5.0, 3.2 ],
+			"uv": [ 999.0, 999.0 ],
+			"rotationOrigin": [ 0.0, 5.0, 3.2 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "string-back",
+					"from": [ 3.8, 0.5, -1.8 ],
+					"to": [ 4.1, 0.8, 1.7 ],
+					"autoUnwrap": false,
+					"uv": [ 0.0, 3.5 ],
+					"rotationOrigin": [ 3.8, 0.5, 0.0 ],
+					"rotationZ": 10.0,
+					"faces": {
+						"north": { "texture": "#necklace", "uv": [ 0.0, 7.0, 0.5, 7.5 ] },
+						"east": { "texture": "#necklace", "uv": [ 0.5, 7.0, 4.0, 7.5 ] },
+						"south": { "texture": "#necklace", "uv": [ 4.0, 7.0, 4.5, 7.5 ] },
+						"west": { "texture": "#necklace", "uv": [ 4.5, 7.0, 8.0, 7.5 ] },
+						"up": { "texture": "#necklace", "uv": [ 2.0, 6.5, 5.5, 7.0 ], "rotation": 90 },
+						"down": { "texture": "#necklace", "uv": [ 7.0, 6.5, 10.5, 7.0 ], "rotation": 90 }
+					},
+					"children": [
+						{
+							"name": "stringR1",
+							"from": [ -3.5, 0.0, -0.1 ],
+							"to": [ 0.0, 0.3, 0.2 ],
+							"uv": [ 3.0, 7.0 ],
+							"rotationOrigin": [ 0.0, 0.0, 0.1 ],
+							"rotationZ": -2.0,
+							"faces": {
+								"north": { "texture": "#necklace", "uv": [ 3.0, 7.5, 6.5, 8.0 ] },
+								"east": { "texture": "#necklace", "uv": [ 6.5, 7.5, 7.0, 8.0 ] },
+								"south": { "texture": "#necklace", "uv": [ 7.0, 7.5, 10.5, 8.0 ] },
+								"west": { "texture": "#necklace", "uv": [ 10.5, 7.5, 11.0, 8.0 ] },
+								"up": { "texture": "#necklace", "uv": [ 3.0, 7.0, 6.5, 7.5 ] },
+								"down": { "texture": "#necklace", "uv": [ 6.5, 7.0, 10.0, 7.5 ] }
+							},
+							"children": [
+								{
+									"name": "stringR2",
+									"from": [ -1.0, 0.0, 0.0 ],
+									"to": [ 0.0, 0.3, 0.3 ],
+									"uv": [ 9.5, 0.0 ],
+									"rotationOrigin": [ 0.1, 0.0, 0.0 ],
+									"rotationY": 20.0,
+									"rotationZ": 20.0,
+									"faces": {
+										"north": { "texture": "#necklace", "uv": [ 9.5, 0.5, 10.5, 1.0 ] },
+										"east": { "texture": "#necklace", "uv": [ 10.5, 0.5, 11.0, 1.0 ] },
+										"south": { "texture": "#necklace", "uv": [ 11.0, 0.5, 12.0, 1.0 ] },
+										"west": { "texture": "#necklace", "uv": [ 12.0, 0.5, 12.5, 1.0 ] },
+										"up": { "texture": "#necklace", "uv": [ 9.5, 0.0, 10.5, 0.5 ] },
+										"down": { "texture": "#necklace", "uv": [ 10.5, 0.0, 11.5, 0.5 ] }
+									},
+									"children": [
+										{
+											"name": "stringR3",
+											"from": [ -1.5, 0.0, 0.0 ],
+											"to": [ 0.0, 0.3, 0.3 ],
+											"uv": [ 12.0, 0.5 ],
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 22.5,
+											"rotationZ": 22.5,
+											"faces": {
+												"north": { "texture": "#necklace", "uv": [ 12.0, 1.0, 13.5, 1.5 ] },
+												"east": { "texture": "#necklace", "uv": [ 13.5, 1.0, 14.0, 1.5 ] },
+												"south": { "texture": "#necklace", "uv": [ 14.0, 1.0, 15.5, 1.5 ] },
+												"west": { "texture": "#necklace", "uv": [ 15.5, 1.0, 16.0, 1.5 ] },
+												"up": { "texture": "#necklace", "uv": [ 12.0, 0.5, 13.5, 1.0 ] },
+												"down": { "texture": "#necklace", "uv": [ 13.5, 0.5, 15.0, 1.0 ] }
+											},
+											"children": [
+												{
+													"name": "stringR4",
+													"from": [ -0.9, 0.0, 0.0 ],
+													"to": [ 0.1, 0.3, 0.3 ],
+													"uv": [ 11.0, 0.0 ],
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationX": 10.0,
+													"rotationZ": 22.5,
+													"faces": {
+														"north": { "texture": "#necklace", "uv": [ 11.0, 0.5, 12.0, 1.0 ] },
+														"east": { "texture": "#necklace", "uv": [ 12.0, 0.5, 12.5, 1.0 ] },
+														"south": { "texture": "#necklace", "uv": [ 12.5, 0.5, 13.5, 1.0 ] },
+														"west": { "texture": "#necklace", "uv": [ 13.5, 0.5, 14.0, 1.0 ] },
+														"up": { "texture": "#necklace", "uv": [ 11.0, 0.0, 12.0, 0.5 ] },
+														"down": { "texture": "#necklace", "uv": [ 12.0, 0.0, 13.0, 0.5 ] }
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "stringL1",
+							"from": [ -3.5, 0.0, 3.3 ],
+							"to": [ 0.0, 0.3, 3.6 ],
+							"uv": [ 1.5, 7.0 ],
+							"rotationOrigin": [ 0.0, 0.0, 3.5 ],
+							"rotationZ": -2.0,
+							"faces": {
+								"north": { "texture": "#necklace", "uv": [ 1.5, 7.5, 5.0, 8.0 ] },
+								"east": { "texture": "#necklace", "uv": [ 5.0, 7.5, 5.5, 8.0 ] },
+								"south": { "texture": "#necklace", "uv": [ 5.5, 7.5, 9.0, 8.0 ] },
+								"west": { "texture": "#necklace", "uv": [ 9.0, 7.5, 9.5, 8.0 ] },
+								"up": { "texture": "#necklace", "uv": [ 1.5, 7.0, 5.0, 7.5 ] },
+								"down": { "texture": "#necklace", "uv": [ 5.0, 7.0, 8.5, 7.5 ] }
+							},
+							"children": [
+								{
+									"name": "stringL2",
+									"from": [ -1.0, 0.0, 0.0 ],
+									"to": [ 0.0, 0.3, 0.3 ],
+									"uv": [ 13.0, 0.0 ],
+									"rotationOrigin": [ 0.0, 0.0, 0.2 ],
+									"rotationY": -20.0,
+									"rotationZ": 20.0,
+									"faces": {
+										"north": { "texture": "#necklace", "uv": [ 13.0, 0.5, 14.0, 1.0 ] },
+										"east": { "texture": "#necklace", "uv": [ 14.0, 0.5, 14.5, 1.0 ] },
+										"south": { "texture": "#necklace", "uv": [ 14.5, 0.5, 15.5, 1.0 ] },
+										"west": { "texture": "#necklace", "uv": [ 15.5, 0.5, 16.0, 1.0 ] },
+										"up": { "texture": "#necklace", "uv": [ 13.0, 0.0, 14.0, 0.5 ] },
+										"down": { "texture": "#necklace", "uv": [ 14.0, 0.0, 15.0, 0.5 ] }
+									},
+									"children": [
+										{
+											"name": "stringL3",
+											"from": [ -1.5, 0.0, 0.0 ],
+											"to": [ 0.0, 0.3, 0.3 ],
+											"uv": [ 0.0, 6.5 ],
+											"rotationOrigin": [ 0.0, 0.0, 0.3 ],
+											"rotationY": -22.5,
+											"rotationZ": 22.5,
+											"faces": {
+												"north": { "texture": "#necklace", "uv": [ 0.0, 7.0, 1.5, 7.5 ] },
+												"east": { "texture": "#necklace", "uv": [ 1.5, 7.0, 2.0, 7.5 ] },
+												"south": { "texture": "#necklace", "uv": [ 2.0, 7.0, 3.5, 7.5 ] },
+												"west": { "texture": "#necklace", "uv": [ 3.5, 7.0, 4.0, 7.5 ] },
+												"up": { "texture": "#necklace", "uv": [ 0.0, 6.5, 1.5, 7.0 ] },
+												"down": { "texture": "#necklace", "uv": [ 1.5, 6.5, 3.0, 7.0 ] }
+											},
+											"children": [
+												{
+													"name": "stringL4",
+													"from": [ -0.9, 0.0, 0.0 ],
+													"to": [ 0.1, 0.3, 0.3 ],
+													"uv": [ 9.5, 0.5 ],
+													"rotationOrigin": [ 0.0, 0.0, 0.3 ],
+													"rotationX": 10.0,
+													"rotationZ": 22.5,
+													"faces": {
+														"north": { "texture": "#necklace", "uv": [ 9.5, 1.0, 10.5, 1.5 ] },
+														"east": { "texture": "#necklace", "uv": [ 10.5, 1.0, 11.0, 1.5 ] },
+														"south": { "texture": "#necklace", "uv": [ 11.0, 1.0, 12.0, 1.5 ] },
+														"west": { "texture": "#necklace", "uv": [ 12.0, 1.0, 12.5, 1.5 ] },
+														"up": { "texture": "#necklace", "uv": [ 9.5, 0.5, 10.5, 1.0 ] },
+														"down": { "texture": "#necklace", "uv": [ 10.5, 0.5, 11.5, 1.0 ] }
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Bell1",
+							"from": [ -6.1, -2.5, 1.4 ],
+							"to": [ -5.4, -1.8, 2.1 ],
+							"autoUnwrap": false,
+							"uv": [ 10.5, 5.5 ],
+							"rotationOrigin": [ -5.4, -1.8, 1.8 ],
+							"rotationZ": 22.5,
+							"faces": {
+								"north": { "texture": "#necklace", "uv": [ 14.0, 7.0, 14.5, 7.5 ] },
+								"east": { "texture": "#necklace", "uv": [ 14.5, 6.5, 15.0, 7.0 ] },
+								"south": { "texture": "#necklace", "uv": [ 14.5, 7.0, 15.0, 7.5 ] },
+								"west": { "texture": "#necklace", "uv": [ 14.0, 6.5, 14.5, 7.0 ] },
+								"up": { "texture": "#necklace", "uv": [ 15.0, 6.5, 15.5, 7.0 ] },
+								"down": { "texture": "#necklace", "uv": [ 14.0, 7.0, 14.5, 7.5 ] }
+							}
+						},
+						{
+							"name": "Bell2",
+							"from": [ -5.8, -2.1, 0.9 ],
+							"to": [ -5.3, -1.6, 1.4 ],
+							"autoUnwrap": false,
+							"uv": [ 10.5, 5.0 ],
+							"rotationOrigin": [ -5.3, -1.6, 1.4 ],
+							"rotationX": 22.5,
+							"rotationY": -20.0,
+							"rotationZ": 10.0,
+							"faces": {
+								"north": { "texture": "#necklace", "uv": [ 12.5, 7.5, 13.0, 8.0 ] },
+								"east": { "texture": "#necklace", "uv": [ 12.5, 7.5, 13.0, 8.0 ] },
+								"south": { "texture": "#necklace", "uv": [ 13.0, 7.5, 13.5, 8.0 ] },
+								"west": { "texture": "#necklace", "uv": [ 12.5, 7.0, 13.0, 7.5 ] },
+								"up": { "texture": "#necklace", "uv": [ 13.0, 7.0, 13.5, 7.5 ] },
+								"down": { "texture": "#necklace", "uv": [ 13.0, 7.0, 13.5, 7.5 ] }
+							}
+						},
+						{
+							"name": "Bell3",
+							"from": [ -5.6, -1.3, 0.6 ],
+							"to": [ -5.1, -0.8, 1.1 ],
+							"autoUnwrap": false,
+							"uv": [ 10.5, 5.0 ],
+							"rotationOrigin": [ -5.1, -0.8, 1.1 ],
+							"rotationX": -10.0,
+							"rotationY": -22.5,
+							"rotationZ": 5.0,
+							"faces": {
+								"north": { "texture": "#necklace", "uv": [ 10.5, 5.5, 11.0, 6.0 ] },
+								"east": { "texture": "#necklace", "uv": [ 11.0, 5.5, 11.5, 6.0 ] },
+								"south": { "texture": "#necklace", "uv": [ 10.5, 5.5, 11.0, 6.0 ] },
+								"west": { "texture": "#necklace", "uv": [ 11.0, 5.0, 11.5, 5.5 ] },
+								"up": { "texture": "#necklace", "uv": [ 10.5, 5.0, 11.0, 5.5 ] },
+								"down": { "texture": "#necklace", "uv": [ 11.0, 5.0, 11.5, 5.5 ] }
+							}
+						},
+						{
+							"name": "Bell4",
+							"from": [ -5.6, -1.3, 2.4 ],
+							"to": [ -5.1, -0.8, 2.9 ],
+							"uv": [ 14.0, 7.0 ],
+							"rotationOrigin": [ -5.1, -0.8, 2.4 ],
+							"rotationY": 22.5,
+							"rotationZ": 15.0,
+							"faces": {
+								"north": { "texture": "#necklace", "uv": [ 14.0, 7.5, 14.5, 8.0 ] },
+								"east": { "texture": "#necklace", "uv": [ 14.5, 7.5, 15.0, 8.0 ] },
+								"south": { "texture": "#necklace", "uv": [ 15.0, 7.5, 15.5, 8.0 ] },
+								"west": { "texture": "#necklace", "uv": [ 15.5, 7.5, 16.0, 8.0 ] },
+								"up": { "texture": "#necklace", "uv": [ 14.0, 7.0, 14.5, 7.5 ] },
+								"down": { "texture": "#necklace", "uv": [ 14.5, 7.0, 15.0, 7.5 ] }
+							}
+						},
+						{
+							"name": "Bell5",
+							"from": [ -5.8, -2.0, 2.1 ],
+							"to": [ -5.3, -1.5, 2.6 ],
+							"uv": [ 14.0, 7.0 ],
+							"rotationOrigin": [ -5.3, -1.5, 2.1 ],
+							"rotationY": 22.5,
+							"faces": {
+								"north": { "texture": "#necklace", "uv": [ 14.0, 7.5, 14.5, 8.0 ] },
+								"east": { "texture": "#necklace", "uv": [ 14.5, 7.5, 15.0, 8.0 ] },
+								"south": { "texture": "#necklace", "uv": [ 15.0, 7.5, 15.5, 8.0 ] },
+								"west": { "texture": "#necklace", "uv": [ 15.5, 7.5, 16.0, 8.0 ] },
+								"up": { "texture": "#necklace", "uv": [ 14.0, 7.0, 14.5, 7.5 ] },
+								"down": { "texture": "#necklace", "uv": [ 14.5, 7.0, 15.0, 7.5 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": [
+	]
+}

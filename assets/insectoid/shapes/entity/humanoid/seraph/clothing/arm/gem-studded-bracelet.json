@@ -1,0 +1,606 @@
+{
+	"editor": {
+		"backDropShape": "",
+		"collapsedPaths": "Root/hidelowerarm/E,Root/hidelowerarm/W,Root/hidelowerarm/N,Root/hidelowerarm/S",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"gold": [16,16],
+		"ruby": [8,8],
+		"diamond": [8,8],
+		"onyx": [8,8]
+	},
+	"textures": {
+		"gold": "block/metal/plate/gold",
+		"emerald": "entity/humanoid/seraphclothes/neck/gem/emerald",
+		"malachite": "entity/humanoid/seraphclothes/neck/gem/malachite",
+		"tourmaline1": "entity/humanoid/seraphclothes/neck/gem/tourmaline1"
+	},
+	"elements": [
+		{
+			"name": "hidelowerarm",
+			"stepParentName": "LowerArmL",
+			"from": [ -0.19, 1.32, 1.55 ],
+			"to": [ -0.19, 1.32, 1.55 ],
+			"rotationOrigin": [ 1.13, 1.32, 1.55 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "W",
+					"from": [ -0.264, 0.66, -1.584 ],
+					"to": [ 0.132, 1.98, 1.584 ],
+					"rotationOrigin": [ 0.132, 1.32, 0.0 ],
+					"rotationZ": 2.0,
+					"faces": {
+						"north": { "texture": "#gold", "uv": [ 9.0, 2.0, 9.5, 3.0 ], "autoUv": false },
+						"east": { "texture": "#gold", "uv": [ 3.0, 4.5, 5.0, 5.5 ], "autoUv": false },
+						"south": { "texture": "#gold", "uv": [ 13.0, 8.0, 13.5, 9.0 ], "autoUv": false },
+						"west": { "texture": "#gold", "uv": [ 0.5, 10.0, 2.5, 11.0 ], "autoUv": false },
+						"up": { "texture": "#gold", "uv": [ 7.5, 10.0, 8.0, 12.0 ], "autoUv": false },
+						"down": { "texture": "#gold", "uv": [ 13.0, 10.0, 13.5, 12.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "gem1",
+							"from": [ -0.132, 0.264, 1.188 ],
+							"to": [ 0.132, 1.056, 1.98 ],
+							"rotationOrigin": [ 0.0, 0.66, 1.584 ],
+							"rotationX": 45.0,
+							"faces": {
+								"north": { "texture": "#tourmaline1", "uv": [ 4.0, 0.0, 5.0, 1.0 ], "autoUv": false },
+								"south": { "texture": "#tourmaline1", "uv": [ 10.0, 12.0, 11.0, 13.0 ], "autoUv": false },
+								"west": { "texture": "#tourmaline1", "uv": [ 4.0, 4.0, 5.0, 5.0 ], "autoUv": false },
+								"up": { "texture": "#tourmaline1", "uv": [ 14.0, 6.0, 15.0, 7.0 ], "autoUv": false },
+								"down": { "texture": "#tourmaline1", "uv": [ 12.0, 0.0, 13.0, 1.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem5",
+							"from": [ -0.132, 0.396, 0.264 ],
+							"to": [ 0.132, 0.924, 0.792 ],
+							"rotationOrigin": [ 0.0, 0.66, 0.528 ],
+							"rotationX": 45.0,
+							"faces": {
+								"north": { "texture": "#emerald", "uv": [ 10.0, 2.0, 12.0, 4.0 ], "autoUv": false },
+								"south": { "texture": "#emerald", "uv": [ 8.0, 2.0, 10.0, 4.0 ], "autoUv": false },
+								"west": { "texture": "#emerald", "uv": [ 12.0, 2.0, 14.0, 4.0 ], "autoUv": false },
+								"up": { "texture": "#emerald", "uv": [ 12.0, 2.0, 14.0, 4.0 ], "autoUv": false },
+								"down": { "texture": "#emerald", "uv": [ 8.0, 4.0, 10.0, 6.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem6",
+							"from": [ -0.132, 0.396, 2.376 ],
+							"to": [ 0.132, 0.924, 2.904 ],
+							"rotationOrigin": [ 0.0, 0.66, 2.64 ],
+							"rotationX": 45.0,
+							"faces": {
+								"north": { "texture": "#emerald", "uv": [ 4.0, 8.0, 6.0, 10.0 ], "autoUv": false },
+								"south": { "texture": "#emerald", "uv": [ 8.0, 12.0, 10.0, 14.0 ], "autoUv": false },
+								"west": { "texture": "#emerald", "uv": [ 10.0, 12.0, 12.0, 14.0 ], "autoUv": false },
+								"up": { "texture": "#emerald", "uv": [ 12.0, 2.0, 14.0, 4.0 ], "autoUv": false },
+								"down": { "texture": "#emerald", "uv": [ 6.0, 10.0, 8.0, 12.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem13",
+							"from": [ -0.132, 0.924, 0.792 ],
+							"to": [ 0.132, 1.188, 1.056 ],
+							"rotationOrigin": [ 0.0, 1.056, 0.924 ],
+							"rotationX": 45.0,
+							"faces": {
+								"north": { "texture": "#malachite", "uv": [ 4.0, 10.0, 6.0, 12.0 ], "autoUv": false },
+								"south": { "texture": "#malachite", "uv": [ 10.0, 10.0, 12.0, 12.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 8.0, 0.0, 10.0, 2.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 12.0, 2.0, 14.0, 4.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 8.0, 2.0, 10.0, 4.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem14",
+							"from": [ -0.132, 0.132, 0.792 ],
+							"to": [ 0.132, 0.396, 1.056 ],
+							"rotationOrigin": [ 0.0, 0.264, 0.924 ],
+							"rotationX": 45.0,
+							"faces": {
+								"north": { "texture": "#malachite", "uv": [ 12.0, 12.0, 14.0, 14.0 ], "autoUv": false },
+								"south": { "texture": "#malachite", "uv": [ 6.0, 0.0, 8.0, 2.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 6.0, 12.0, 8.0, 14.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 8.0, 2.0, 10.0, 4.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 0.0, 8.0, 2.0, 10.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem15",
+							"from": [ -0.132, 0.132, 2.112 ],
+							"to": [ 0.132, 0.396, 2.376 ],
+							"rotationOrigin": [ 0.0, 0.264, 2.244 ],
+							"rotationX": 45.0,
+							"faces": {
+								"north": { "texture": "#malachite", "uv": [ 4.0, 12.0, 6.0, 14.0 ], "autoUv": false },
+								"south": { "texture": "#malachite", "uv": [ 10.0, 10.0, 12.0, 12.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 4.0, 8.0, 6.0, 10.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 8.0, 12.0, 10.0, 14.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem16",
+							"from": [ -0.132, 0.924, 2.112 ],
+							"to": [ 0.132, 1.188, 2.376 ],
+							"rotationOrigin": [ 0.0, 1.056, 2.244 ],
+							"rotationX": 45.0,
+							"faces": {
+								"north": { "texture": "#malachite", "uv": [ 6.0, 4.0, 8.0, 6.0 ], "autoUv": false },
+								"south": { "texture": "#malachite", "uv": [ 10.0, 0.0, 12.0, 2.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 0.0, 12.0, 2.0, 14.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 0.0, 10.0, 2.0, 12.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 6.0, 10.0, 8.0, 12.0 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "E",
+					"from": [ 3.168, 0.66, -1.584 ],
+					"to": [ 3.564, 1.98, 1.584 ],
+					"rotationOrigin": [ 3.3, 1.32, 0.0 ],
+					"rotationZ": -2.0,
+					"faces": {
+						"north": { "texture": "#gold", "uv": [ 15.0, 2.0, 15.5, 3.0 ], "autoUv": false },
+						"east": { "texture": "#gold", "uv": [ 10.5, 14.5, 12.5, 15.5 ], "autoUv": false },
+						"south": { "texture": "#gold", "uv": [ 12.5, 11.0, 13.0, 12.0 ], "autoUv": false },
+						"west": { "texture": "#gold", "uv": [ 2.5, 0.0, 4.5, 1.0 ], "autoUv": false },
+						"up": { "texture": "#gold", "uv": [ 11.5, 7.0, 12.0, 9.0 ], "autoUv": false },
+						"down": { "texture": "#gold", "uv": [ 10.0, 4.0, 10.5, 6.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "gem2",
+							"from": [ 0.264, 0.264, 1.188 ],
+							"to": [ 0.528, 1.056, 1.98 ],
+							"rotationOrigin": [ 0.264, 0.66, 1.584 ],
+							"rotationX": -45.0,
+							"faces": {
+								"north": { "texture": "#tourmaline1", "uv": [ 12.0, 4.0, 13.0, 5.0 ], "autoUv": false },
+								"east": { "texture": "#tourmaline1", "uv": [ 4.0, 10.0, 5.0, 11.0 ], "autoUv": false },
+								"south": { "texture": "#tourmaline1", "uv": [ 0.0, 14.0, 1.0, 15.0 ], "autoUv": false },
+								"up": { "texture": "#tourmaline1", "uv": [ 10.0, 6.0, 11.0, 7.0 ], "autoUv": false },
+								"down": { "texture": "#tourmaline1", "uv": [ 10.0, 2.0, 11.0, 3.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem9",
+							"from": [ 0.264, 0.396, 2.376 ],
+							"to": [ 0.528, 0.924, 2.904 ],
+							"rotationOrigin": [ 0.264, 0.66, 2.64 ],
+							"rotationX": -45.0,
+							"faces": {
+								"north": { "texture": "#emerald", "uv": [ 2.0, 6.0, 4.0, 8.0 ], "autoUv": false },
+								"east": { "texture": "#emerald", "uv": [ 10.0, 2.0, 12.0, 4.0 ], "autoUv": false },
+								"south": { "texture": "#emerald", "uv": [ 0.0, 12.0, 2.0, 14.0 ], "autoUv": false },
+								"up": { "texture": "#emerald", "uv": [ 4.0, 6.0, 6.0, 8.0 ], "autoUv": false },
+								"down": { "texture": "#emerald", "uv": [ 4.0, 12.0, 6.0, 14.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem10",
+							"from": [ 0.264, 0.396, 0.264 ],
+							"to": [ 0.528, 0.924, 0.792 ],
+							"rotationOrigin": [ 0.264, 0.66, 0.528 ],
+							"rotationX": -45.0,
+							"faces": {
+								"north": { "texture": "#emerald", "uv": [ 0.0, 10.0, 2.0, 12.0 ], "autoUv": false },
+								"east": { "texture": "#emerald", "uv": [ 10.0, 4.0, 12.0, 6.0 ], "autoUv": false },
+								"south": { "texture": "#emerald", "uv": [ 0.0, 12.0, 2.0, 14.0 ], "autoUv": false },
+								"up": { "texture": "#emerald", "uv": [ 10.0, 0.0, 12.0, 2.0 ], "autoUv": false },
+								"down": { "texture": "#emerald", "uv": [ 4.0, 0.0, 6.0, 2.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem17",
+							"from": [ 0.264, 0.924, 2.112 ],
+							"to": [ 0.528, 1.188, 2.376 ],
+							"rotationOrigin": [ 0.264, 1.056, 2.244 ],
+							"rotationX": -45.0,
+							"faces": {
+								"north": { "texture": "#malachite", "uv": [ 2.0, 6.0, 4.0, 8.0 ], "autoUv": false },
+								"east": { "texture": "#malachite", "uv": [ 0.0, 8.0, 2.0, 10.0 ], "autoUv": false },
+								"south": { "texture": "#malachite", "uv": [ 6.0, 12.0, 8.0, 14.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 12.0, 6.0, 14.0, 8.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 4.0, 4.0, 6.0, 6.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem18",
+							"from": [ 0.264, 0.132, 2.112 ],
+							"to": [ 0.528, 0.396, 2.376 ],
+							"rotationOrigin": [ 0.264, 0.264, 2.244 ],
+							"rotationX": -45.0,
+							"faces": {
+								"north": { "texture": "#malachite", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+								"east": { "texture": "#malachite", "uv": [ 6.0, 12.0, 8.0, 14.0 ], "autoUv": false },
+								"south": { "texture": "#malachite", "uv": [ 2.0, 12.0, 4.0, 14.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 0.0, 12.0, 2.0, 14.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 6.0, 6.0, 8.0, 8.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem19",
+							"from": [ 0.264, 0.132, 0.792 ],
+							"to": [ 0.528, 0.396, 1.056 ],
+							"rotationOrigin": [ 0.264, 0.264, 0.924 ],
+							"rotationX": -45.0,
+							"faces": {
+								"north": { "texture": "#malachite", "uv": [ 12.0, 10.0, 14.0, 12.0 ], "autoUv": false },
+								"east": { "texture": "#malachite", "uv": [ 10.0, 8.0, 12.0, 10.0 ], "autoUv": false },
+								"south": { "texture": "#malachite", "uv": [ 10.0, 12.0, 12.0, 14.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 10.0, 10.0, 12.0, 12.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 10.0, 8.0, 12.0, 10.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem20",
+							"from": [ 0.264, 0.924, 0.792 ],
+							"to": [ 0.528, 1.188, 1.056 ],
+							"rotationOrigin": [ 0.264, 1.056, 0.924 ],
+							"rotationX": -45.0,
+							"faces": {
+								"north": { "texture": "#malachite", "uv": [ 4.0, 0.0, 6.0, 2.0 ], "autoUv": false },
+								"east": { "texture": "#malachite", "uv": [ 6.0, 12.0, 8.0, 14.0 ], "autoUv": false },
+								"south": { "texture": "#malachite", "uv": [ 6.0, 6.0, 8.0, 8.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 10.0, 0.0, 12.0, 2.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 10.0, 4.0, 12.0, 6.0 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "S",
+					"from": [ -0.264, 0.66, 1.188 ],
+					"to": [ 3.564, 1.98, 1.584 ],
+					"rotationOrigin": [ 1.32, 1.32, 1.32 ],
+					"rotationX": 2.0,
+					"faces": {
+						"north": { "texture": "#gold", "uv": [ 4.0, 3.5, 6.5, 4.5 ], "autoUv": false },
+						"east": { "texture": "#gold", "uv": [ 6.0, 14.0, 6.5, 15.0 ], "autoUv": false },
+						"south": { "texture": "#gold", "uv": [ 0.0, 7.5, 2.5, 8.5 ], "autoUv": false },
+						"west": { "texture": "#gold", "uv": [ 6.0, 7.5, 6.5, 8.5 ], "autoUv": false },
+						"up": { "texture": "#gold", "uv": [ 4.5, 7.5, 7.0, 8.0 ], "autoUv": false },
+						"down": { "texture": "#gold", "uv": [ 2.0, 3.5, 4.5, 4.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "gem3",
+							"from": [ 1.518, 0.33, 0.264 ],
+							"to": [ 2.31, 1.122, 0.528 ],
+							"rotationOrigin": [ 1.914, 0.726, 0.264 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"east": { "texture": "#tourmaline1", "uv": [ 0.0, 2.0, 1.0, 3.0 ], "autoUv": false },
+								"south": { "texture": "#tourmaline1", "uv": [ 10.0, 12.0, 11.0, 13.0 ], "autoUv": false },
+								"west": { "texture": "#tourmaline1", "uv": [ 4.0, 0.0, 5.0, 1.0 ], "autoUv": false },
+								"up": { "texture": "#tourmaline1", "uv": [ 0.0, 14.0, 1.0, 15.0 ], "autoUv": false },
+								"down": { "texture": "#tourmaline1", "uv": [ 2.0, 8.0, 3.0, 9.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem7",
+							"from": [ 0.594, 0.462, 0.264 ],
+							"to": [ 1.122, 0.99, 0.528 ],
+							"rotationOrigin": [ 0.858, 0.726, 0.264 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"east": { "texture": "#emerald", "uv": [ 12.0, 2.0, 14.0, 4.0 ], "autoUv": false },
+								"south": { "texture": "#emerald", "uv": [ 0.0, 8.0, 2.0, 10.0 ], "autoUv": false },
+								"west": { "texture": "#emerald", "uv": [ 10.0, 6.0, 12.0, 8.0 ], "autoUv": false },
+								"up": { "texture": "#emerald", "uv": [ 2.0, 0.0, 4.0, 2.0 ], "autoUv": false },
+								"down": { "texture": "#emerald", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem8",
+							"from": [ 2.706, 0.462, 0.264 ],
+							"to": [ 3.234, 0.99, 0.528 ],
+							"rotationOrigin": [ 2.97, 0.726, 0.264 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"east": { "texture": "#emerald", "uv": [ 6.0, 4.0, 8.0, 6.0 ], "autoUv": false },
+								"south": { "texture": "#emerald", "uv": [ 8.0, 2.0, 10.0, 4.0 ], "autoUv": false },
+								"west": { "texture": "#emerald", "uv": [ 0.0, 6.0, 2.0, 8.0 ], "autoUv": false },
+								"up": { "texture": "#emerald", "uv": [ 12.0, 0.0, 14.0, 2.0 ], "autoUv": false },
+								"down": { "texture": "#emerald", "uv": [ 2.0, 12.0, 4.0, 14.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem21",
+							"from": [ 1.188, 0.858, 0.264 ],
+							"to": [ 1.452, 1.122, 0.528 ],
+							"rotationOrigin": [ 1.32, 0.99, 0.264 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"east": { "texture": "#malachite", "uv": [ 6.0, 8.0, 8.0, 10.0 ], "autoUv": false },
+								"south": { "texture": "#malachite", "uv": [ 2.0, 4.0, 4.0, 6.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 10.0, 8.0, 12.0, 10.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 0.0, 4.0, 2.0, 6.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 12.0, 4.0, 14.0, 6.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem22",
+							"from": [ 1.188, 0.33, 0.264 ],
+							"to": [ 1.452, 0.594, 0.528 ],
+							"rotationOrigin": [ 1.32, 0.462, 0.264 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"east": { "texture": "#malachite", "uv": [ 0.0, 12.0, 2.0, 14.0 ], "autoUv": false },
+								"south": { "texture": "#malachite", "uv": [ 12.0, 6.0, 14.0, 8.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 4.0, 4.0, 6.0, 6.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 10.0, 0.0, 12.0, 2.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 6.0, 8.0, 8.0, 10.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem23",
+							"from": [ 2.376, 0.33, 0.264 ],
+							"to": [ 2.64, 0.594, 0.528 ],
+							"rotationOrigin": [ 2.508, 0.462, 0.264 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"east": { "texture": "#malachite", "uv": [ 10.0, 8.0, 12.0, 10.0 ], "autoUv": false },
+								"south": { "texture": "#malachite", "uv": [ 12.0, 2.0, 14.0, 4.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 10.0, 10.0, 12.0, 12.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 10.0, 2.0, 12.0, 4.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 2.0, 12.0, 4.0, 14.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem24",
+							"from": [ 2.376, 0.858, 0.264 ],
+							"to": [ 2.64, 1.122, 0.528 ],
+							"rotationOrigin": [ 2.508, 0.99, 0.264 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"east": { "texture": "#malachite", "uv": [ 6.0, 6.0, 8.0, 8.0 ], "autoUv": false },
+								"south": { "texture": "#malachite", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 8.0, 12.0, 10.0, 14.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 8.0, 6.0, 10.0, 8.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem25",
+							"from": [ 0.264, 0.858, 0.264 ],
+							"to": [ 0.528, 1.122, 0.528 ],
+							"rotationOrigin": [ 0.396, 0.99, 0.264 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"east": { "texture": "#malachite", "uv": [ 2.0, 0.0, 4.0, 2.0 ], "autoUv": false },
+								"south": { "texture": "#malachite", "uv": [ 8.0, 0.0, 10.0, 2.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 2.0, 8.0, 4.0, 10.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 4.0, 4.0, 6.0, 6.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem26",
+							"from": [ 0.264, 0.33, 0.264 ],
+							"to": [ 0.528, 0.594, 0.528 ],
+							"rotationOrigin": [ 0.396, 0.462, 0.264 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"east": { "texture": "#malachite", "uv": [ 10.0, 4.0, 12.0, 6.0 ], "autoUv": false },
+								"south": { "texture": "#malachite", "uv": [ 12.0, 10.0, 14.0, 12.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 6.0, 8.0, 8.0, 10.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 8.0, 2.0, 10.0, 4.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 4.0, 6.0, 6.0, 8.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem27",
+							"from": [ 3.3, 0.33, 0.264 ],
+							"to": [ 3.564, 0.594, 0.528 ],
+							"rotationOrigin": [ 3.432, 0.462, 0.264 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"east": { "texture": "#malachite", "uv": [ 12.0, 0.0, 14.0, 2.0 ], "autoUv": false },
+								"south": { "texture": "#malachite", "uv": [ 12.0, 6.0, 14.0, 8.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 4.0, 10.0, 6.0, 12.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 12.0, 12.0, 14.0, 14.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 4.0, 12.0, 6.0, 14.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem28",
+							"from": [ 3.3, 0.858, 0.264 ],
+							"to": [ 3.564, 1.122, 0.528 ],
+							"rotationOrigin": [ 3.432, 0.99, 0.264 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"east": { "texture": "#malachite", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+								"south": { "texture": "#malachite", "uv": [ 12.0, 10.0, 14.0, 12.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 6.0, 12.0, 8.0, 14.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 0.0, 10.0, 2.0, 12.0 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "N",
+					"from": [ -0.264, 0.66, -1.584 ],
+					"to": [ 3.564, 1.98, -1.188 ],
+					"rotationOrigin": [ 1.32, 1.32, -1.32 ],
+					"rotationX": -2.0,
+					"faces": {
+						"north": { "texture": "#gold", "uv": [ 3.0, 8.0, 5.5, 9.0 ], "autoUv": false },
+						"east": { "texture": "#gold", "uv": [ 2.0, 8.0, 2.5, 9.0 ], "autoUv": false },
+						"south": { "texture": "#gold", "uv": [ 9.5, 14.5, 12.0, 15.5 ], "autoUv": false },
+						"west": { "texture": "#gold", "uv": [ 5.0, 6.0, 5.5, 7.0 ], "autoUv": false },
+						"up": { "texture": "#gold", "uv": [ 7.5, 0.0, 10.0, 0.5 ], "autoUv": false },
+						"down": { "texture": "#gold", "uv": [ 1.0, 12.0, 3.5, 12.5 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "gem4",
+							"from": [ 1.518, 0.33, -0.132 ],
+							"to": [ 2.31, 1.122, 0.132 ],
+							"rotationOrigin": [ 1.914, 0.726, 0.0 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#tourmaline1", "uv": [ 12.0, 0.0, 14.0, 2.0 ], "autoUv": false },
+								"east": { "texture": "#tourmaline1", "uv": [ 12.0, 6.0, 14.0, 8.0 ], "autoUv": false },
+								"west": { "texture": "#tourmaline1", "uv": [ 10.0, 0.0, 12.0, 2.0 ], "autoUv": false },
+								"up": { "texture": "#tourmaline1", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "autoUv": false },
+								"down": { "texture": "#tourmaline1", "uv": [ 12.0, 6.0, 14.0, 8.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem11",
+							"from": [ 2.706, 0.462, -0.132 ],
+							"to": [ 3.234, 0.99, 0.132 ],
+							"rotationOrigin": [ 2.97, 0.726, 0.0 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#emerald", "uv": [ 10.0, 2.0, 12.0, 4.0 ], "autoUv": false },
+								"east": { "texture": "#emerald", "uv": [ 0.0, 8.0, 2.0, 10.0 ], "autoUv": false },
+								"west": { "texture": "#emerald", "uv": [ 6.0, 4.0, 8.0, 6.0 ], "autoUv": false },
+								"up": { "texture": "#emerald", "uv": [ 6.0, 6.0, 8.0, 8.0 ], "autoUv": false },
+								"down": { "texture": "#emerald", "uv": [ 0.0, 8.0, 2.0, 10.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem12",
+							"from": [ 0.594, 0.462, -0.132 ],
+							"to": [ 1.122, 0.99, 0.132 ],
+							"rotationOrigin": [ 0.858, 0.726, 0.0 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#emerald", "uv": [ 0.0, 12.0, 2.0, 14.0 ], "autoUv": false },
+								"east": { "texture": "#emerald", "uv": [ 2.0, 8.0, 4.0, 10.0 ], "autoUv": false },
+								"west": { "texture": "#emerald", "uv": [ 2.0, 6.0, 4.0, 8.0 ], "autoUv": false },
+								"up": { "texture": "#emerald", "uv": [ 4.0, 2.0, 6.0, 4.0 ], "autoUv": false },
+								"down": { "texture": "#emerald", "uv": [ 10.0, 0.0, 12.0, 2.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem29",
+							"from": [ 1.188, 0.858, -0.132 ],
+							"to": [ 1.452, 1.122, 0.132 ],
+							"rotationOrigin": [ 1.32, 0.99, 0.0 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#malachite", "uv": [ 8.0, 0.0, 10.0, 2.0 ], "autoUv": false },
+								"east": { "texture": "#malachite", "uv": [ 10.0, 10.0, 12.0, 12.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 8.0, 8.0, 10.0, 10.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 8.0, 4.0, 10.0, 6.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem30",
+							"from": [ 1.188, 0.33, -0.132 ],
+							"to": [ 1.452, 0.594, 0.132 ],
+							"rotationOrigin": [ 1.32, 0.462, 0.0 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#malachite", "uv": [ 8.0, 12.0, 10.0, 14.0 ], "autoUv": false },
+								"east": { "texture": "#malachite", "uv": [ 6.0, 4.0, 8.0, 6.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 4.0, 0.0, 6.0, 2.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 6.0, 10.0, 8.0, 12.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 8.0, 12.0, 10.0, 14.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem31",
+							"from": [ 0.264, 0.33, -0.132 ],
+							"to": [ 0.528, 0.594, 0.132 ],
+							"rotationOrigin": [ 0.396, 0.462, 0.0 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#malachite", "uv": [ 2.0, 4.0, 4.0, 6.0 ], "autoUv": false },
+								"east": { "texture": "#malachite", "uv": [ 12.0, 2.0, 14.0, 4.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 2.0, 6.0, 4.0, 8.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 4.0, 8.0, 6.0, 10.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 6.0, 12.0, 8.0, 14.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem32",
+							"from": [ 0.264, 0.858, -0.132 ],
+							"to": [ 0.528, 1.122, 0.132 ],
+							"rotationOrigin": [ 0.396, 0.99, 0.0 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#malachite", "uv": [ 12.0, 6.0, 14.0, 8.0 ], "autoUv": false },
+								"east": { "texture": "#malachite", "uv": [ 12.0, 8.0, 14.0, 10.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 2.0, 4.0, 4.0, 6.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 2.0, 4.0, 4.0, 6.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 6.0, 10.0, 8.0, 12.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem33",
+							"from": [ 2.376, 0.33, -0.132 ],
+							"to": [ 2.64, 0.594, 0.132 ],
+							"rotationOrigin": [ 2.508, 0.462, 0.0 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#malachite", "uv": [ 8.0, 10.0, 10.0, 12.0 ], "autoUv": false },
+								"east": { "texture": "#malachite", "uv": [ 2.0, 8.0, 4.0, 10.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 6.0, 8.0, 8.0, 10.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 2.0, 10.0, 4.0, 12.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 2.0, 8.0, 4.0, 10.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem34",
+							"from": [ 2.376, 0.858, -0.132 ],
+							"to": [ 2.64, 1.122, 0.132 ],
+							"rotationOrigin": [ 2.508, 0.99, 0.0 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#malachite", "uv": [ 2.0, 8.0, 4.0, 10.0 ], "autoUv": false },
+								"east": { "texture": "#malachite", "uv": [ 2.0, 8.0, 4.0, 10.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 8.0, 6.0, 10.0, 8.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 12.0, 12.0, 14.0, 14.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 10.0, 8.0, 12.0, 10.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem35",
+							"from": [ 3.168, 0.858, -0.132 ],
+							"to": [ 3.432, 1.122, 0.132 ],
+							"rotationOrigin": [ 3.3, 0.99, 0.0 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#malachite", "uv": [ 4.0, 0.0, 6.0, 2.0 ], "autoUv": false },
+								"east": { "texture": "#malachite", "uv": [ 8.0, 6.0, 10.0, 8.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 8.0, 12.0, 10.0, 14.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 0.0, 12.0, 2.0, 14.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 0.0, 12.0, 2.0, 14.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "gem36",
+							"from": [ 3.168, 0.33, -0.132 ],
+							"to": [ 3.432, 0.594, 0.132 ],
+							"rotationOrigin": [ 3.3, 0.462, 0.0 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#malachite", "uv": [ 12.0, 4.0, 14.0, 6.0 ], "autoUv": false },
+								"east": { "texture": "#malachite", "uv": [ 10.0, 2.0, 12.0, 4.0 ], "autoUv": false },
+								"west": { "texture": "#malachite", "uv": [ 0.0, 8.0, 2.0, 10.0 ], "autoUv": false },
+								"up": { "texture": "#malachite", "uv": [ 12.0, 4.0, 14.0, 6.0 ], "autoUv": false },
+								"down": { "texture": "#malachite", "uv": [ 6.0, 12.0, 8.0, 14.0 ], "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

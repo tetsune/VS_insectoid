@@ -1,0 +1,650 @@
+﻿{
+  "combatoverhaul:spear-thrust-2h-1-koboldrdx-kobold": {
+  "Hold": false,
+  "PlayerKeyFrames": [
+    {
+      "EasingTime": 300.0,
+      "EasingFunction": "Quintic",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.8,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          77.6
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -29.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          0.0,
+          25.6,
+          -9.7,
+          -54.0
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -7.0
+        ],
+        "UpperArmL": [
+          0.8,
+          -2.0,
+          0.0,
+          0.0,
+          -28.0,
+          -85.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 500.0,
+      "EasingFunction": "Linear",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.8,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          78.3
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -69.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          0.0,
+          28.6,
+          -8.4,
+          -12.0
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        "UpperArmL": [
+          0.8,
+          -2.0,
+          0.0,
+          0.0,
+          -29.0,
+          -78.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 1200.0,
+      "EasingFunction": "CosShifted",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.8,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -38.7
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -47.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          0.0,
+          23.6,
+          9.6,
+          43.0
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -62.0
+        ],
+        "UpperArmL": [
+          0.8,
+          -2.0,
+          0.0,
+          0.0,
+          -47.0,
+          -61.0
+        ]
+      }
+    }
+  ],
+  "ItemKeyFrames": [],
+  "SoundFrames": [
+    {
+      "Code": [
+        "game:sounds/player/strike1",
+        "game:sounds/player/strike2"
+      ],
+      "DurationFraction": 0.0,
+      "RandomizePitch": true,
+      "Range": 16.0,
+      "Volume": 0.5,
+      "Synchronize": true
+    }
+  ],
+  "ParticlesFrames": [],
+  "CallbackFrames": [
+    {
+      "Code": "start",
+      "DurationFraction": 0.0625
+    },
+    {
+      "Code": "stop",
+      "DurationFraction": 0.41666666
+    },
+    {
+      "Code": "ready",
+      "DurationFraction": 0.6666667
+    }
+  ],
+  "ItemAnimationStart": 0,
+  "ItemAnimationEnd": 0
+},
+  "combatoverhaul:spear-thrust-2h-2-koboldrdx-kobold": {
+  "Hold": false,
+  "PlayerKeyFrames": [
+    {
+      "EasingTime": 300.0,
+      "EasingFunction": "Quintic",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.8,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          77.6
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -29.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          0.0,
+          25.6,
+          -9.7,
+          -54.0
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -7.0
+        ],
+        "UpperArmL": [
+          0.8,
+          -2.0,
+          0.0,
+          0.0,
+          -28.0,
+          -85.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 500.0,
+      "EasingFunction": "Linear",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.8,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          78.3
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -69.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          0.0,
+          28.6,
+          -8.4,
+          -12.0
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        "UpperArmL": [
+          0.8,
+          -2.0,
+          0.0,
+          0.0,
+          -29.0,
+          -78.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 1200.0,
+      "EasingFunction": "CosShifted",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.8,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -38.7
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -47.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          0.0,
+          23.6,
+          9.6,
+          43.0
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -62.0
+        ],
+        "UpperArmL": [
+          0.8,
+          -2.0,
+          0.0,
+          0.0,
+          -47.0,
+          -61.0
+        ]
+      }
+    }
+  ],
+  "ItemKeyFrames": [],
+  "SoundFrames": [
+    {
+      "Code": [
+        "game:sounds/player/strike1",
+        "game:sounds/player/strike2"
+      ],
+      "DurationFraction": 0.0,
+      "RandomizePitch": true,
+      "Range": 16.0,
+      "Volume": 0.5,
+      "Synchronize": true
+    }
+  ],
+  "ParticlesFrames": [],
+  "CallbackFrames": [
+    {
+      "Code": "start",
+      "DurationFraction": 0.0625
+    },
+    {
+      "Code": "stop",
+      "DurationFraction": 0.41666666
+    },
+    {
+      "Code": "ready",
+      "DurationFraction": 0.6666667
+    }
+  ],
+  "ItemAnimationStart": 0,
+  "ItemAnimationEnd": 0
+},
+  "combatoverhaul:spear-thrust-2h-3-koboldrdx-kobold": {
+  "Hold": false,
+  "PlayerKeyFrames": [
+    {
+      "EasingTime": 300.0,
+      "EasingFunction": "Quintic",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.8,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          77.6
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -29.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          0.0,
+          25.6,
+          -9.7,
+          -54.0
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -7.0
+        ],
+        "UpperArmL": [
+          0.8,
+          -2.0,
+          0.0,
+          0.0,
+          -28.0,
+          -85.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 500.0,
+      "EasingFunction": "Linear",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.8,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          78.3
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -69.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          0.0,
+          28.6,
+          -8.4,
+          -12.0
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        "UpperArmL": [
+          0.8,
+          -2.0,
+          0.0,
+          0.0,
+          -29.0,
+          -78.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 1200.0,
+      "EasingFunction": "CosShifted",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.8,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -38.7
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -47.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          0.0,
+          23.6,
+          9.6,
+          43.0
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -62.0
+        ],
+        "UpperArmL": [
+          0.8,
+          -2.0,
+          0.0,
+          0.0,
+          -47.0,
+          -61.0
+        ]
+      }
+    }
+  ],
+  "ItemKeyFrames": [],
+  "SoundFrames": [
+    {
+      "Code": [
+        "game:sounds/player/strike1",
+        "game:sounds/player/strike2"
+      ],
+      "DurationFraction": 0.0,
+      "RandomizePitch": true,
+      "Range": 16.0,
+      "Volume": 0.5,
+      "Synchronize": true
+    }
+  ],
+  "ParticlesFrames": [],
+  "CallbackFrames": [
+    {
+      "Code": "start",
+      "DurationFraction": 0.0625
+    },
+    {
+      "Code": "stop",
+      "DurationFraction": 0.41666666
+    },
+    {
+      "Code": "ready",
+      "DurationFraction": 0.6666667
+    }
+  ],
+  "ItemAnimationStart": 0,
+  "ItemAnimationEnd": 0
+}
+}

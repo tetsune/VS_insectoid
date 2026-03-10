@@ -1,0 +1,74 @@
+{
+	"editor": {
+		"backDropShape": "insectoid-faceless",
+		"collapsedPaths": "Root",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 24,
+	"textureHeight": 20,
+	"textureSizes": {
+		"gloves": [24,20]
+	},
+	"textures": {
+		"gloves": "entity/humanoid/seraphclothes/hand/miner"
+	},
+	"elements": [
+		{
+			"name": "BackGloveL",
+			"stepParentName": "UpperArmL",
+			"from": [ -0.01, -0.01, -0.01 ],
+			"to": [ 3.01, 2.99, 2.01 ],
+			"faces": {
+				"north": { "texture": "#gloves", "uv": [ 12.5, 3.0, 15.5, 6.0 ] },
+				"east": { "texture": "#gloves", "uv": [ 20.5, 3.0, 22.5, 6.0 ] },
+				"south": { "texture": "#gloves", "uv": [ 17.5, 3.0, 20.5, 6.0 ] },
+				"west": { "texture": "#gloves", "uv": [ 15.5, 3.0, 17.5, 6.0 ] },
+				"down": { "texture": "#gloves", "uv": [ 15.5, 6.0, 17.5, 9.0 ], "rotation": 90 }
+			}
+		},
+		{
+			"name": "BackGloveR",
+			"stepParentName": "UpperArmR",
+			"from": [ -0.41, -0.01, -0.51 ],
+			"to": [ 2.61, 2.99, 1.51 ],
+			"rotationOrigin": [ -0.4, 0.0, -0.5 ],
+			"faces": {
+				"north": { "texture": "#gloves", "uv": [ 1.5, 3.0, 4.5, 6.0 ] },
+				"east": { "texture": "#gloves", "uv": [ 9.5, 3.0, 11.5, 6.0 ] },
+				"south": { "texture": "#gloves", "uv": [ 6.5, 3.0, 9.5, 6.0 ] },
+				"west": { "texture": "#gloves", "uv": [ 4.5, 3.0, 6.5, 6.0 ] },
+				"down": { "texture": "#gloves", "uv": [ 4.5, 6.0, 6.5, 9.0 ], "rotation": 90 }
+			}
+		},
+		{
+			"name": "ForegloveRight",
+			"stepParentName": "LowerArmR",
+			"from": [ -0.01, -0.01, -0.01 ],
+			"to": [ 3.51, 8.01, 3.01 ],
+			"rotationOrigin": [ -0.01, -0.01, -0.01 ],
+			"faces": {
+				"north": { "texture": "#gloves", "uv": [ 2.0, 8.5, 5.5, 16.5 ] },
+				"east": { "texture": "#gloves", "uv": [ 8.5, 8.5, 11.5, 16.5 ] },
+				"south": { "texture": "#gloves", "uv": [ 7.5, 8.5, 11.0, 16.5 ] },
+				"west": { "texture": "#gloves", "uv": [ 4.5, 8.5, 7.5, 16.5 ] },
+				"up": { "texture": "#gloves", "uv": [ 4.5, 5.0, 7.5, 8.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#gloves", "uv": [ 4.5, 16.5, 6.5, 19.0 ], "rotation": 90, "autoUv": false }
+			}
+		},
+		{
+			"name": "ForegloveLeft",
+			"stepParentName": "LowerArmL",
+			"from": [ -0.01, -0.01, -0.01 ],
+			"to": [ 3.51, 8.01, 3.01 ],
+			"rotationOrigin": [ -0.01, -0.01, -0.01 ],
+			"faces": {
+				"north": { "texture": "#gloves", "uv": [ 11.0, 8.5, 14.5, 16.5 ] },
+				"east": { "texture": "#gloves", "uv": [ 19.5, 8.5, 22.5, 16.5 ] },
+				"south": { "texture": "#gloves", "uv": [ 17.5, 8.5, 21.0, 16.5 ] },
+				"west": { "texture": "#gloves", "uv": [ 14.5, 8.5, 17.5, 16.5 ] },
+				"up": { "texture": "#gloves", "uv": [ 14.5, 5.0, 17.5, 8.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#gloves", "uv": [ 15.5, 16.5, 17.0, 19.0 ], "rotation": 90, "autoUv": false }
+			}
+		}
+	]}

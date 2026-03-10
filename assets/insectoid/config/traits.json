@@ -1,0 +1,148 @@
+[
+	{
+		"code": "insectoid-agile",
+		"type": "mixed",
+		"attributes": {
+			"walkspeed": 0.2,
+			"armorWalkSpeedAffectedness": 1.2,
+			"jumpHeightMul": 0.25,
+			"maxhealthExtraPoints": -2.0,
+		}
+	},
+	{
+		"code": "insectoid-fragile",
+		"type": "mixed",
+		"attributes": {
+			"maxhealthExtraPoints": -5.0,
+			"bluntDamageFactor": 0.3,
+			"saturationLossFactor": -0.2,
+		}
+	},
+	{
+		"code": "insectoid-predator",
+		"type": "mixed",
+		"attributes": {
+			"meleeWeaponsDamage": 0.5,
+			"sprintSpeed": 0.5,
+			"backwardSpeed": -0.5,
+			"armorDurabilityLoss": 0.2,
+			"hungerrate": 0.2
+		}
+	},
+	{
+		"code": "insectoid-shell",
+		"type": "mixed",
+		"attributes": {
+			"maxhealthExtraPoints": 8.0,
+			"healingeffectivness": -0.5,
+			"fireDamageFactor": -0.2,
+			"bluntDamageFactor": -0.2,
+			"slashingDamageFactor": -0.3,
+			"piercingDamageFactor": -0.3,
+		}
+	},
+	{
+		"code": "insectoid-naturalhunter",
+		"type": "positive",
+		"attributes": {
+			"animalLootDropRate": 0.5,
+			"animalHarvestingTime": -0.6,
+			"animalSeekingRange": -0.75,
+			"sneakSpeed": 0.2
+		}
+	},
+	{
+		"code": "insectoid-nocturnal",
+		"type": "positive",
+		"attributes": {
+			"nightWalkSpeed": 0.3,
+			"temporalStabilityDropRate": -0.30,
+			"temporalStabilityRecoveryRate": 0.3
+		}
+	},
+	{
+		"code": "insectoid-naturalpropagator",
+		"type": "positive",
+		"attributes": {
+			"forageDropRate": 0.5,
+			"wildCropDropRate": 0.5,
+			"farmDropRate": 0.5
+		}
+	},
+	{
+		"code": "insectoid-silk",
+		"type": "positive",
+		"attributes": {
+			"animalHarvestingTime": -0.2,
+		}
+	},
+	{
+		"code": "insectoid-mender",
+		"type": "positive",
+		"attributes": {
+			"healingReceivedFactor": 0.5,
+			"armorDurabilityLoss": -0.2
+		}
+	},
+	{
+		"code": "insectoid-carnivore",
+		"type": "mixed",
+		"attributes": {
+			"proteinNutritionFactor": 1.2,
+			"fruitNutritionFactor": -0.9,
+			"vegetableNutritionFactor": -0.9,
+			"grainNutritionFactor": -0.9,
+			"dairyNutritionFactor": -0.5
+		}
+	},
+	{
+		"code": "insectoid-omnivore",
+		"type": "mixed",
+		"attributes": {
+			"nutritionFactor": 0.2
+		}
+	},
+	{
+		"code": "insectoid-herbivore",
+		"type": "mixed",
+		"attributes": {
+			"proteinNutritionFactor": -0.9,
+			"fruitNutritionFactor": 1.0,
+			"vegetableNutritionFactor": 1.0,
+			"grainNutritionFactor": 0.3,
+			"dairyNutritionFactor": -0.5
+		}
+	},
+	{
+		"code": "insectoid-digger",
+		"type": "mixed",
+		"attributes": {
+			"rangedWeaponsDamage": -0.2,
+			"meleeWeaponsDamage": 0.2,
+			"armorDurabilityLoss": 0.2,
+			"oreDropRate": 0.2,
+			"miningSpeedMul": 0.5
+		}
+	},
+	{
+		"code": "insectoid-sniper",
+		"type": "mixed",
+		"attributes": {
+			"meleeWeaponsDamage": -0.2,
+			"rangedWeaponsDamage": 0.35,
+			"rangedWeaponsAcc": 0.5,
+			"bowDrawingStrength": 0.35,
+			"armorWalkSpeedAffectedness": -0.4
+		}
+	},
+	{
+		"code": "insectoid-co-archer",
+		"type": "mixed",
+		"attributes": {
+			"bowsProficiency": 0.6,
+			"crossbowsProficiency": -0.3,
+			"steadyAim": 0.5,
+			"meleeWeaponsDamage": -0.2
+		}
+	},
+]

@@ -1,0 +1,88 @@
+{
+	"editor": {
+		"backDropShape": "insectoid-faceless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 28,
+	"textureHeight": 56,
+	"textureSizes": {
+		"shirt": [28,56]
+	},
+	"textures": {
+		"shirt": "entity/humanoid/seraphclothes/upperbody/hunter-shirt"
+	},
+	"elements": [
+		{
+			"name": "CollarOrigin2",
+			"stepParentName": "Neck",
+			"from": [ -0.4, 0.5, -0.5 ],
+			"to": [ 2.6, 2.5, 2.5 ],
+			"unwrapMode": 4,
+			"uv": [ 25.5, 34.0 ],
+			"rotationOrigin": [ -0.4, 0.5, -0.5 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "CollarW",
+					"from": [ -0.2, 0.0, -0.2 ],
+					"to": [ 0.0, 2.0, 3.2 ],
+					"unwrapMode": 4,
+					"autoUnwrap": false,
+					"uv": [ 16.0, 2.0 ],
+					"rotationOrigin": [ -0.2, 0.0, -0.2 ],
+					"faces": {
+						"east": { "texture": "#shirt", "uv": [ 16.0, 0.0, 19.0, 2.0 ], "rotation": 180 },
+						"west": { "texture": "#shirt", "uv": [ 16.0, 2.5, 19.0, 4.5 ] },
+						"up": { "texture": "#shirt", "uv": [ 16.0, 2.0, 19.0, 2.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "CollarN",
+					"from": [ -0.2, 0.0, -0.2 ],
+					"to": [ 3.2, 2.0, 0.0 ],
+					"unwrapMode": 1,
+					"autoUnwrap": false,
+					"uv": [ 12.5, 2.0 ],
+					"rotationOrigin": [ -0.2, 0.0, -0.2 ],
+					"faces": {
+						"north": { "texture": "#shirt", "uv": [ 13.0, 2.5, 16.0, 4.5 ] },
+						"south": { "texture": "#shirt", "uv": [ 13.0, 0.0, 16.0, 2.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#shirt", "uv": [ 13.0, 2.0, 16.0, 2.5 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "CollarE",
+					"from": [ 3.0, 0.0, -0.2 ],
+					"to": [ 3.2, 2.0, 3.2 ],
+					"unwrapMode": 2,
+					"autoUnwrap": false,
+					"uv": [ 22.5, 2.0 ],
+					"rotationOrigin": [ 3.2, 0.0, -0.2 ],
+					"faces": {
+						"east": { "texture": "#shirt", "uv": [ 22.0, 2.5, 25.0, 4.5 ] },
+						"west": { "texture": "#shirt", "uv": [ 22.0, 0.0, 25.0, 2.0 ], "rotation": 180 },
+						"up": { "texture": "#shirt", "uv": [ 22.0, 2.0, 25.0, 2.5 ], "rotation": 270 }
+					}
+				},
+				{
+					"name": "CollarS",
+					"from": [ -0.2, 0.0, 3.0 ],
+					"to": [ 3.2, 2.0, 3.2 ],
+					"unwrapMode": 3,
+					"autoUnwrap": false,
+					"uv": [ 19.0, 2.0 ],
+					"rotationOrigin": [ -0.2, 0.0, 3.0 ],
+					"faces": {
+						"north": { "texture": "#shirt", "uv": [ 19.0, 0.0, 22.0, 2.0 ], "rotation": 180 },
+						"south": { "texture": "#shirt", "uv": [ 19.0, 2.5, 22.0, 4.5 ] },
+						"up": { "texture": "#shirt", "uv": [ 19.0, 2.0, 22.0, 2.5 ] }
+					}
+				}
+			]
+		}
+	],
+	"animations": [
+	]
+}

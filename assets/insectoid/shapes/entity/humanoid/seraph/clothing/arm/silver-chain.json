@@ -1,0 +1,47 @@
+{
+	"editor": {
+		"backDropShape": "",
+		"collapsedPaths": "Root/bandN/toothR1,Root/bandN/toothL1",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 12,
+	"textureHeight": 4,
+	"textureSizes": {
+		"silver-chain": [12,4]
+	},
+	"textures": {
+		"silver-chain": "entity/humanoid/seraphclothes/arm/silver-chain"
+	},
+	"elements": [
+		{
+			"name": "hidelowerarm",
+			"stepParentName": "LowerArmL",
+			"from": [ 1.0, 1.0, 0.9 ],
+			"to": [ 1.0, 1.0, 0.9 ],
+			"uv": [ 999.0, 999.0 ],
+			"rotationOrigin": [ 1.0, 1.0, 0.9 ],
+			"rotationY": 90.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "bandE",
+					"stepParentName": "LowerArmL",
+					"from": [ 3.04, 0.6, 0.0 ],
+					"to": [ 6.16, 4.8, 3.22 ],
+					"unwrapMode": 3,
+					"uv": [ 2.5, 0.0 ],
+					"rotationOrigin": [ 3.04, 0.6, 0.0 ],
+					"rotationY": -90.0,
+					"rotationZ": 0.1,
+					"faces": {
+						"north": { "texture": "#silver-chain", "uv": [ 9.0, 0.0, 11.5, 3.5 ], "autoUv": false },
+						"east": { "texture": "#silver-chain", "uv": [ 7.0, 0.0, 9.0, 3.5 ], "autoUv": false },
+						"south": { "texture": "#silver-chain", "uv": [ 4.5, 0.0, 7.0, 3.5 ], "autoUv": false },
+						"west": { "texture": "#silver-chain", "uv": [ 2.5, 0.0, 4.5, 3.5 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

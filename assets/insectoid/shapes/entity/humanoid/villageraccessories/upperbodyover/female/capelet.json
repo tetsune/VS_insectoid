@@ -1,0 +1,135 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/villager-female",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 28,
+	"textureHeight": 24,
+	"textureSizes": {
+		"shirt": [28,24]
+	},
+	"textures": {
+		"upperbodyover": "entity/humanoid/villagerclothes/upperbodyover/capelet/alchemist"
+	},
+	"elements": [
+		{
+			"name": "UpperTorsoOrigin",
+			"stepParentName": "UpperTorso",
+			"from": [ -0.03, -1.03, -0.03 ],
+			"to": [ 5.03, 5.03, 6.23 ],
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 10.0, 0.0 ],
+			"rotationOrigin": [ 2.0, 2.0, 3.25 ],
+			"faces": {
+				"north": { "texture": "#upperbodyover", "uv": [ 1.0, 5.5, 6.0, 11.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"east": { "texture": "#upperbodyover", "uv": [ 17.0, 5.5, 23.0, 11.5 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#upperbodyover", "uv": [ 12.0, 5.5, 17.0, 11.5 ] },
+				"west": { "texture": "#upperbodyover", "uv": [ 6.0, 5.5, 12.0, 11.5 ] },
+				"up": { "texture": "#upperbodyover", "uv": [ 6.0, 0.5, 12.0, 5.5 ], "rotation": 90 },
+				"down": { "texture": "#upperbodyover", "uv": [ 23.0, 9.0, 28.0, 15.0 ], "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "Blackout",
+					"from": [ 0.1, 0.8, 0.6 ],
+					"to": [ 4.9, 4.8, 5.6 ],
+					"autoUnwrap": false,
+					"uv": [ 23.0, 9.0 ],
+					"rotationOrigin": [ 0.1, 0.8, 0.6 ],
+					"faces": {
+						"north": { "texture": "#upperbodyover", "uv": [ 0.0, 0.0, 4.5, 4.0 ] },
+						"east": { "texture": "#upperbodyover", "uv": [ 1.0, 0.0, 5.0, 5.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#upperbodyover", "uv": [ 0.0, 1.0, 4.5, 5.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#upperbodyover", "uv": [ 0.5, 0.0, 4.5, 5.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#upperbodyover", "uv": [ 0.0, 0.0, 4.5, 5.0 ] },
+						"down": { "texture": "#upperbodyover", "uv": [ 0.5, 0.0, 5.0, 5.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "CollarOrigin",
+			"stepParentName": "Neck",
+			"from": [ -0.03, -0.2, -0.03 ],
+			"to": [ 3.03, 3.8, 3.03 ],
+			"unwrapMode": 4,
+			"uv": [ 13.0, 0.5 ],
+			"rotationOrigin": [ 1.5, 2.0, 1.5 ],
+			"faces": {
+				"north": { "texture": "#upperbodyover", "uv": [ 13.0, 0.5, 16.0, 4.5 ] },
+				"east": { "texture": "#upperbodyover", "uv": [ 22.0, 0.5, 25.0, 4.5 ] },
+				"south": { "texture": "#upperbodyover", "uv": [ 19.0, 0.5, 22.0, 4.5 ] },
+				"west": { "texture": "#upperbodyover", "uv": [ 16.0, 0.5, 19.0, 4.5 ] }
+			}
+		},
+		{
+			"name": "UpperArmROrigin",
+			"stepParentName": "UpperArmR",
+			"from": [ -0.03, -0.03, -0.03 ],
+			"to": [ 3.03, 6.03, 4.03 ],
+			"unwrapMode": 1,
+			"autoUnwrap": false,
+			"uv": [ 1.0, 12.5 ],
+			"rotationOrigin": [ 1.5, 6.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#upperbodyover", "uv": [ 4.0, 15.0, 7.0, 21.0 ] },
+				"east": { "texture": "#upperbodyover", "uv": [ 0.0, 15.0, 4.0, 21.0 ] },
+				"south": { "texture": "#upperbodyover", "uv": [ 11.0, 15.0, 14.0, 21.0 ] },
+				"west": { "texture": "#upperbodyover", "uv": [ 7.0, 15.0, 11.0, 21.0 ] },
+				"up": { "texture": "#upperbodyover", "uv": [ 7.0, 12.0, 11.0, 15.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#upperbodyover", "uv": [ 7.0, 21.0, 11.0, 24.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "UpperArmLorigin",
+			"stepParentName": "UpperArmL",
+			"from": [ -0.03, -0.03, -2.03 ],
+			"to": [ 3.03, 6.03, 2.03 ],
+			"unwrapMode": 3,
+			"autoUnwrap": false,
+			"uv": [ 14.0, 11.0 ],
+			"rotationOrigin": [ 1.5, 5.9, 1.0 ],
+			"faces": {
+				"north": { "texture": "#upperbodyover", "uv": [ 14.0, 15.0, 17.0, 21.0 ] },
+				"east": { "texture": "#upperbodyover", "uv": [ 24.0, 15.0, 28.0, 21.0 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#upperbodyover", "uv": [ 21.0, 15.0, 24.0, 21.0 ], "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#upperbodyover", "uv": [ 17.0, 15.0, 21.0, 21.0 ] },
+				"up": { "texture": "#upperbodyover", "uv": [ 17.0, 12.0, 21.0, 15.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#upperbodyover", "uv": [ 17.0, 21.0, 21.0, 24.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "BreastOrigin",
+			"stepParentName": "Breast",
+			"from": [ -0.03, -0.03, -0.03 ],
+			"to": [ 2.03, 3.03, 6.05 ],
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 4.0, 4.0 ],
+			"faces": {
+				"north": { "texture": "#upperbodyover", "uv": [ 4.0, 6.0, 6.0, 9.0 ] },
+				"south": { "texture": "#upperbodyover", "uv": [ 12.0, 6.0, 14.0, 9.0 ] },
+				"west": { "texture": "#upperbodyover", "uv": [ 6.0, 5.5, 12.0, 8.5 ] },
+				"up": { "texture": "#upperbodyover", "uv": [ 6.0, 4.0, 12.0, 6.0 ], "rotation": 90 },
+				"down": { "texture": "#upperbodyover", "uv": [ 6.0, 7.0, 12.0, 9.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+			}
+		},
+		{
+			"name": "Breast2Origin",
+			"stepParentName": "Breast2",
+			"from": [ -0.03, -0.03, -0.03 ],
+			"to": [ 2.03, 4.03, 6.03 ],
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 4.0, 5.5 ],
+			"faces": {
+				"north": { "texture": "#upperbodyover", "uv": [ 3.5, 5.5, 7.5, 7.5 ], "rotation": 90 },
+				"south": { "texture": "#upperbodyover", "uv": [ 10.5, 5.5, 14.5, 7.5 ], "rotation": 90 },
+				"west": { "texture": "#upperbodyover", "uv": [ 6.0, 5.0, 12.0, 9.0 ] },
+				"up": { "texture": "#upperbodyover", "uv": [ 6.0, 6.5, 12.0, 8.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#upperbodyover", "uv": [ 6.0, 8.0, 12.0, 10.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+			}
+		}
+	]}

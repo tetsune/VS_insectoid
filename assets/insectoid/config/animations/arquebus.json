@@ -1,0 +1,152 @@
+﻿{
+  "maltiezfirearms:firearms-arquebus-aim-koboldrdx-kobold": {
+  "Hold": true,
+  "PlayerKeyFrames": [
+    {
+      "EasingTime": 300.0,
+      "EasingFunction": "Sin",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 0.88,
+      "BobbingAmplitude": 0.655,
+      "Elements": {
+        "ItemAnchor": [
+          -1.8,
+          1.11,
+          1.49,
+          9.0,
+          23.7,
+          154.6
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -120.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          22.2,
+          -38.0
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -15.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -9.0,
+          -87.0
+        ],
+        "UpperTorso": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "ItemKeyFrames": [
+    {
+      "DurationFraction": 1.0,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "Lock_lever": [
+          0.0,
+          0.0,
+          0.0,
+          -35.0,
+          0.0,
+          0.0
+        ],
+        "Match_3": [
+          0.0,
+          0.0,
+          0.0,
+          22.0,
+          0.0,
+          0.0
+        ],
+        "Match_1": [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "Match": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Lever": [
+          0.0,
+          0.0,
+          0.0,
+          10.0,
+          0.0,
+          0.0
+        ],
+        "Match_origin": [
+          -60.0,
+          -60.0,
+          -98.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Match_2": [
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "Pan_cover": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "SoundFrames": [],
+  "ParticlesFrames": [],
+  "CallbackFrames": [],
+  "ItemAnimationStart": 0,
+  "ItemAnimationEnd": 0
+}
+}

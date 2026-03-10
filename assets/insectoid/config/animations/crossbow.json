@@ -1,0 +1,1507 @@
+﻿{
+  "maltiezcrossbows:crossbow-repeating-ready-koboldrdx-kobold": {
+  "Hold": true,
+  "PlayerKeyFrames": [
+    {
+      "EasingTime": 500.0,
+      "EasingFunction": "Sin",
+      "DetachedAnchor": false,
+      "SwitchArms": true,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.65,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -11.0
+        ],
+        "UpperArmR": [
+          -1.0,
+          -1.6,
+          0.0,
+          25.0,
+          -22.0,
+          -95.0
+        ],
+        "ItemAnchorL": [
+          6.1,
+          0.9,
+          -1.8,
+          -54.0,
+          29.0,
+          85.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -37.0,
+          -37.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -20.0,
+          -44.0
+        ]
+      }
+    }
+  ],
+  "ItemKeyFrames": [],
+  "SoundFrames": [],
+  "ParticlesFrames": [],
+  "CallbackFrames": [],
+  "ItemAnimationStart": 0,
+  "ItemAnimationEnd": 0
+},
+"maltiezcrossbows:crossbow-repeating-return-koboldrdx-kobold": {
+  "Hold": true,
+  "PlayerKeyFrames": [
+    {
+      "EasingTime": 0.0,
+      "EasingFunction": "Linear",
+      "DetachedAnchor": false,
+      "SwitchArms": true,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.65,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -41.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          0.0,
+          44.0,
+          -90.0,
+          -86.0
+        ],
+        "ItemAnchorL": [
+          6.1,
+          0.9,
+          -1.8,
+          -54.0,
+          24.0,
+          85.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -37.0,
+          -37.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -20.0,
+          -44.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 370.0,
+      "EasingFunction": "Linear",
+      "DetachedAnchor": false,
+      "SwitchArms": true,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.65,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -60.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          0.0,
+          44.0,
+          -61.0,
+          -87.0
+        ],
+        "ItemAnchorL": [
+          6.1,
+          0.9,
+          -1.8,
+          -54.0,
+          24.0,
+          85.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -37.0,
+          -37.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -20.0,
+          -44.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 500.0,
+      "EasingFunction": "Linear",
+      "DetachedAnchor": false,
+      "SwitchArms": true,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.65,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -56.0
+        ],
+        "UpperArmR": [
+          0.0,
+          -1.6,
+          0.0,
+          44.0,
+          -33.0,
+          -83.0
+        ],
+        "ItemAnchorL": [
+          6.1,
+          0.9,
+          -1.8,
+          -54.0,
+          29.0,
+          85.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -37.0,
+          -37.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -20.0,
+          -44.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 600.0,
+      "EasingFunction": "Linear",
+      "DetachedAnchor": false,
+      "SwitchArms": true,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.65,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -11.0
+        ],
+        "UpperArmR": [
+          -1.0,
+          -1.6,
+          0.0,
+          25.0,
+          -22.0,
+          -95.0
+        ],
+        "ItemAnchorL": [
+          6.1,
+          0.9,
+          -1.8,
+          -54.0,
+          29.0,
+          85.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -37.0,
+          -37.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -20.0,
+          -44.0
+        ]
+      }
+    }
+  ],
+  "ItemKeyFrames": [
+    {
+      "DurationFraction": 0.0,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "String_6": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -4.0
+        ],
+        "Bow_right_limb_24": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_14": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_21": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Attachment_bolt": [
+          0.0,
+          0.0,
+          -30.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Magazine": [
+          0.0,
+          0.0,
+          0.0,
+          -135.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_20": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "String": [
+          0.0,
+          0.8,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_22": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Handle": [
+          0.0,
+          0.0,
+          0.0,
+          135.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_16": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "String_2": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -4.0
+        ],
+        "Bow_right_limb_23": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_15": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_13": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_17": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "DurationFraction": 0.25,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "String_6": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -8.0
+        ],
+        "Bow_right_limb_24": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "Bow_right_limb_14": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_21": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Attachment_bolt": [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Magazine": [
+          0.0,
+          0.0,
+          0.0,
+          -110.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_20": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "String": [
+          0.0,
+          1.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_22": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Handle": [
+          0.0,
+          0.0,
+          0.0,
+          101.25,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_16": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "String_2": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -8.0
+        ],
+        "Bow_right_limb_23": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_15": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_13": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_17": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "DurationFraction": 0.5,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "String_6": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -10.0
+        ],
+        "Bow_right_limb_24": [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          -3.0,
+          -1.0
+        ],
+        "Bow_right_limb_14": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_21": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Attachment_bolt": [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Magazine": [
+          0.0,
+          0.0,
+          0.0,
+          -81.5,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_20": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "String": [
+          0.0,
+          2.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_22": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Handle": [
+          0.0,
+          0.0,
+          0.0,
+          67.5,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_16": [
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0
+        ],
+        "String_2": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -10.0
+        ],
+        "Bow_right_limb_23": [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          -1.0
+        ],
+        "Bow_right_limb_15": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_13": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_17": [
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          -3.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "DurationFraction": 0.75,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "String_6": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -10.0
+        ],
+        "Bow_right_limb_24": [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          -3.0,
+          -1.0
+        ],
+        "Bow_right_limb_14": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_21": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Attachment_bolt": [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Magazine": [
+          0.0,
+          0.0,
+          0.0,
+          -47.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_20": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "String": [
+          0.0,
+          2.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_22": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Handle": [
+          0.0,
+          0.0,
+          0.0,
+          33.75,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_16": [
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          1.0
+        ],
+        "String_2": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -10.0
+        ],
+        "Bow_right_limb_23": [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          -1.0
+        ],
+        "Bow_right_limb_15": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_13": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_17": [
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          -3.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "DurationFraction": 0.85,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "String_6": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -2.0,
+          -9.0
+        ],
+        "Bow_right_limb_24": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -3.0,
+          0.0
+        ],
+        "Bow_right_limb_14": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_21": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Attachment_bolt": [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Magazine": [
+          0.0,
+          0.0,
+          0.0,
+          -28.199999,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_20": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "String": [
+          0.0,
+          1.7,
+          0.5,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_22": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Handle": [
+          0.0,
+          0.0,
+          0.0,
+          20.25,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_16": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "String_2": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          -9.0
+        ],
+        "Bow_right_limb_23": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_15": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_13": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_17": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -3.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "DurationFraction": 1.0,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "String_6": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_24": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_14": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_21": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Attachment_bolt": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Magazine": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_20": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "String": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_22": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Handle": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_16": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "String_2": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_23": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_15": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_13": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Bow_right_limb_17": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "SoundFrames": [],
+  "ParticlesFrames": [],
+  "CallbackFrames": [],
+  "ItemAnimationStart": 0,
+  "ItemAnimationEnd": 600
+},
+"maltiezcrossbows:crossbow-repeating-close-koboldrdx-kobold": {
+  "Hold": true,
+  "PlayerKeyFrames": [
+    {
+      "EasingTime": 200.0,
+      "EasingFunction": "CosShifted",
+      "DetachedAnchor": false,
+      "SwitchArms": true,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.65,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -120.0
+        ],
+        "UpperArmR": [
+          0.0,
+          -1.6,
+          0.0,
+          44.0,
+          17.0,
+          -22.0
+        ],
+        "ItemAnchorL": [
+          6.1,
+          0.9,
+          -1.8,
+          -54.0,
+          29.0,
+          85.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -37.0,
+          -37.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -20.0,
+          -44.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 400.0,
+      "EasingFunction": "CosShifted",
+      "DetachedAnchor": false,
+      "SwitchArms": true,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.65,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -92.0
+        ],
+        "UpperArmR": [
+          0.0,
+          -1.6,
+          0.0,
+          44.0,
+          -20.0,
+          -60.0
+        ],
+        "ItemAnchorL": [
+          6.1,
+          0.9,
+          -1.8,
+          -54.0,
+          29.0,
+          85.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -37.0,
+          -37.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -20.0,
+          -44.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 600.0,
+      "EasingFunction": "CosShifted",
+      "DetachedAnchor": false,
+      "SwitchArms": true,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.65,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -49.0
+        ],
+        "UpperArmR": [
+          0.0,
+          -1.6,
+          0.0,
+          51.0,
+          -10.0,
+          -68.0
+        ],
+        "ItemAnchorL": [
+          6.1,
+          0.9,
+          -1.8,
+          -54.0,
+          29.0,
+          85.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -37.0,
+          -37.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -20.0,
+          -44.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 800.0,
+      "EasingFunction": "CosShifted",
+      "DetachedAnchor": false,
+      "SwitchArms": true,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.65,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -2.0
+        ],
+        "UpperArmR": [
+          0.0,
+          -2.0,
+          0.0,
+          44.0,
+          -11.0,
+          -95.0
+        ],
+        "ItemAnchorL": [
+          6.1,
+          0.9,
+          -1.8,
+          -54.0,
+          29.0,
+          85.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -37.0,
+          -37.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -20.0,
+          -44.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 1000.0,
+      "EasingFunction": "Sin",
+      "DetachedAnchor": false,
+      "SwitchArms": true,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 1.0,
+      "BobbingAmplitude": 0.65,
+      "Elements": {
+        "ItemAnchor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -11.0
+        ],
+        "UpperArmR": [
+          -1.0,
+          -1.6,
+          0.0,
+          25.0,
+          -22.0,
+          -95.0
+        ],
+        "ItemAnchorL": [
+          6.1,
+          0.9,
+          -1.8,
+          -54.0,
+          29.0,
+          85.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -37.0,
+          -37.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -20.0,
+          -44.0
+        ]
+      }
+    }
+  ],
+  "ItemKeyFrames": [
+    {
+      "DurationFraction": 0.0,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "Magazine_back7": [
+          0.0,
+          0.0,
+          0.0,
+          142.0,
+          0.0,
+          0.0
+        ],
+        "Magazine_Cover": [
+          0.0,
+          0.0,
+          0.0,
+          180.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "DurationFraction": 0.6666667,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "Magazine_back7": [
+          0.0,
+          0.0,
+          0.0,
+          142.0,
+          0.0,
+          0.0
+        ],
+        "Magazine_Cover": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "DurationFraction": 1.0,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "Magazine_back7": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Magazine_Cover": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "SoundFrames": [],
+  "ParticlesFrames": [],
+  "CallbackFrames": [],
+  "ItemAnimationStart": 200,
+  "ItemAnimationEnd": 800
+}
+}

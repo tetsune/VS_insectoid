@@ -1,0 +1,184 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/villager-male",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 28,
+	"textureHeight": 44,
+	"textureSizes": {
+		"shouldertexture": [28,44]
+	},
+	"textures": {
+		"shoulder": "entity/humanoid/villagerclothes/shoulder/shortsleeve/winter1"
+	},
+	"elements": [
+		{
+			"name": "UpperTorsoOrigin",
+			"stepParentName": "UpperTorso",
+			"from": [ -0.04, -0.04, -0.04 ],
+			"to": [ 5.04, 5.04, 6.24 ],
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 10.0, 0.0 ],
+			"rotationOrigin": [ 2.0, 2.0, 3.25 ],
+			"faces": {
+				"north": { "texture": "#shoulder", "uv": [ 1.0, 5.5, 6.0, 10.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"east": { "texture": "#shoulder", "uv": [ 17.0, 5.5, 23.0, 10.5 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#shoulder", "uv": [ 12.0, 5.5, 17.0, 10.5 ] },
+				"west": { "texture": "#shoulder", "uv": [ 6.0, 5.5, 12.0, 10.5 ] },
+				"up": { "texture": "#shoulder", "uv": [ 6.0, 0.5, 12.0, 5.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#shoulder", "uv": [ 19.0, 31.5, 25.0, 36.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+			},
+			"children": [
+				{
+					"name": "Blackout",
+					"from": [ 0.1, 0.8, 0.6 ],
+					"to": [ 4.9, 4.8, 5.6 ],
+					"autoUnwrap": false,
+					"uv": [ 23.0, 9.0 ],
+					"rotationOrigin": [ 0.1, 0.8, 0.6 ],
+					"faces": {
+						"north": { "texture": "#shoulder", "uv": [ 0.0, 0.0, 4.5, 4.0 ] },
+						"east": { "texture": "#shoulder", "uv": [ 1.0, 0.0, 5.0, 5.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#shoulder", "uv": [ 0.0, 1.0, 4.5, 5.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#shoulder", "uv": [ 0.5, 0.0, 4.5, 5.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#shoulder", "uv": [ 0.0, 0.0, 4.5, 5.0 ] },
+						"down": { "texture": "#shoulder", "uv": [ 0.5, 0.0, 5.0, 5.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "LowerTorsoOrigin",
+			"stepParentName": "LowerTorso",
+			"from": [ -0.04, -0.04, -0.04 ],
+			"to": [ 5.04, 5.04, 6.04 ],
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 9.0, 10.0 ],
+			"rotationOrigin": [ 3.0, 3.0, 3.0 ],
+			"faces": {
+				"north": { "texture": "#shoulder", "uv": [ 1.0, 10.5, 6.0, 15.5 ] },
+				"east": { "texture": "#shoulder", "uv": [ 17.0, 10.5, 23.0, 15.5 ] },
+				"south": { "texture": "#shoulder", "uv": [ 12.0, 10.5, 17.0, 15.5 ] },
+				"west": { "texture": "#shoulder", "uv": [ 6.0, 10.5, 12.0, 15.5 ] },
+				"up": { "texture": "#shoulder", "uv": [ 23.0, 25.5, 28.0, 31.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#shoulder", "uv": [ 0.0, 31.5, 6.0, 36.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "shouldertextureFrontTile",
+					"from": [ 0.0, -4.08, 0.0 ],
+					"to": [ 1.08, 0.0, 6.08 ],
+					"autoUnwrap": false,
+					"uv": [ 4.5, 38.85 ],
+					"rotationOrigin": [ 0.0, 0.0, 3.0 ],
+					"rotationZ": -3.5,
+					"faces": {
+						"north": { "texture": "#shoulder", "uv": [ 5.0, 17.5, 6.0, 21.5 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#shoulder", "uv": [ 12.0, 17.5, 13.0, 21.5 ], "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#shoulder", "uv": [ 6.0, 17.5, 12.0, 21.5 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "shouldertextureBackTile",
+					"from": [ 4.0, -4.08, 0.0 ],
+					"to": [ 5.08, 0.0, 6.08 ],
+					"unwrapMode": 2,
+					"autoUnwrap": false,
+					"uv": [ 24.0, 14.0 ],
+					"rotationOrigin": [ 5.0, 0.0, 3.0 ],
+					"rotationZ": -5.0,
+					"faces": {
+						"north": { "texture": "#shoulder", "uv": [ 1.0, 17.5, 2.0, 21.5 ], "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#shoulder", "uv": [ 17.0, 17.5, 23.0, 21.5 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#shoulder", "uv": [ 16.0, 17.5, 17.0, 21.5 ], "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		},
+		{
+			"name": "UpperFootLorigin",
+			"stepParentName": "UpperFootL",
+			"from": [ -0.04, -0.04, -0.04 ],
+			"to": [ 4.24, 7.54, 3.24 ],
+			"unwrapMode": 3,
+			"autoUnwrap": false,
+			"uv": [ 15.0, 19.62 ],
+			"rotationOrigin": [ 2.0, 7.0, 3.2 ],
+			"faces": {
+				"east": { "texture": "#shoulder", "uv": [ 20.0, 24.0, 23.0, 31.5 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#shoulder", "uv": [ 16.0, 24.0, 20.0, 31.5 ], "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#shoulder", "uv": [ 13.0, 24.0, 16.0, 31.5 ] },
+				"up": { "texture": "#shoulder", "uv": [ 23.5, 16.0, 26.5, 20.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] }
+			}
+		},
+		{
+			"name": "UpperFootRorigin",
+			"stepParentName": "UpperFootR",
+			"from": [ -0.04, -0.04, -0.04 ],
+			"to": [ 4.24, 7.54, 3.24 ],
+			"unwrapMode": 1,
+			"autoUnwrap": false,
+			"uv": [ 1.0, 19.62 ],
+			"rotationOrigin": [ 2.0, 7.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#shoulder", "uv": [ 4.0, 24.0, 8.0, 31.5 ], "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+				"east": { "texture": "#shoulder", "uv": [ 1.0, 24.0, 4.0, 31.5 ], "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#shoulder", "uv": [ 8.0, 24.0, 11.0, 31.5 ], "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#shoulder", "uv": [ 23.5, 11.5, 26.5, 15.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] }
+			}
+		},
+		{
+			"name": "UpperArmROrigin",
+			"stepParentName": "UpperArmR",
+			"from": [ -0.04, -0.04, -0.04 ],
+			"to": [ 3.04, 6.54, 2.04 ],
+			"unwrapMode": 1,
+			"autoUnwrap": false,
+			"uv": [ 8.0, 21.0 ],
+			"rotationOrigin": [ 1.5, 6.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#shoulder", "uv": [ 4.0, 37.0, 7.0, 43.5 ] },
+				"east": { "texture": "#shoulder", "uv": [ 2.0, 37.0, 4.0, 43.5 ] },
+				"south": { "texture": "#shoulder", "uv": [ 9.0, 37.0, 12.0, 43.5 ] },
+				"west": { "texture": "#shoulder", "uv": [ 7.0, 37.0, 9.0, 43.5 ] },
+				"up": { "texture": "#shoulder", "uv": [ 7.0, 34.0, 9.0, 37.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#shoulder", "uv": [ 10.0, 33.5, 12.0, 36.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "UpperArmLorigin",
+			"stepParentName": "UpperArmL",
+			"from": [ -0.04, -0.04, -0.04 ],
+			"to": [ 3.04, 6.54, 2.04 ],
+			"unwrapMode": 3,
+			"autoUnwrap": false,
+			"uv": [ 0.0, 13.0 ],
+			"rotationOrigin": [ 1.5, 5.9, 1.0 ],
+			"faces": {
+				"north": { "texture": "#shoulder", "uv": [ 13.0, 37.0, 16.0, 43.5 ] },
+				"east": { "texture": "#shoulder", "uv": [ 21.0, 37.0, 23.0, 43.5 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#shoulder", "uv": [ 18.0, 37.0, 21.0, 43.5 ], "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#shoulder", "uv": [ 16.0, 37.0, 18.0, 43.5 ] },
+				"up": { "texture": "#shoulder", "uv": [ 16.0, 34.0, 18.0, 37.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#shoulder", "uv": [ 13.0, 33.5, 15.0, 36.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "hidecollar",
+			"stepParentName": "Neck",
+			"from": [ -0.04, 1.0, -0.04 ],
+			"to": [ 3.04, 3.0, 3.04 ],
+			"unwrapMode": 4,
+			"uv": [ 13.0, 2.5 ],
+			"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#shoulder", "uv": [ 13.0, 2.5, 16.0, 4.5 ] },
+				"east": { "texture": "#shoulder", "uv": [ 22.0, 2.5, 25.0, 4.5 ] },
+				"south": { "texture": "#shoulder", "uv": [ 19.0, 2.5, 22.0, 4.5 ] },
+				"west": { "texture": "#shoulder", "uv": [ 16.0, 2.5, 19.0, 4.5 ] }
+			}
+		}
+	]}

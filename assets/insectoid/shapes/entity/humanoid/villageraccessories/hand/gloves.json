@@ -1,0 +1,52 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/villager-female",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 20,
+	"textureHeight": 8,
+	"textureSizes": {
+		"gloves": [20,8]
+	},
+	"textures": {
+		"gloves": "entity/humanoid/villagerclothes/hand/gloves"
+	},
+	"elements": [
+		{
+			"name": "ForegloveLeft",
+			"stepParentName": "LowerArmL",
+			"from": [ -0.01, -0.01, -0.01 ],
+			"to": [ 2.51, 6.01, 2.01 ],
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 13.0, 2.5 ],
+			"rotationOrigin": [ -0.01, -0.01, -0.01 ],
+			"faces": {
+				"north": { "texture": "#gloves", "uv": [ 17.5, 2.0, 20.0, 8.0 ], "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#gloves", "uv": [ 15.5, 2.0, 17.5, 8.0 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#gloves", "uv": [ 13.0, 2.0, 15.5, 8.0 ] },
+				"west": { "texture": "#gloves", "uv": [ 11.0, 2.0, 13.0, 8.0 ] },
+				"up": { "texture": "#gloves", "uv": [ 13.0, 0.0, 15.5, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] },
+				"down": { "texture": "#gloves", "uv": [ 17.5, 0.0, 20.0, 2.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "ForegloveRight",
+			"stepParentName": "LowerArmR",
+			"from": [ -0.01, -0.01, -0.01 ],
+			"to": [ 2.51, 6.01, 2.01 ],
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 2.0, 2.5 ],
+			"rotationOrigin": [ -0.01, -0.01, -0.01 ],
+			"faces": {
+				"north": { "texture": "#gloves", "uv": [ 2.0, 2.0, 4.5, 8.0 ] },
+				"east": { "texture": "#gloves", "uv": [ 0.0, 2.0, 2.0, 8.0 ] },
+				"south": { "texture": "#gloves", "uv": [ 6.5, 2.0, 9.0, 8.0 ] },
+				"west": { "texture": "#gloves", "uv": [ 4.5, 2.0, 6.5, 8.0 ] },
+				"up": { "texture": "#gloves", "uv": [ 2.0, 0.0, 4.5, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#gloves", "uv": [ 6.5, 0.0, 9.0, 2.0 ], "windMode": [-1,-1,-1,-1] }
+			}
+		}
+	]}

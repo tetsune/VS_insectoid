@@ -1,0 +1,35 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"bug-extra": [16,16]
+	},
+	"textures": {
+		"bug-extra": "parts/extra/extra1"
+	},
+	"elements": [
+		{
+			"name": "Big_Fluff",
+			"stepParentName": "Extra",
+			"from": [ -2.8, -6.1, -2.5 ],
+			"to": [ 3.2, -2.1, 3.5 ],
+			"climateColorMap": "",
+			"seasonColorMap": "",
+			"renderPass": 0,
+			"autoUnwrap": false,
+			"uv": [ 13.0, 1.0 ],
+			"rotationOrigin": [ -0.1, -5.4, 0.0 ],
+			"faces": {
+				"north": { "texture": "#bug-extra", "uv": [ 0.0, 6.5, 5.0, 10.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#bug-extra", "uv": [ 0.0, 6.5, 5.0, 10.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#bug-extra", "uv": [ 5.0, 6.5, 0.0, 10.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#bug-extra", "uv": [ 0.0, 0.0, 5.0, 3.5 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#bug-extra", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#bug-extra", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false }
+			}
+		}
+	]}

@@ -1,0 +1,30 @@
+{
+  "insectoid:insectoid": {
+	  
+    "game:entity/humanoid/seraph/clothing/face/sheepskull": "insectoid:entity/humanoid/seraph/clothing/face/sheepskull",
+    "game:entity/humanoid/seraph/clothing/face/cat": "insectoid:entity/humanoid/seraph/clothing/face/cat",
+    "game:entity/humanoid/seraph/clothing/face/corroded": "insectoid:entity/humanoid/seraph/clothing/face/corroded",
+    "game:entity/humanoid/seraph/clothing/face/crow": "insectoid:entity/humanoid/seraph/clothing/face/crow",
+    "game:entity/humanoid/seraph/clothing/face/festivecat": "insectoid:entity/humanoid/seraph/clothing/face/festivecat",
+    "game:entity/humanoid/seraph/clothing/face/forgotten": "insectoid:entity/humanoid/seraph/clothing/face/forgotten",
+    "game:entity/humanoid/seraph/clothing/face/forlorn-veil": "insectoid:entity/humanoid/seraph/clothing/face/forlorn-veil",
+    "game:entity/humanoid/seraph/clothing/face/glasses": "insectoid:entity/humanoid/seraph/clothing/face/glasses",
+    "game:entity/humanoid/seraph/clothing/face/glasses-clockmaker": "insectoid:entity/humanoid/seraph/clothing/face/glasses-clockmaker",
+    "game:entity/humanoid/seraph/clothing/face/hummingbird": "insectoid:entity/humanoid/seraph/clothing/face/hummingbird",
+    "game:entity/humanoid/seraph/clothing/face/hunter-mask": "insectoid:entity/humanoid/seraph/clothing/face/hunter-mask",
+    "game:entity/humanoid/seraph/clothing/face/leather-reinforced-mask": "insectoid:entity/humanoid/seraph/clothing/face/leather-reinforced-mask",
+    "game:entity/humanoid/seraph/clothing/face/marketeer": "insectoid:entity/humanoid/seraph/clothing/face/marketeer",
+    "game:entity/humanoid/seraph/clothing/face/miner": "insectoid:entity/humanoid/seraph/clothing/face/miner",
+    "game:entity/humanoid/seraph/clothing/face/monocle": "insectoid:entity/humanoid/seraph/clothing/face/monocle",
+    "game:entity/humanoid/seraph/clothing/face/rottenking": "insectoid:entity/humanoid/seraph/clothing/face/rottenking",
+    "game:entity/humanoid/seraph/clothing/face/rotwalker": "insectoid:entity/humanoid/seraph/clothing/face/rotwalker",
+    "game:entity/humanoid/seraph/clothing/face/snow-goggles": "insectoid:entity/humanoid/seraph/clothing/face/snow-goggles",
+    "game:entity/humanoid/seraph/clothing/face/surgeon": "insectoid:entity/humanoid/seraph/clothing/face/surgeon",
+    "game:entity/humanoid/seraph/clothing/face/surgeonhood": "insectoid:entity/humanoid/seraph/clothing/face/surgeonhood",
+    "game:entity/humanoid/seraph/clothing/face/survivor": "insectoid:entity/humanoid/seraph/clothing/face/survivor",
+    "game:entity/humanoid/seraph/clothing/face/tailor-mask": "insectoid:entity/humanoid/seraph/clothing/face/tailor-mask",
+    "game:entity/humanoid/seraph/clothing/face/malefactor-mask": "insectoid:entity/humanoid/seraph/clothing/face/malefactor-mask"
+	
+
+  }
+}

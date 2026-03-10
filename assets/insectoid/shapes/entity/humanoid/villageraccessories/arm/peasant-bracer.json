@@ -1,0 +1,64 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/villager-female",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 20,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"peasant-bracer1": "entity/humanoid/villagerclothes/arm/peasant-bracer1"
+	},
+	"elements": [
+		{
+			"name": "hidelowerarm",
+			"stepParentName": "LowerTorso",
+			"from": [ 0.0, 0.0, 3.0 ],
+			"to": [ 0.0, 0.0, 3.0 ],
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 0.0, 0.0, 3.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "BracerR",
+					"stepParentName": "LowerArmR",
+					"from": [ -0.05, 1.5, -0.05 ],
+					"to": [ 2.55, 5.5, 2.05 ],
+					"autoUnwrap": false,
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 1.4, 1.5, 0.9 ],
+					"faces": {
+						"north": { "texture": "#peasant-bracer1", "uv": [ 2.0, 2.0, 4.5, 6.0 ] },
+						"east": { "texture": "#peasant-bracer1", "uv": [ 0.0, 2.0, 2.0, 6.0 ] },
+						"south": { "texture": "#peasant-bracer1", "uv": [ 6.5, 2.0, 9.0, 6.0 ] },
+						"west": { "texture": "#peasant-bracer1", "uv": [ 4.5, 2.0, 6.5, 6.0 ] },
+						"up": { "texture": "#peasant-bracer1", "uv": [ 2.0, 0.0, 4.5, 2.0 ] },
+						"down": { "texture": "#peasant-bracer1", "uv": [ 2.0, 6.0, 4.5, 8.0 ] }
+					}
+				},
+				{
+					"name": "BracerL",
+					"stepParentName": "LowerArmL",
+					"from": [ -0.05, 1.5, -0.05 ],
+					"to": [ 2.55, 5.5, 2.05 ],
+					"autoUnwrap": false,
+					"uv": [ 11.0, 0.5 ],
+					"rotationOrigin": [ 0.9, 1.5, 0.5 ],
+					"faces": {
+						"north": { "texture": "#peasant-bracer1", "uv": [ 17.5, 2.0, 20.0, 6.0 ] },
+						"east": { "texture": "#peasant-bracer1", "uv": [ 15.5, 2.0, 17.5, 6.0 ] },
+						"south": { "texture": "#peasant-bracer1", "uv": [ 13.0, 2.0, 15.5, 6.0 ] },
+						"west": { "texture": "#peasant-bracer1", "uv": [ 11.0, 2.0, 13.0, 6.0 ] },
+						"up": { "texture": "#peasant-bracer1", "uv": [ 13.0, 0.0, 15.5, 2.0 ] },
+						"down": { "texture": "#peasant-bracer1", "uv": [ 13.0, 6.0, 15.5, 8.0 ] }
+					}
+				}
+			]
+		}
+	],
+	"animations": [
+	]
+}

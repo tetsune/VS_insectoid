@@ -1,0 +1,1104 @@
+﻿{
+  "maltiezfirearms:firearms-superimposed-aim-koboldrdx-kobold": {
+  "Hold": true,
+  "PlayerKeyFrames": [
+    {
+      "EasingTime": 300.0,
+      "EasingFunction": "Sin",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": true,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 0.88,
+      "BobbingAmplitude": 0.655,
+      "Elements": {
+        "ItemAnchor": [
+          -1.5,
+          0.71,
+          1.49,
+          7.0,
+          25.0,
+          153.6
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -120.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          22.2,
+          -38.0
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -15.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -9.0,
+          -87.0
+        ],
+        "UpperTorso": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "ItemKeyFrames": [
+    {
+      "DurationFraction": 1.0,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "Lock_lever": [
+          0.0,
+          0.0,
+          0.0,
+          28.0,
+          0.0,
+          0.0
+        ],
+        "Lever": [
+          0.0,
+          0.0,
+          0.0,
+          12.0,
+          0.0,
+          0.0
+        ],
+        "Pan_cover": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Match_origin": [
+          0.0,
+          0.0,
+          -60.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Match_1": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Match_2": [
+          0.0,
+          0.0,
+          0.0,
+          27.0,
+          0.0,
+          0.0
+        ],
+        "Match_3": [
+          0.0,
+          0.0,
+          0.0,
+          14.5,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "SoundFrames": [],
+  "ParticlesFrames": [],
+  "CallbackFrames": [],
+  "ItemAnimationStart": 0,
+  "ItemAnimationEnd": 0
+},
+"maltiezfirearms:firearms-superimposed-shoot-1-koboldrdx-kobold": {
+  "Hold": true,
+  "PlayerKeyFrames": [
+    {
+      "EasingTime": 100.0,
+      "EasingFunction": "Sin",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": false,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 0.907,
+      "BobbingAmplitude": 0.655,
+      "Elements": {
+        "ItemAnchor": [
+          -0.15,
+          1.03,
+          1.06,
+          4.0,
+          13.9,
+          151.0
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -110.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          1.0,
+          -7.0,
+          13.0,
+          -40.9
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -10.0,
+          -93.0
+        ],
+        "UpperTorso": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 200.0,
+      "EasingFunction": "Sin",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": false,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 0.907,
+      "BobbingAmplitude": 0.655,
+      "Elements": {
+        "ItemAnchor": [
+          0.35,
+          1.03,
+          1.0600001,
+          6.0,
+          16.5,
+          149.8
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -110.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          1.0,
+          -7.0,
+          13.0,
+          -41.9
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -10.0,
+          -96.0
+        ],
+        "UpperTorso": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 300.0,
+      "EasingFunction": "Sin",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": false,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 0.907,
+      "BobbingAmplitude": 0.655,
+      "Elements": {
+        "ItemAnchor": [
+          -0.15,
+          1.03,
+          1.06,
+          4.0,
+          13.9,
+          151.0
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -110.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          1.0,
+          -7.0,
+          13.0,
+          -40.9
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -10.0,
+          -93.0
+        ],
+        "UpperTorso": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "ItemKeyFrames": [
+    {
+      "DurationFraction": 0.0,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "Pan_cover2": [
+          0.0,
+          0.0,
+          0.6,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Flint_arm2": [
+          0.0,
+          0.0,
+          0.0,
+          13.0,
+          0.0,
+          0.0
+        ],
+        "Trigger": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Pan_cover": [
+          0.0,
+          0.0,
+          -0.5,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Flint_arm": [
+          0.0,
+          0.0,
+          0.0,
+          -12.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "DurationFraction": 0.3448276,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "Pan_cover2": [
+          0.0,
+          0.0,
+          0.6,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Flint_arm2": [
+          0.0,
+          0.0,
+          0.0,
+          13.0,
+          0.0,
+          0.0
+        ],
+        "Trigger": [
+          0.0,
+          0.0,
+          0.0,
+          -15.0,
+          0.0,
+          0.0
+        ],
+        "Pan_cover": [
+          0.0,
+          0.0,
+          -0.5,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Flint_arm": [
+          0.0,
+          0.0,
+          0.0,
+          -12.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "DurationFraction": 0.6896552,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "Pan_cover2": [
+          0.0,
+          0.0,
+          0.6,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Flint_arm2": [
+          0.0,
+          0.0,
+          0.0,
+          13.0,
+          0.0,
+          0.0
+        ],
+        "Trigger": [
+          0.0,
+          0.0,
+          0.0,
+          -15.0,
+          0.0,
+          0.0
+        ],
+        "Pan_cover": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Flint_arm": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "DurationFraction": 1.0,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "Pan_cover2": [
+          0.0,
+          0.0,
+          0.6,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Flint_arm2": [
+          0.0,
+          0.0,
+          0.0,
+          13.0,
+          0.0,
+          0.0
+        ],
+        "Trigger": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Pan_cover": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Flint_arm": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "SoundFrames": [
+    {
+      "Code": [
+        "maltiezfirearms:sounds/pistol/pistol-fire-1",
+        "maltiezfirearms:sounds/pistol/pistol-fire-2",
+        "maltiezfirearms:sounds/pistol/pistol-fire-3",
+        "maltiezfirearms:sounds/pistol/pistol-fire-4"
+      ],
+      "DurationFraction": 0.25,
+      "RandomizePitch": false,
+      "Range": 256.0,
+      "Volume": 1.0,
+      "Synchronize": true
+    }
+  ],
+  "ParticlesFrames": [
+    {
+      "Code": "combatoverhaul:smoke-1",
+      "DurationFraction": 0.5,
+      "Position": [
+        0.0,
+        0.0,
+        3.0
+      ],
+      "Velocity": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Intensity": 0.5
+    },
+    {
+      "Code": "combatoverhaul:smoke-2",
+      "DurationFraction": 0.5,
+      "Position": [
+        0.0,
+        0.0,
+        2.0
+      ],
+      "Velocity": [
+        0.0,
+        0.0,
+        3.0
+      ],
+      "Intensity": 0.3
+    },
+    {
+      "Code": "combatoverhaul:smoke-3",
+      "DurationFraction": 0.5,
+      "Position": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Velocity": [
+        0.0,
+        0.0,
+        6.0
+      ],
+      "Intensity": 0.3
+    },
+    {
+      "Code": "combatoverhaul:fireblast-1",
+      "DurationFraction": 0.5,
+      "Position": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Velocity": [
+        0.0,
+        5.0,
+        40.0
+      ],
+      "Intensity": 0.3
+    }
+  ],
+  "CallbackFrames": [
+    {
+      "Code": "shoot",
+      "DurationFraction": 0.5
+    }
+  ],
+  "ItemAnimationStart": 0,
+  "ItemAnimationEnd": 50
+},
+"maltiezfirearms:firearms-superimposed-shoot-2-koboldrdx-kobold": {
+  "Hold": true,
+  "PlayerKeyFrames": [
+    {
+      "EasingTime": 100.0,
+      "EasingFunction": "Sin",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": false,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 0.907,
+      "BobbingAmplitude": 0.655,
+      "Elements": {
+        "ItemAnchor": [
+          -0.15,
+          1.03,
+          1.06,
+          4.0,
+          13.9,
+          151.0
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -110.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          1.0,
+          -7.0,
+          13.0,
+          -40.9
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -10.0,
+          -93.0
+        ],
+        "UpperTorso": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 200.0,
+      "EasingFunction": "Sin",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": false,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 0.907,
+      "BobbingAmplitude": 0.655,
+      "Elements": {
+        "ItemAnchor": [
+          0.35,
+          1.03,
+          1.0600001,
+          6.0,
+          16.5,
+          149.8
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -110.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          1.0,
+          -7.0,
+          13.0,
+          -41.9
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -10.0,
+          -96.0
+        ],
+        "UpperTorso": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "EasingTime": 300.0,
+      "EasingFunction": "Sin",
+      "DetachedAnchor": false,
+      "SwitchArms": false,
+      "PitchFollow": false,
+      "PitchDontFollow": false,
+      "FOVMultiplier": 0.907,
+      "BobbingAmplitude": 0.655,
+      "Elements": {
+        "ItemAnchor": [
+          -0.15,
+          1.03,
+          1.06,
+          4.0,
+          13.9,
+          151.0
+        ],
+        "LowerArmR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -110.0
+        ],
+        "UpperArmR": [
+          0.0,
+          0.0,
+          1.0,
+          -7.0,
+          13.0,
+          -40.9
+        ],
+        "ItemAnchorL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "LowerArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        "UpperArmL": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -10.0,
+          -93.0
+        ],
+        "UpperTorso": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "ItemKeyFrames": [
+    {
+      "DurationFraction": 0.0,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "Pan_cover2": [
+          0.0,
+          0.0,
+          0.6,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Flint_arm2": [
+          0.0,
+          0.0,
+          0.0,
+          13.0,
+          0.0,
+          0.0
+        ],
+        "Trigger": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Pan_cover": [
+          0.0,
+          0.0,
+          -0.5,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Flint_arm": [
+          0.0,
+          0.0,
+          0.0,
+          -12.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "DurationFraction": 0.3448276,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "Pan_cover2": [
+          0.0,
+          0.0,
+          0.6,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Flint_arm2": [
+          0.0,
+          0.0,
+          0.0,
+          13.0,
+          0.0,
+          0.0
+        ],
+        "Trigger": [
+          0.0,
+          0.0,
+          0.0,
+          -15.0,
+          0.0,
+          0.0
+        ],
+        "Pan_cover": [
+          0.0,
+          0.0,
+          -0.5,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Flint_arm": [
+          0.0,
+          0.0,
+          0.0,
+          -12.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "DurationFraction": 0.6896552,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "Pan_cover2": [
+          0.0,
+          0.0,
+          0.6,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Flint_arm2": [
+          0.0,
+          0.0,
+          0.0,
+          13.0,
+          0.0,
+          0.0
+        ],
+        "Trigger": [
+          0.0,
+          0.0,
+          0.0,
+          -15.0,
+          0.0,
+          0.0
+        ],
+        "Pan_cover": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Flint_arm": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "DurationFraction": 1.0,
+      "EasingFunction": "Linear",
+      "Elements": {
+        "Pan_cover2": [
+          0.0,
+          0.0,
+          0.6,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Flint_arm2": [
+          0.0,
+          0.0,
+          0.0,
+          13.0,
+          0.0,
+          0.0
+        ],
+        "Trigger": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Pan_cover": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Flint_arm": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "SoundFrames": [
+    {
+      "Code": [
+        "maltiezfirearms:sounds/pistol/pistol-fire-1",
+        "maltiezfirearms:sounds/pistol/pistol-fire-2",
+        "maltiezfirearms:sounds/pistol/pistol-fire-3",
+        "maltiezfirearms:sounds/pistol/pistol-fire-4"
+      ],
+      "DurationFraction": 0.25,
+      "RandomizePitch": false,
+      "Range": 256.0,
+      "Volume": 1.0,
+      "Synchronize": true
+    }
+  ],
+  "ParticlesFrames": [
+    {
+      "Code": "combatoverhaul:smoke-1",
+      "DurationFraction": 0.5,
+      "Position": [
+        0.0,
+        0.0,
+        3.0
+      ],
+      "Velocity": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Intensity": 0.5
+    },
+    {
+      "Code": "combatoverhaul:smoke-2",
+      "DurationFraction": 0.5,
+      "Position": [
+        0.0,
+        0.0,
+        2.0
+      ],
+      "Velocity": [
+        0.0,
+        0.0,
+        3.0
+      ],
+      "Intensity": 0.3
+    },
+    {
+      "Code": "combatoverhaul:smoke-3",
+      "DurationFraction": 0.5,
+      "Position": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Velocity": [
+        0.0,
+        0.0,
+        6.0
+      ],
+      "Intensity": 0.3
+    },
+    {
+      "Code": "combatoverhaul:fireblast-1",
+      "DurationFraction": 0.5,
+      "Position": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Velocity": [
+        0.0,
+        5.0,
+        40.0
+      ],
+      "Intensity": 0.3
+    }
+  ],
+  "CallbackFrames": [
+    {
+      "Code": "shoot",
+      "DurationFraction": 0.5
+    }
+  ],
+  "ItemAnimationStart": 0,
+  "ItemAnimationEnd": 50
+}
+}

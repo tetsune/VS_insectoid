@@ -1,0 +1,63 @@
+{
+	"editor": {
+		"backDropShape": "",
+		"collapsedPaths": "Root/bandN/toothR1,Root/bandN/toothL1",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 8,
+	"textureSizes": {
+		"leather-bracers": [24,8]
+	},
+	"textures": {
+		"leather-bracers": "entity/humanoid/seraphclothes/arm/leather-bracers"
+	},
+	"elements": [
+		{
+			"name": "hidelowerarm",
+			"stepParentName": "LowerArmL",
+			"from": [ 1.2, 1.2, 1.08 ],
+			"to": [ 1.2, 1.2, 1.08 ],
+			"uv": [ 999.0, 999.0 ],
+			"rotationOrigin": [ 1.2, 1.2, 1.08 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "bandL",
+					"stepParentName": "LowerArmL",
+					"from": [ 3.54, 0.6, 5.1 ],
+					"to": [ 6.66, 7.8, 8.32 ],
+					"unwrapMode": 3,
+					"uv": [ 2.0, 1.0 ],
+					"rotationOrigin": [ 5.94, 0.6, 2.3 ],
+					"rotationY": -90.0,
+					"rotationZ": 0.1,
+					"faces": {
+						"north": { "texture": "#leather-bracers", "uv": [ 8.5, 1.0, 11.0, 7.0 ], "autoUv": false },
+						"east": { "texture": "#leather-bracers", "uv": [ 6.5, 1.0, 8.5, 7.0 ], "autoUv": false },
+						"south": { "texture": "#leather-bracers", "uv": [ 4.0, 1.0, 6.5, 7.0 ], "autoUv": false },
+						"west": { "texture": "#leather-bracers", "uv": [ 2.0, 1.0, 4.0, 7.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "bandR",
+					"stepParentName": "LowerArmR",
+					"from": [ -0.06, 0.6, 3.1 ],
+					"to": [ 3.06, 7.8, 6.32 ],
+					"unwrapMode": 1,
+					"uv": [ 13.0, 1.0 ],
+					"rotationOrigin": [ -0.06, 0.6, 3.1 ],
+					"rotationY": 90.0,
+					"rotationZ": 0.1,
+					"faces": {
+						"north": { "texture": "#leather-bracers", "uv": [ 15.0, 1.0, 17.5, 7.0 ], "autoUv": false },
+						"east": { "texture": "#leather-bracers", "uv": [ 13.0, 1.0, 15.0, 7.0 ], "autoUv": false },
+						"south": { "texture": "#leather-bracers", "uv": [ 19.5, 1.0, 22.0, 7.0 ], "autoUv": false },
+						"west": { "texture": "#leather-bracers", "uv": [ 17.5, 1.0, 19.5, 7.0 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

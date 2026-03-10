@@ -1,0 +1,66 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/villager-female",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"normal-westeast": [16,16]
+	},
+	"textures": {
+		"normal1": "block/cloth/linen/normal1"
+	},
+	"elements": [
+		{
+			"name": "bottom",
+			"stepParentName": "HandR",
+			"from": [ -1.3, -3.0, 0.6 ],
+			"to": [ 2.7, 1.0, 1.1 ],
+			"rotationOrigin": [ 0.2, -1.0, 1.1 ],
+			"rotationZ": 90.0,
+			"faces": {
+				"north": { "texture": "#normal1", "uv": [ 11.5, 11.0, 15.5, 15.0 ], "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#normal1", "uv": [ 9.5, 7.5, 10.0, 11.5 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#normal1", "uv": [ 2.5, 7.0, 6.5, 11.0 ], "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#normal1", "uv": [ 7.0, 2.0, 7.5, 6.0 ], "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#normal1", "uv": [ 2.5, 12.0, 6.5, 12.5 ] },
+				"down": { "texture": "#normal1", "uv": [ 11.0, 1.0, 15.0, 1.5 ] }
+			},
+			"children": [
+				{
+					"name": "Bowl 1 floor2",
+					"from": [ 0.3, 0.7, 0.0 ],
+					"to": [ 2.3, 3.7, 0.5 ],
+					"rotationOrigin": [ 2.3, 2.7, 0.0 ],
+					"rotationY": -13.0,
+					"rotationZ": 19.0,
+					"faces": {
+						"north": { "texture": "#normal1", "uv": [ 11.0, 4.5, 13.0, 7.5 ], "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#normal1", "uv": [ 10.0, 4.5, 10.5, 7.5 ], "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#normal1", "uv": [ 11.0, 1.5, 11.5, 4.5 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#normal1", "uv": [ 6.0, 6.0, 8.0, 6.5 ] },
+						"down": { "texture": "#normal1", "uv": [ 3.5, 1.5, 5.5, 2.0 ] }
+					}
+				},
+				{
+					"name": "Cube2",
+					"from": [ 1.8, 0.5, -0.5 ],
+					"to": [ 3.8, 3.8, 0.5 ],
+					"rotationOrigin": [ 1.8, 0.5, -0.5 ],
+					"rotationZ": -10.0,
+					"faces": {
+						"north": { "texture": "#normal1", "uv": [ 0.0, 0.0, 2.0, 3.0 ], "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#normal1", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+						"west": { "texture": "#normal1", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+						"up": { "texture": "#normal1", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+						"down": { "texture": "#normal1", "uv": [ 0.0, 0.0, 2.0, 1.0 ] }
+					}
+				}
+			]
+		}
+	],
+	"animations": [
+	]
+}

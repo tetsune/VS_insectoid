@@ -1,0 +1,61 @@
+{
+	"editor": {
+		"backDropShape": "",
+		"collapsedPaths": "Root/bandN/toothR1,Root/bandN/toothL1",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 4,
+	"textureSizes": {
+		"prisoner-binds": [24,4]
+	},
+	"textures": {
+		"prisoner-binds": "entity/humanoid/seraphclothes/arm/prisoner-binds"
+	},
+	"elements": [
+		{
+			"name": "hidelowerarm",
+			"stepParentName": "LowerArmL",
+			"from": [ 1.3, 1.3, 1.17 ],
+			"to": [ 1.3, 1.3, 1.17 ],
+			"uv": [ 999.0, 999.0 ],
+			"rotationOrigin": [ 1.3, 1.3, 1.17 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "bandL",
+					"stepParentName": "LowerArmL",
+					"from": [ -0.065, 0.0, -0.065 ],
+					"to": [ 3.315, 4.55, 3.165 ],
+					"unwrapMode": 3,
+					"uv": [ 2.0, 0.0 ],
+					"rotationOrigin": [ -0.065, 0.0, -0.065 ],
+					"rotationZ": 0.1,
+					"faces": {
+						"north": { "texture": "#prisoner-binds", "uv": [ 8.5, 0.0, 11.0, 3.5 ], "autoUv": false },
+						"east": { "texture": "#prisoner-binds", "uv": [ 6.5, 0.0, 8.5, 3.5 ], "autoUv": false },
+						"south": { "texture": "#prisoner-binds", "uv": [ 4.0, 0.0, 6.5, 3.5 ], "autoUv": false },
+						"west": { "texture": "#prisoner-binds", "uv": [ 2.0, 0.0, 4.0, 3.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "bandR",
+					"stepParentName": "LowerArmR",
+					"from": [ -0.065, 0.0, -0.065 ],
+					"to": [ 3.315, 4.55, 3.165 ],
+					"unwrapMode": 1,
+					"uv": [ 13.0, 0.0 ],
+					"rotationOrigin": [ -0.065, 0.0, -0.065 ],
+					"rotationZ": 0.1,
+					"faces": {
+						"north": { "texture": "#prisoner-binds", "uv": [ 15.0, 0.0, 17.5, 3.5 ], "autoUv": false },
+						"east": { "texture": "#prisoner-binds", "uv": [ 13.0, 0.0, 15.0, 3.5 ], "autoUv": false },
+						"south": { "texture": "#prisoner-binds", "uv": [ 19.5, 0.0, 22.0, 3.5 ], "autoUv": false },
+						"west": { "texture": "#prisoner-binds", "uv": [ 17.5, 0.0, 19.5, 3.5 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

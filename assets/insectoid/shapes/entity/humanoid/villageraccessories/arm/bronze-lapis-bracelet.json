@@ -1,0 +1,244 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/villager-female",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"lapislazuli": "block/stone/gem/lapislazuli",
+		"bracelets1": "entity/humanoid/seraphclothes/arm/bracelets1"
+	},
+	"elements": [
+		{
+			"name": "hidelowerarm",
+			"stepParentName": "LowerArmL",
+			"from": [ 0.0, 4.0, 0.0 ],
+			"to": [ 0.0, 4.0, 0.0 ],
+			"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "W",
+					"from": [ -0.3, 0.0, 0.0 ],
+					"to": [ 0.0, 1.5, 2.3 ],
+					"faces": {
+						"east": { "texture": "#bracelets1", "uv": [ 8.0, 2.5, 10.0, 4.0 ] },
+						"south": { "texture": "#bracelets1", "uv": [ 6.0, 2.5, 6.5, 4.0 ] },
+						"west": { "texture": "#bracelets1", "uv": [ 5.0, 2.5, 7.0, 4.0 ] },
+						"up": { "texture": "#bracelets1", "uv": [ 6.0, 3.5, 8.0, 4.0 ], "rotation": 90 },
+						"down": { "texture": "#bracelets1", "uv": [ 7.0, 2.0, 9.0, 2.5 ], "rotation": 90 }
+					},
+					"children": [
+						{
+							"name": "S",
+							"from": [ 0.3, 0.0, 2.0 ],
+							"to": [ 3.1, 1.5, 2.3 ],
+							"rotationOrigin": [ 0.3, 0.0, 2.0 ],
+							"faces": {
+								"north": { "texture": "#bracelets1", "uv": [ 12.5, 2.5, 15.0, 4.0 ] },
+								"east": { "texture": "#bracelets1", "uv": [ 13.5, 2.5, 14.0, 4.0 ] },
+								"south": { "texture": "#bracelets1", "uv": [ 3.5, 2.5, 6.0, 4.0 ] },
+								"up": { "texture": "#bracelets1", "uv": [ 7.0, 3.5, 9.5, 4.0 ] },
+								"down": { "texture": "#bracelets1", "uv": [ 5.0, 3.5, 7.5, 4.0 ] }
+							},
+							"children": [
+								{
+									"name": "gem21",
+									"from": [ 0.0, 0.45, 0.3 ],
+									"to": [ 0.6, 1.05, 0.4 ],
+									"rotationOrigin": [ 0.2, 0.6, 0.3 ],
+									"faces": {
+										"east": { "texture": "#lapislazuli", "uv": [ 13.0, 0.0, 13.5, 0.5 ] },
+										"south": { "texture": "#lapislazuli", "uv": [ 14.5, 0.5, 15.0, 1.0 ] },
+										"west": { "texture": "#lapislazuli", "uv": [ 9.5, 7.0, 10.0, 7.5 ] },
+										"up": { "texture": "#lapislazuli", "uv": [ 14.5, 7.0, 15.0, 7.5 ] },
+										"down": { "texture": "#lapislazuli", "uv": [ 4.5, 0.5, 5.0, 1.0 ] }
+									}
+								},
+								{
+									"name": "gem22",
+									"from": [ 1.9, 0.45, 0.3 ],
+									"to": [ 2.5, 1.05, 0.4 ],
+									"rotationOrigin": [ 2.1, 0.6, 0.3 ],
+									"faces": {
+										"east": { "texture": "#lapislazuli", "uv": [ 3.0, 5.0, 3.5, 5.5 ] },
+										"south": { "texture": "#lapislazuli", "uv": [ 6.0, 2.5, 6.5, 3.0 ] },
+										"west": { "texture": "#lapislazuli", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+										"up": { "texture": "#lapislazuli", "uv": [ 4.0, 4.0, 4.5, 4.5 ] },
+										"down": { "texture": "#lapislazuli", "uv": [ 11.5, 13.0, 12.0, 13.5 ] }
+									}
+								},
+								{
+									"name": "gem23",
+									"from": [ 0.95, 0.45, 0.3 ],
+									"to": [ 1.55, 1.05, 0.4 ],
+									"rotationOrigin": [ 1.2, 0.6, 0.3 ],
+									"faces": {
+										"east": { "texture": "#lapislazuli", "uv": [ 3.0, 5.0, 3.5, 5.5 ] },
+										"south": { "texture": "#lapislazuli", "uv": [ 6.0, 2.5, 6.5, 3.0 ] },
+										"west": { "texture": "#lapislazuli", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+										"up": { "texture": "#lapislazuli", "uv": [ 4.0, 4.0, 4.5, 4.5 ] },
+										"down": { "texture": "#lapislazuli", "uv": [ 11.5, 13.0, 12.0, 13.5 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "N",
+							"from": [ 0.0, 0.0, -0.3 ],
+							"to": [ 2.8, 1.5, 0.0 ],
+							"faces": {
+								"north": { "texture": "#bracelets1", "uv": [ 5.0, 2.5, 7.5, 4.0 ] },
+								"south": { "texture": "#bracelets1", "uv": [ 3.0, 2.5, 5.5, 4.0 ] },
+								"west": { "texture": "#bracelets1", "uv": [ 4.0, 2.5, 4.5, 4.0 ] },
+								"up": { "texture": "#bracelets1", "uv": [ 6.0, 3.5, 8.5, 4.0 ] },
+								"down": { "texture": "#bracelets1", "uv": [ 10.5, 2.5, 13.0, 3.0 ] }
+							},
+							"children": [
+								{
+									"name": "gem13",
+									"from": [ 0.3, 0.45, -0.1 ],
+									"to": [ 0.9, 1.05, 0.0 ],
+									"rotationOrigin": [ 0.5, 0.6, 0.0 ],
+									"faces": {
+										"north": { "texture": "#lapislazuli", "uv": [ 15.0, 4.5, 15.5, 5.0 ] },
+										"east": { "texture": "#lapislazuli", "uv": [ 9.5, 15.0, 10.0, 15.5 ] },
+										"west": { "texture": "#lapislazuli", "uv": [ 12.5, 12.0, 13.0, 12.5 ] },
+										"up": { "texture": "#lapislazuli", "uv": [ 12.5, 2.0, 13.0, 2.5 ] },
+										"down": { "texture": "#lapislazuli", "uv": [ 11.5, 8.0, 12.0, 8.5 ] }
+									}
+								},
+								{
+									"name": "gem14",
+									"from": [ 2.3, 0.45, -0.1 ],
+									"to": [ 2.9, 1.05, 0.0 ],
+									"rotationOrigin": [ 2.5, 0.6, 0.0 ],
+									"faces": {
+										"north": { "texture": "#lapislazuli", "uv": [ 15.0, 4.5, 15.5, 5.0 ] },
+										"east": { "texture": "#lapislazuli", "uv": [ 9.5, 15.0, 10.0, 15.5 ] },
+										"west": { "texture": "#lapislazuli", "uv": [ 12.5, 12.0, 13.0, 12.5 ] },
+										"up": { "texture": "#lapislazuli", "uv": [ 12.5, 2.0, 13.0, 2.5 ] },
+										"down": { "texture": "#lapislazuli", "uv": [ 11.5, 8.0, 12.0, 8.5 ] }
+									}
+								},
+								{
+									"name": "gem15",
+									"from": [ 1.35, 0.45, -0.1 ],
+									"to": [ 1.95, 1.05, 0.0 ],
+									"rotationOrigin": [ 1.5, 0.6, 0.0 ],
+									"faces": {
+										"north": { "texture": "#lapislazuli", "uv": [ 2.0, 9.5, 2.5, 10.0 ] },
+										"east": { "texture": "#lapislazuli", "uv": [ 10.5, 7.0, 11.0, 7.5 ] },
+										"west": { "texture": "#lapislazuli", "uv": [ 13.0, 5.5, 13.5, 6.0 ] },
+										"up": { "texture": "#lapislazuli", "uv": [ 5.5, 11.0, 6.0, 11.5 ] },
+										"down": { "texture": "#lapislazuli", "uv": [ 9.5, 12.0, 10.0, 12.5 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "E",
+							"from": [ 2.8, 0.0, -0.3 ],
+							"to": [ 3.1, 1.5, 2.0 ],
+							"rotationOrigin": [ 2.8, 0.0, -0.3 ],
+							"faces": {
+								"north": { "texture": "#bracelets1", "uv": [ 8.5, 2.5, 9.0, 4.0 ] },
+								"east": { "texture": "#bracelets1", "uv": [ 4.0, 2.5, 6.0, 4.0 ] },
+								"west": { "texture": "#bracelets1", "uv": [ 5.0, 2.5, 7.0, 4.0 ] },
+								"up": { "texture": "#bracelets1", "uv": [ 1.0, 3.5, 3.0, 4.0 ], "rotation": 90 },
+								"down": { "texture": "#bracelets1", "uv": [ 11.0, 3.5, 13.0, 4.0 ], "rotation": 90 }
+							},
+							"children": [
+								{
+									"name": "gem7",
+									"from": [ 0.3, 0.45, 0.2 ],
+									"to": [ 0.4, 1.05, 0.8 ],
+									"rotationOrigin": [ 0.3, 0.6, 0.4 ],
+									"faces": {
+										"north": { "texture": "#lapislazuli", "uv": [ 13.5, 14.5, 14.0, 15.0 ] },
+										"east": { "texture": "#lapislazuli", "uv": [ 0.5, 2.5, 1.0, 3.0 ] },
+										"south": { "texture": "#lapislazuli", "uv": [ 13.0, 7.5, 13.5, 8.0 ] },
+										"up": { "texture": "#lapislazuli", "uv": [ 4.0, 11.5, 4.5, 12.0 ] },
+										"down": { "texture": "#lapislazuli", "uv": [ 5.0, 3.0, 5.5, 3.5 ] }
+									}
+								},
+								{
+									"name": "gem8",
+									"from": [ 0.3, 0.45, 1.8 ],
+									"to": [ 0.4, 1.05, 2.4 ],
+									"rotationOrigin": [ 0.3, 0.6, 2.0 ],
+									"faces": {
+										"north": { "texture": "#lapislazuli", "uv": [ 8.5, 15.0, 9.0, 15.5 ] },
+										"east": { "texture": "#lapislazuli", "uv": [ 1.5, 8.5, 2.0, 9.0 ] },
+										"south": { "texture": "#lapislazuli", "uv": [ 2.0, 3.0, 2.5, 3.5 ] },
+										"up": { "texture": "#lapislazuli", "uv": [ 7.0, 4.0, 7.5, 4.5 ] },
+										"down": { "texture": "#lapislazuli", "uv": [ 13.0, 7.0, 13.5, 7.5 ] }
+									}
+								},
+								{
+									"name": "gem9",
+									"from": [ 0.3, 0.45, 1.0 ],
+									"to": [ 0.4, 1.05, 1.6 ],
+									"rotationOrigin": [ 0.3, 0.6, 1.3 ],
+									"faces": {
+										"north": { "texture": "#lapislazuli", "uv": [ 12.0, 8.0, 12.5, 8.5 ] },
+										"east": { "texture": "#lapislazuli", "uv": [ 9.0, 11.5, 9.5, 12.0 ] },
+										"south": { "texture": "#lapislazuli", "uv": [ 6.5, 0.0, 7.0, 0.5 ] },
+										"up": { "texture": "#lapislazuli", "uv": [ 3.0, 4.0, 3.5, 4.5 ] },
+										"down": { "texture": "#lapislazuli", "uv": [ 11.5, 15.0, 12.0, 15.5 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "gem1",
+							"from": [ -0.1, 0.45, -0.1 ],
+							"to": [ 0.0, 1.05, 0.5 ],
+							"rotationOrigin": [ 0.0, 0.7, 0.1 ],
+							"faces": {
+								"north": { "texture": "#lapislazuli", "uv": [ 7.5, 10.5, 8.0, 11.0 ] },
+								"south": { "texture": "#lapislazuli", "uv": [ 5.5, 3.5, 6.0, 4.0 ] },
+								"west": { "texture": "#lapislazuli", "uv": [ 1.0, 14.5, 1.5, 15.0 ] },
+								"up": { "texture": "#lapislazuli", "uv": [ 3.5, 12.0, 4.0, 12.5 ] },
+								"down": { "texture": "#lapislazuli", "uv": [ 5.5, 9.5, 6.0, 10.0 ] }
+							}
+						},
+						{
+							"name": "gem2",
+							"from": [ -0.1, 0.45, 1.5 ],
+							"to": [ 0.0, 1.05, 2.1 ],
+							"rotationOrigin": [ 0.0, 0.7, 1.8 ],
+							"faces": {
+								"north": { "texture": "#lapislazuli", "uv": [ 11.5, 8.5, 12.0, 9.0 ] },
+								"south": { "texture": "#lapislazuli", "uv": [ 12.0, 14.0, 12.5, 14.5 ] },
+								"west": { "texture": "#lapislazuli", "uv": [ 9.5, 0.5, 10.0, 1.0 ] },
+								"up": { "texture": "#lapislazuli", "uv": [ 1.0, 12.0, 1.5, 12.5 ] },
+								"down": { "texture": "#lapislazuli", "uv": [ 12.5, 12.0, 13.0, 12.5 ] }
+							}
+						},
+						{
+							"name": "gem3",
+							"from": [ -0.1, 0.45, 0.7 ],
+							"to": [ 0.0, 1.05, 1.3 ],
+							"rotationOrigin": [ 0.0, 0.7, 1.0 ],
+							"faces": {
+								"north": { "texture": "#lapislazuli", "uv": [ 14.5, 11.5, 15.0, 12.0 ] },
+								"south": { "texture": "#lapislazuli", "uv": [ 11.5, 0.5, 12.0, 1.0 ] },
+								"west": { "texture": "#lapislazuli", "uv": [ 10.5, 4.5, 11.0, 5.0 ] },
+								"up": { "texture": "#lapislazuli", "uv": [ 12.5, 8.0, 13.0, 8.5 ] },
+								"down": { "texture": "#lapislazuli", "uv": [ 9.0, 6.5, 9.5, 7.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": [
+	]
+}

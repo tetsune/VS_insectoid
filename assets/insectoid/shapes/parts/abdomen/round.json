@@ -1,0 +1,57 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"bug-abdomen": [32,32]
+	},
+	"textures": {
+		"bug-abdomen": "parts/abdomen/abdomen1"
+	},
+	"elements": [
+		{
+			"name": "Abdomen_Round",
+			"stepParentName": "Abdomen",
+			"from": [ -1.41, -3.42, -2.7 ],
+			"to": [ 3.99, 1.98, 2.7 ],
+			"climateColorMap": "",
+			"seasonColorMap": "",
+			"renderPass": 0,
+			"autoUnwrap": false,
+			"uv": [ 0.5, 15.5 ],
+			"rotationOrigin": [ -1.02, 1.32, 1.0 ],
+			"rotationZ": 17.5,
+			"faces": {
+				"north": { "texture": "#bug-abdomen", "uv": [ 16.0, 24.0, 8.0, 32.0 ], "autoUv": false, "snapUv": false },
+				"east": { "texture": "#bug-abdomen", "uv": [ 24.0, 16.0, 32.0, 24.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+				"south": { "texture": "#bug-abdomen", "uv": [ 8.0, 24.0, 16.0, 32.0 ], "autoUv": false, "snapUv": false },
+				"west": { "texture": "#bug-abdomen", "uv": [ 8.0, 8.0, 16.0, 16.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#bug-abdomen", "uv": [ 24.0, 16.0, 16.0, 24.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#bug-abdomen", "uv": [ 24.0, 24.0, 16.0, 32.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "Abdomen_Round_1",
+					"from": [ 2.6, -1.6, -1.8 ],
+					"to": [ 11.6, 7.4, 7.2 ],
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 0,
+					"autoUnwrap": false,
+					"uv": [ 0.5, 15.5 ],
+					"rotationOrigin": [ 2.7993, 2.9463, 1.7 ],
+					"faces": {
+						"north": { "texture": "#bug-abdomen", "uv": [ 8.0, 8.0, 0.0, 16.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#bug-abdomen", "uv": [ 8.0, 8.0, 16.0, 16.0 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#bug-abdomen", "uv": [ 0.0, 8.0, 8.0, 16.0 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#bug-abdomen", "uv": [ 8.0, 8.0, 16.0, 16.0 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#bug-abdomen", "uv": [ 16.0, 8.0, 8.0, 0.0 ], "autoUv": false, "snapUv": false },
+						"down": { "texture": "#bug-abdomen", "uv": [ 16.0, 16.0, 8.0, 24.0 ], "autoUv": false, "snapUv": false }
+					}
+				}
+			]
+		}
+	]}

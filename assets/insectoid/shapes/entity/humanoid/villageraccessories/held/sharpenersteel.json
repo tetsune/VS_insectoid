@@ -1,0 +1,119 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/villager-female",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"handle": "item/tool/material/handle",
+		"material": "item/tool/material/iron"
+	},
+	"elements": [
+		{
+			"name": "knifehandle",
+			"stepParentName": "HandR",
+			"from": [ -3.3, 1.45, -0.2 ],
+			"to": [ 1.7, 2.45, 0.8 ],
+			"rotationOrigin": [ 5.7, 1.5, 7.8 ],
+			"rotationZ": 15.0,
+			"faces": {
+				"north": { "texture": "#handle", "uv": [ 0.0, 2.0, 5.0, 3.0 ] },
+				"east": { "texture": "#handle", "uv": [ 3.0, 0.0, 4.0, 1.0 ] },
+				"south": { "texture": "#handle", "uv": [ 0.0, 4.5, 5.0, 5.5 ] },
+				"west": { "texture": "#handle", "uv": [ 3.0, 0.0, 4.0, 1.0 ] },
+				"up": { "texture": "#handle", "uv": [ 0.0, 2.0, 5.0, 3.0 ] },
+				"down": { "texture": "#handle", "uv": [ 0.0, 3.0, 5.0, 4.0 ] }
+			},
+			"children": [
+				{
+					"name": "blade1",
+					"from": [ -5.0, 0.1, 0.4 ],
+					"to": [ 2.0, 1.1, 0.6 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 1.0, 1.0, 8.0, 2.0 ] },
+						"east": { "texture": "#material", "uv": [ 0.0, 0.0, 0.0, 1.0 ] },
+						"south": { "texture": "#material", "uv": [ 0.0, 7.0, 7.0, 8.0 ] },
+						"west": { "texture": "#material", "uv": [ 0.0, 0.0, 0.0, 1.0 ] },
+						"up": { "texture": "#material", "uv": [ 1.0, 2.0, 8.0, 2.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 7.0, 0.0 ] }
+					}
+				},
+				{
+					"name": "blade2",
+					"from": [ -6.0, 0.6, 0.4 ],
+					"to": [ -5.0, 1.1, 0.6 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 4.0, 4.0, 5.0, 4.5 ] },
+						"south": { "texture": "#material", "uv": [ 4.0, 3.0, 5.0, 3.5 ] },
+						"west": { "texture": "#material", "uv": [ 2.0, 5.0, 2.0, 5.5 ] },
+						"up": { "texture": "#material", "uv": [ 3.0, 4.0, 4.0, 4.0 ] },
+						"down": { "texture": "#material", "uv": [ 1.0, 2.0, 2.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "blade3",
+					"from": [ -3.0, -0.4, 0.4 ],
+					"to": [ 2.0, 0.1, 0.6 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 3.0, 6.0, 8.0, 6.5 ] },
+						"east": { "texture": "#material", "uv": [ 1.0, 2.0, 1.0, 2.5 ] },
+						"south": { "texture": "#material", "uv": [ 1.0, 3.0, 6.0, 3.5 ] },
+						"west": { "texture": "#material", "uv": [ 0.0, 1.0, 0.0, 1.5 ] },
+						"down": { "texture": "#material", "uv": [ 1.0, 2.0, 6.0, 2.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "handlesteel",
+			"stepParentName": "HandL",
+			"from": [ -1.9, -0.5, -0.5 ],
+			"to": [ 2.1, 0.5, 0.5 ],
+			"rotationOrigin": [ -0.9, -0.5, -0.5 ],
+			"faces": {
+				"north": { "texture": "#handle", "uv": [ 8.0, 0.5, 12.0, 1.5 ] },
+				"east": { "texture": "#handle", "uv": [ 9.5, 4.5, 10.5, 5.5 ] },
+				"south": { "texture": "#handle", "uv": [ 1.0, 3.0, 5.0, 4.0 ] },
+				"west": { "texture": "#handle", "uv": [ 0.0, 0.5, 1.0, 1.5 ] },
+				"up": { "texture": "#handle", "uv": [ 6.0, 2.75, 10.0, 3.75 ] },
+				"down": { "texture": "#handle", "uv": [ 9.0, 6.75, 13.0, 7.75 ] }
+			},
+			"children": [
+				{
+					"name": "Cube3",
+					"from": [ -7.0, 0.25, 0.25 ],
+					"to": [ 0.0, 0.75, 0.75 ],
+					"rotationOrigin": [ -7.0, 0.25, 0.25 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 4.5, 2.0, 11.5, 2.5 ] },
+						"south": { "texture": "#material", "uv": [ 0.75, 4.5, 7.75, 5.0 ] },
+						"west": { "texture": "#material", "uv": [ 13.5, 4.25, 14.0, 4.75 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#material", "uv": [ 0.5, 2.0, 7.5, 2.5 ] },
+						"down": { "texture": "#material", "uv": [ 5.0, 3.5, 12.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "Cube2",
+					"from": [ -0.8, 0.0, 0.0 ],
+					"to": [ -0.5, 1.0, 1.0 ],
+					"rotationOrigin": [ -0.8, 0.5, 0.5 ],
+					"rotationX": 45.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 10.75, 5.25, 11.25, 6.25 ] },
+						"east": { "texture": "#material", "uv": [ 8.5, 1.5, 9.5, 2.5 ] },
+						"south": { "texture": "#material", "uv": [ 12.25, 1.0, 12.75, 2.0 ] },
+						"west": { "texture": "#material", "uv": [ 14.5, 3.0, 15.5, 4.0 ] },
+						"up": { "texture": "#material", "uv": [ 10.5, 4.75, 11.0, 5.75 ] },
+						"down": { "texture": "#material", "uv": [ 3.25, 5.25, 3.75, 6.25 ] }
+					}
+				}
+			]
+		}
+	],
+	"animations": [
+	]
+}

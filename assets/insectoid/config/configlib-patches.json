@@ -1,0 +1,145 @@
+{
+  "version": 0,
+  "patches": {
+    "other": {
+      "insectoid:config/customplayermodels/insectoid.json": {
+        "insectoid/ExtraTraits": "(remove_models_traits) ? empty_array : value",
+        "insectoid/AvailableClasses": "(remove_models_classes) ? empty_array : value",
+        "insectoid/SkipClasses": "(remove_models_classes) ? skip_classes : value"
+      }
+    },
+    "number": {
+      "insectoid:config/customplayermodels/insectoid.json": {
+        "insectoid/SizeRange/0": "insectoid_min_size_range",
+        "insectoid/SizeRange/1": "insectoid_max_size_range",
+        "insectoid/ModelSizeFactor": "insectoid_size_factor",
+        "insectoid/MaxCollisionBox/0": "insectoid_max_collision_box_horizontal",
+        "insectoid/MaxCollisionBox/1": "insectoid_max_collision_box_vetrical",
+        "insectoid/MaxEyeHeight": "insectoid_max_eye_height",
+        "insectoid/MinEyeHeight": "insectoid_min_eye_height"
+      }
+    },
+    "boolean": {
+      "insectoid:config/customplayermodels/insectoid.json": {
+        "insectoid/ScaleColliderWithSizeHorizontally": "insectoid_scale_collider_horizontally",
+        "insectoid/ScaleColliderWithSizeVertically": "insectoid_scale_collider_vertically",
+        "insectoid/Enabled": "enable_insectoid_model"
+      }
+    }
+  },
+  "settings": [
+    {
+      "code": "remove_models_traits",
+      "type": "boolean",
+      "ingui": "insectoid:setting-remove_models_traits",
+      "default": false
+    },
+    {
+      "code": "remove_models_classes",
+      "type": "boolean",
+      "ingui": "insectoid:setting-remove_models_classes",
+      "default": false
+    },
+    {
+      "code": "enable_insectoid_model",
+      "type": "boolean",
+      "ingui": "insectoid:setting-enable_insectoid_model",
+      "default": true
+    },
+    {
+      "code": "min_size_range",
+      "type": "float",
+      "ingui": "insectoid:setting-min_size_range",
+      "comment": "insectoid:setting-comment-min_size_range",
+      "default": 0.9,
+      "range": {
+        "min": 0.1,
+        "max": 1.0
+      }
+    },
+    {
+      "code": "max_size_range",
+      "type": "float",
+      "ingui": "insectoid:setting-max_size_range",
+      "comment": "insectoid:setting-comment-max_size_range",
+      "default": 1.1,
+      "range": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "code": "size_factor",
+      "type": "float",
+      "ingui": "insectoid:setting-size_factor",
+      "comment": "insectoid:setting-comment-size_factor",
+      "default": 1.0,
+      "range": {
+        "min": 0.1,
+        "max": 3.0
+      }
+    },
+    {
+      "code": "max_collision_box_vetrical",
+      "type": "float",
+      "ingui": "insectoid:setting-max_collision_box_vetrical",
+      "comment": "insectoid:setting-comment-max_collision_box_vetrical",
+      "default": 1.99,
+      "range": {
+        "min": 0.1,
+        "max": 10.0
+      }
+    },
+    {
+      "code": "max_collision_box_horizontal",
+      "type": "float",
+      "ingui": "insectoid:setting-max_collision_box_horizontal",
+      "comment": "insectoid:setting-comment-max_collision_box_horizontal",
+      "default": 0.80,
+      "range": {
+        "min": 0.1,
+        "max": 10.0
+      }
+    },
+    {
+      "code": "max_eye_height",
+      "type": "float",
+      "ingui": "insectoid:setting-max_eye_height",
+      "comment": "insectoid:setting-comment-max_eye_height",
+      "default": 1.95,
+      "range": {
+        "min": 0.1,
+        "max": 10.0
+      }
+    },
+    {
+      "code": "min_eye_height",
+      "type": "float",
+      "ingui": "insectoid:setting-min_eye_height",
+      "default": 0.1,
+      "range": {
+        "min": 0.1,
+        "max": 10.0
+      }
+    },
+    {
+      "code": "scale_collider_horizontally",
+      "type": "boolean",
+      "ingui": "insectoid:setting-scale_collider_horizontally",
+      "default": true
+    },
+    {
+      "code": "scale_collider_vertically",
+      "type": "boolean",
+      "ingui": "insectoid:setting-scale_collider_vertically",
+      "default": true
+    },
+    {
+      "code": "export_shape_files",
+      "type": "boolean",
+      "ingui": "insectoid:setting-export_shape_files",
+      "comment": "insectoid:setting-comment-export_shape_files",
+      "default": true
+    }
+  ]
+}

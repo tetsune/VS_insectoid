@@ -1,0 +1,88 @@
+[
+  {
+		"enabled": true,
+		"code": "insectoid-hunter",
+		"traits": ["insectoid-naturalhunter","bowyer","focused","insectoid-agile","insectoid-predator","insectoid-nocturnal","insectoid-carnivore"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-hunter-cape" },
+			{ "type": "item", "code": "game:clothes-shoulder-hunter-poncho" },
+			{ "type": "item", "code": "game:clothes-upperbody-hunter-shirt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-huntsmans-tunic" },
+			{ "type": "item", "code": "game:clothes-lowerbody-hunter-leggings" },
+			{ "type": "item", "code": "game:clothes-foot-hunter-boots" },
+			{ "type": "item", "code": "game:clothes-face-hunter-mask" },
+			{ "type": "item", "code": "game:clothes-hand-surgeon" }
+		]
+	},
+  {
+		"enabled": true,
+		"code": "insectoid-scavenger",
+		"traits": ["insectoid-naturalpropagator","pilferer","furtive","improviser","insectoid-agile","ravenous","insectoid-omnivore"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbodyover-raw-hide-mantle" },
+			{ "type": "item", "code": "game:clothes-shoulder-survivor" },
+			{ "type": "item", "code": "game:clothes-lowerbody-torn-riding-pants" },
+			{ "type": "item", "code": "game:clothes-foot-survivor" },
+			{ "type": "item", "code": "game:clothes-neck-malefactor-pendant" },
+			{ "type": "item", "code": "game:clothes-face-survivor" },
+			{ "type": "item", "code": "game:clothes-hand-survivor" },
+			{ "type": "item", "code": "game:clothes-waist-malefactor-sash" }
+		]
+	},
+  {
+		"enabled": true,
+		"code": "insectoid-guard",
+		"traits": ["soldier","insectoid-shell","merciless","hardy","nearsighted","heavyhanded","insectoid-herbivore"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-blackguard-shirt" },
+			{ "type": "item", "code": "game:clothes-lowerbody-blackguard-leggings" },
+			{ "type": "item", "code": "game:clothes-foot-blackguard-shoes" },
+			{ "type": "item", "code": "game:clothes-emblem-blackguard-pin" },
+			{ "type": "item", "code": "game:clothes-waist-blackguard-belt" }
+		]
+	},
+  {
+		"enabled": true,
+		"code": "insectoid-tinkerer",
+		"traits": ["precise","insectoid-agile","technical","tinkerer","insectoid-sniper","insectoid-fragile","insectoid-omnivore"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-shoulder-jord-robe" },
+			{ "type": "item", "code": "game:clothes-upperbody-peasent-shirt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-clockmaker-tunic" },
+			{ "type": "item", "code": "game:clothes-lowerbody-clockmaker-pants" },
+			{ "type": "item", "code": "game:clothes-foot-worn-leather-boots" },
+			{ "type": "item", "code": "game:clothes-hand-clockmaker-wristguard" },
+			{ "type": "item", "code": "game:clothes-waist-clockmaker-belt" }
+		]
+	},
+  {
+		"enabled": true,
+		"code": "insectoid-weaver",
+		"traits": ["clothier","mender","insectoid-silk","insectoid-mender","insectoid-naturalpropagator","insectoid-omnivore"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-shepherds-cowl" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-tailor-jacket" },
+			{ "type": "item", "code": "game:clothes-upperbody-homespun-shirt" },
+			{ "type": "item", "code": "game:clothes-waist-tailor-belt" },
+			{ "type": "item", "code": "game:clothes-lowerbody-tailor-trousers" },
+			{ "type": "item", "code": "game:clothes-hand-tailor-gloves" },
+			{ "type": "item", "code": "game:clothes-foot-tailor-shoes" },
+			{ "type": "item", "code": "game:clothes-arm-tailor-needlepuff" }
+		]
+	},
+  {
+		"enabled": true,
+		"code": "insectoid-digger",
+		"traits": ["technical","nearsighted","insectoid-digger","insectoid-shell","insectoid-naturalpropagator","insectoid-nocturnal","insectoid-herbivore"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-shoulder-miner" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-miner" },
+			{ "type": "item", "code": "game:clothes-upperbody-miner" },
+			{ "type": "item", "code": "game:clothes-waist-miner" },
+			{ "type": "item", "code": "game:clothes-lowerbody-miner" },
+			{ "type": "item", "code": "game:clothes-hand-miner" },
+			{ "type": "item", "code": "game:clothes-foot-miner" },
+			{ "type": "item", "code": "game:clothes-face-miner" }
+		]
+	}
+]

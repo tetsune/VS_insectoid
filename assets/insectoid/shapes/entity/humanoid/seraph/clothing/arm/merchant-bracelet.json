@@ -1,0 +1,61 @@
+{
+	"editor": {
+		"backDropShape": "",
+		"collapsedPaths": "Root/bandN/toothR1,Root/bandN/toothL1",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 4,
+	"textureSizes": {
+		"merchant-bracelet": [24,4]
+	},
+	"textures": {
+		"merchant-bracelet": "entity/humanoid/seraphclothes/arm/merchant-bracelet"
+	},
+	"elements": [
+		{
+			"name": "hidelowerarm",
+			"stepParentName": "LowerArmL",
+			"from": [ 1.32, 1.32, 1.188 ],
+			"to": [ 1.32, 1.32, 1.188 ],
+			"uv": [ 999.0, 999.0 ],
+			"rotationOrigin": [ 1.32, 1.32, 1.188 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "bandL",
+					"stepParentName": "LowerArmL",
+					"from": [ -0.17, 0.0, -0.67 ],
+					"to": [ 3.262, 4.62, 3.102 ],
+					"unwrapMode": 3,
+					"uv": [ 1.5, 0.0 ],
+					"rotationOrigin": [ -0.166, 0.0, -0.666 ],
+					"rotationZ": 0.1,
+					"faces": {
+						"north": { "texture": "#merchant-bracelet", "uv": [ 8.0, 0.0, 10.5, 3.5 ], "autoUv": false },
+						"east": { "texture": "#merchant-bracelet", "uv": [ 6.0, 0.0, 8.0, 3.5 ], "autoUv": false },
+						"south": { "texture": "#merchant-bracelet", "uv": [ 3.5, 0.0, 6.0, 3.5 ], "autoUv": false },
+						"west": { "texture": "#merchant-bracelet", "uv": [ 1.5, 0.0, 3.5, 3.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "bandR",
+					"stepParentName": "LowerArmR",
+					"from": [ -0.066, 0.0, -0.17 ],
+					"to": [ 3.366, 4.62, 3.202 ],
+					"unwrapMode": 1,
+					"uv": [ 12.5, 0.0 ],
+					"rotationOrigin": [ -0.066, 0.0, -0.166 ],
+					"rotationZ": 0.1,
+					"faces": {
+						"north": { "texture": "#merchant-bracelet", "uv": [ 14.5, 0.0, 17.0, 3.5 ], "autoUv": false },
+						"east": { "texture": "#merchant-bracelet", "uv": [ 12.5, 0.0, 14.5, 3.5 ], "autoUv": false },
+						"south": { "texture": "#merchant-bracelet", "uv": [ 19.0, 0.0, 21.5, 3.5 ], "autoUv": false },
+						"west": { "texture": "#merchant-bracelet", "uv": [ 17.0, 0.0, 19.0, 3.5 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

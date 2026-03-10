@@ -1,0 +1,17 @@
+{
+	"editor": {
+		"backDropShape": "",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+	],
+	"animations": [
+	]
+}

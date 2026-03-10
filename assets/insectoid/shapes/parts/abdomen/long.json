@@ -1,0 +1,36 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"bug-abdomen": [32,32]
+	},
+	"textures": {
+		"bug-abdomen": "parts/abdomen/abdomen1"
+	},
+	"elements": [
+		{
+			"name": "Abdomen_Long",
+			"stepParentName": "Abdomen",
+			"from": [ -1.11, -3.63, -3.0 ],
+			"to": [ 9.89, 2.37, 3.0 ],
+			"climateColorMap": "",
+			"seasonColorMap": "",
+			"renderPass": 0,
+			"autoUnwrap": false,
+			"uv": [ 0.0, 8.0 ],
+			"rotationOrigin": [ -1.41, 0.41, 0.0 ],
+			"rotationZ": 17.5,
+			"faces": {
+				"north": { "texture": "#bug-abdomen", "uv": [ 8.0, 8.0, 0.0, 16.0 ], "autoUv": false, "snapUv": false },
+				"east": { "texture": "#bug-abdomen", "uv": [ 8.0, 8.0, 16.0, 16.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#bug-abdomen", "uv": [ 0.0, 8.0, 8.0, 16.0 ], "autoUv": false, "snapUv": false },
+				"west": { "texture": "#bug-abdomen", "uv": [ 8.0, 8.0, 16.0, 16.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#bug-abdomen", "uv": [ 16.0, 8.0, 8.0, 0.0 ], "autoUv": false, "snapUv": false },
+				"down": { "texture": "#bug-abdomen", "uv": [ 16.0, 16.0, 8.0, 24.0 ], "autoUv": false, "snapUv": false }
+			}
+		}
+	]}

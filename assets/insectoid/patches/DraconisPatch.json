@@ -1,0 +1,255 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/animations/-",
+    "value": 
+      {
+			"name": "Ridewyvern-Ride",
+			"code": "ridewyvern-ride",
+			"quantityframes": 1,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LowerTorso": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"UpperFootL": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.8, "rotationX": 3.0, "rotationY": 53.0, "rotationZ": -105.0 },
+						"LowerFootL": { "offsetX": 0.9, "offsetY": 1.3, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 80.0 },
+						"UpperFootR": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -0.8, "rotationX": -6.0, "rotationY": -53.0, "rotationZ": -105.0 },
+						"LowerFootR": { "offsetX": 0.8, "offsetY": 1.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 80.0 },
+						"UpperTorso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 14.0 },
+						"UpperArmR": { "rotationX": 17.0, "rotationY": 14.0, "rotationZ": -47.0 },
+						"LowerArmR": { "rotationX": 11.0, "rotationY": 17.0, "rotationZ": -50.0 },
+						"UpperArmL": { "rotationX": -14.0, "rotationY": -14.0, "rotationZ": -58.0 },
+						"LowerArmL": { "rotationX": -17.0, "rotationY": -36.0, "rotationZ": -39.0 },
+						"root": { "offsetX": 4.3, "offsetY": -4.8, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 21.0 },
+						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 }
+					}
+				}
+			]
+		},
+    "file": "insectoid:shapes/insectoid-faceless.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/animations/-",
+    "value": 
+      {
+			"name": "Ridewyvern-Rideground",
+			"code": "ridewyvern-rideground",
+			"quantityframes": 1,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LowerTorso": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"UpperFootL": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.8, "rotationX": 3.0, "rotationY": 53.0, "rotationZ": -105.0 },
+						"LowerFootL": { "offsetX": 0.9, "offsetY": 1.3, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 80.0 },
+						"UpperFootR": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -0.8, "rotationX": -6.0, "rotationY": -53.0, "rotationZ": -105.0 },
+						"LowerFootR": { "offsetX": 0.8, "offsetY": 1.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 80.0 },
+						"UpperTorso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 14.0 },
+						"UpperArmR": { "rotationX": 17.0, "rotationY": 14.0, "rotationZ": -47.0 },
+						"LowerArmR": { "rotationX": 11.0, "rotationY": 17.0, "rotationZ": -50.0 },
+						"UpperArmL": { "rotationX": -14.0, "rotationY": -14.0, "rotationZ": -58.0 },
+						"LowerArmL": { "rotationX": -17.0, "rotationY": -36.0, "rotationZ": -39.0 },
+						"root": { "offsetX": 0.4, "offsetY": -3.9, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 8.0 },
+						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 }
+					}
+				}
+			]
+		},
+    "file": "insectoid:shapes/insectoid-faceless.json"
+  },
+    {
+    "op": "addmerge",
+    "path": "/animations/-",
+    "value": 
+{
+			"name": "Ridewyvern-Hover",
+			"code": "ridewyvern-hover",
+			"quantityframes": 1,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LowerTorso": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"UpperFootL": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.8, "rotationX": 3.0, "rotationY": 53.0, "rotationZ": -105.0 },
+						"LowerFootL": { "offsetX": 0.9, "offsetY": 1.3, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 80.0 },
+						"UpperFootR": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -0.8, "rotationX": -6.0, "rotationY": -53.0, "rotationZ": -105.0 },
+						"LowerFootR": { "offsetX": 0.8, "offsetY": 1.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 78.0 },
+						"UpperTorso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.0 },
+						"UpperArmR": { "rotationX": 25.0, "rotationY": 19.0, "rotationZ": -39.0 },
+						"LowerArmR": { "rotationX": 0.0, "rotationY": 17.0, "rotationZ": -72.0 },
+						"UpperArmL": { "rotationX": -44.0, "rotationY": -28.0, "rotationZ": -44.0 },
+						"LowerArmL": { "rotationX": 0.0, "rotationY": -22.0, "rotationZ": -72.0 },
+						"root": { "offsetX": 7.4, "offsetY": -3.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
+						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 }
+					}
+				}
+			]
+		},
+    "file": "insectoid:shapes/insectoid-faceless.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/animations/-",
+    "value": {
+      "name": "RideAlpine-Slow",
+			"code": "rideAlpine-slow",
+			"quantityframes": 60,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LowerTorso": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
+						"UpperFootL": { "offsetX": -0.6, "offsetY": 0.0, "offsetZ": 0.8, "rotationX": -33.0, "rotationY": 0.0, "rotationZ": -28.0 },
+						"LowerFootL": { "offsetX": 0.9, "offsetY": 1.3, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 94.0 },
+						"UpperFootR": { "offsetX": -0.7, "offsetY": 0.0, "offsetZ": -0.8, "rotationX": 33.0, "rotationY": 0.0, "rotationZ": -42.0 },
+						"LowerFootR": { "offsetX": 0.8, "offsetY": 1.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 102.0 },
+						"UpperTorso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
+						"UpperArmR": { "rotationX": 3.0, "rotationY": 6.0, "rotationZ": -33.0 },
+						"LowerArmR": { "rotationX": 0.0, "rotationY": 53.0, "rotationZ": -17.0 },
+						"UpperArmL": { "rotationX": -6.0, "rotationY": -8.0, "rotationZ": -28.0 },
+						"LowerArmL": { "rotationX": 0.0, "rotationY": -36.0, "rotationZ": -33.0 },
+						"root": { "offsetX": 2.0, "offsetY": -5.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -10.0 }
+					}
+				}
+			]
+    },
+    "file": "insectoid:shapes/insectoid-faceless.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/animations/-",
+    "value": {
+			"name": "RideAlpine-Hover",
+			"code": "rideAlpine-hover",
+			"quantityframes": 60,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LowerTorso": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
+						"UpperFootL": { "offsetX": -0.6, "offsetY": 0.0, "offsetZ": 0.8, "rotationX": -33.0, "rotationY": 0.0, "rotationZ": -28.0 },
+						"LowerFootL": { "offsetX": 0.9, "offsetY": 1.3, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 91.0 },
+						"UpperFootR": { "offsetX": -0.7, "offsetY": 0.0, "offsetZ": -0.8, "rotationX": 33.0, "rotationY": 0.0, "rotationZ": -42.0 },
+						"LowerFootR": { "offsetX": 0.8, "offsetY": 1.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 97.0 },
+						"UpperTorso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 },
+						"UpperArmR": { "rotationX": 3.0, "rotationY": 6.0, "rotationZ": -64.0 },
+						"LowerArmR": { "rotationX": 0.0, "rotationY": 53.0, "rotationZ": -17.0 },
+						"UpperArmL": { "rotationX": -6.0, "rotationY": -8.0, "rotationZ": -55.0 },
+						"LowerArmL": { "rotationX": 0.0, "rotationY": -36.0, "rotationZ": -33.0 },
+						"root": { "offsetX": 16.0, "offsetY": -3.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 17.0 },
+						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -6.0 }
+					}
+				}
+			]
+		},
+    "file": "insectoid:shapes/insectoid-faceless.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/animations/-",
+    "value": {
+      "name": "RideAlpine-Jump",
+      "code": "rideAlpine-jump",
+      "quantityframes": 60,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "Hold",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "LowerTorso": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
+            "UpperFootL": {
+              "offsetX": -0.6,
+              "offsetY": 0.0,
+              "offsetZ": 0.8,
+              "rotationX": -33.0,
+              "rotationY": 0.0,
+              "rotationZ": -28.0
+            },
+            "LowerFootL": { "offsetX": 0.9, "offsetY": 1.3, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 94.0 },
+            "UpperFootR": {
+              "offsetX": -0.7,
+              "offsetY": 0.0,
+              "offsetZ": -0.8,
+              "rotationX": 33.0,
+              "rotationY": 0.0,
+              "rotationZ": -42.0
+            },
+            "LowerFootR": { "offsetX": 0.8, "offsetY": 1.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 102.0 },
+            "UpperTorso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 19.0 },
+            "UpperArmR": { "rotationX": 3.0, "rotationY": 6.0, "rotationZ": -58.0 },
+            "LowerArmR": { "rotationX": 0.0, "rotationY": 53.0, "rotationZ": -17.0 },
+            "UpperArmL": { "rotationX": -6.0, "rotationY": -8.0, "rotationZ": -44.0 },
+            "LowerArmL": { "rotationX": 0.0, "rotationY": -36.0, "rotationZ": -33.0 },
+            "root": { "offsetX": 2.0, "offsetY": -5.0, "offsetZ": 0.0 },
+            "Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -28.0 }
+          }
+        },
+        { "frame": 30, "elements": { "Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.0 } } }
+      ]
+    },
+    "file": "insectoid:shapes/insectoid-faceless.json"
+  },
+    {
+    "op": "addmerge",
+    "path": "/animations/-",
+    "value": {
+			"name": "RideAlpine-Fast",
+			"code": "rideAlpine-fast",
+			"quantityframes": 60,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LowerTorso": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
+						"UpperFootL": { "offsetX": -0.6, "offsetY": 0.0, "offsetZ": 0.8, "rotationX": -33.0, "rotationY": 0.0, "rotationZ": -28.0 },
+						"LowerFootL": { "offsetX": 0.9, "offsetY": 1.3, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 94.0 },
+						"UpperFootR": { "offsetX": -0.7, "offsetY": 0.0, "offsetZ": -0.8, "rotationX": 33.0, "rotationY": 0.0, "rotationZ": -42.0 },
+						"LowerFootR": { "offsetX": 0.8, "offsetY": 1.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 102.0 },
+						"UpperTorso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 19.0 },
+						"UpperArmR": { "rotationX": 3.0, "rotationY": 6.0, "rotationZ": -58.0 },
+						"LowerArmR": { "rotationX": 0.0, "rotationY": 53.0, "rotationZ": -17.0 },
+						"UpperArmL": { "rotationX": -6.0, "rotationY": -8.0, "rotationZ": -44.0 },
+						"LowerArmL": { "rotationX": 0.0, "rotationY": -36.0, "rotationZ": -33.0 },
+						"root": { "offsetX": 2.0, "offsetY": -7.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -6.0 },
+						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -28.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.0 }
+					}
+				}
+			]
+		},
+    "file": "insectoid:shapes/insectoid-faceless.json"
+  }
+]

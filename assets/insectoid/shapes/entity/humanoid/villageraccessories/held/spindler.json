@@ -1,0 +1,309 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/villager-female",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"oak": [16,16],
+		"normal-westeast": [16,16],
+		"ebony": [16,16]
+	},
+	"textures": {
+		"brown1": "block/clay/hardened/brown1",
+		"aged-side": "block/hay/aged-side",
+		"plainoak": "block/wood/plainoak",
+		"rope": "item/resource/rope"
+	},
+	"elements": [
+		{
+			"name": "Spindle Origin",
+			"stepParentName": "HandR",
+			"from": [ -0.7, -0.6, 0.5 ],
+			"to": [ -0.7, -0.6, 0.5 ],
+			"rotationOrigin": [ -0.2, -0.6, 0.5 ],
+			"rotationY": -90.0,
+			"rotationZ": 3.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "thread",
+					"from": [ 0.0, 0.2, 0.0 ],
+					"to": [ 0.2, 0.4, 4.0 ],
+					"renderInEditor": false,
+					"rotationOrigin": [ 0.1, 0.3, 0.0 ],
+					"faces": {
+						"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 4.0, 0.5 ] },
+						"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 4.0, 0.5 ] },
+						"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 4.0 ] },
+						"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 4.0 ] }
+					}
+				},
+				{
+					"name": "Handle1",
+					"from": [ 0.0, 0.0, -0.6 ],
+					"to": [ 0.4, 0.4, 4.4 ],
+					"rotationOrigin": [ 0.0, 7.0, -0.5975 ],
+					"faces": {
+						"north": { "texture": "#plainoak", "uv": [ 0.0, 8.0, 0.5, 8.5 ] },
+						"east": { "texture": "#plainoak", "uv": [ 1.5, 7.0, 6.5, 7.5 ] },
+						"south": { "texture": "#plainoak", "uv": [ 2.0, 11.5, 2.5, 12.0 ] },
+						"west": { "texture": "#plainoak", "uv": [ 3.0, 4.5, 8.0, 5.0 ] },
+						"up": { "texture": "#plainoak", "uv": [ 11.0, 7.0, 16.0, 7.5 ], "rotation": 90 },
+						"down": { "texture": "#plainoak", "uv": [ 3.5, 11.0, 8.5, 11.5 ], "rotation": 90 }
+					},
+					"children": [
+						{
+							"name": "Handle2",
+							"from": [ -0.1, -0.1, 3.9 ],
+							"to": [ 0.5, 0.5, 8.9 ],
+							"rotationOrigin": [ -0.1, -0.1, 3.9 ],
+							"faces": {
+								"north": { "texture": "#plainoak", "uv": [ 0.0, 8.0, 0.5, 8.5 ] },
+								"east": { "texture": "#plainoak", "uv": [ 1.5, 7.0, 6.5, 7.5 ] },
+								"south": { "texture": "#plainoak", "uv": [ 2.0, 11.5, 2.5, 12.0 ] },
+								"west": { "texture": "#plainoak", "uv": [ 3.0, 4.5, 8.0, 5.0 ] },
+								"up": { "texture": "#plainoak", "uv": [ 11.0, 7.0, 16.0, 7.5 ], "rotation": 90 },
+								"down": { "texture": "#plainoak", "uv": [ 3.5, 11.0, 8.5, 11.5 ], "rotation": 90 }
+							},
+							"children": [
+								{
+									"name": "Stone",
+									"from": [ -0.6, -0.8, 3.7 ],
+									"to": [ 1.5, 1.3, 4.7 ],
+									"rotationOrigin": [ -0.6, -0.8, 3.7 ],
+									"faces": {
+										"north": { "texture": "#brown1", "uv": [ 9.5, 8.0, 11.5, 10.0 ] },
+										"east": { "texture": "#brown1", "uv": [ 13.0, 0.0, 14.0, 2.0 ] },
+										"south": { "texture": "#brown1", "uv": [ 1.5, 2.5, 3.5, 4.5 ] },
+										"west": { "texture": "#brown1", "uv": [ 1.5, 0.5, 2.5, 2.5 ] },
+										"up": { "texture": "#brown1", "uv": [ 2.5, 11.5, 4.5, 12.5 ] },
+										"down": { "texture": "#brown1", "uv": [ 9.5, 10.5, 11.5, 11.5 ] }
+									},
+									"children": [
+										{
+											"name": "Yarn1",
+											"from": [ 0.2, 0.2, -2.7 ],
+											"to": [ 1.8, 1.8, 0.3 ],
+											"rotationOrigin": [ 0.2, 0.2, -2.7 ],
+											"faces": {
+												"north": { "texture": "#aged-side", "uv": [ 0.0, 0.0, 1.5, 1.5 ] },
+												"east": { "texture": "#aged-side", "uv": [ 0.0, 0.0, 3.0, 1.5 ] },
+												"west": { "texture": "#aged-side", "uv": [ 0.0, 0.0, 3.0, 1.5 ] },
+												"up": { "texture": "#aged-side", "uv": [ 0.0, 0.0, 1.5, 3.0 ] },
+												"down": { "texture": "#aged-side", "uv": [ 0.0, 0.0, 1.5, 3.0 ] }
+											}
+										},
+										{
+											"name": "Yarn2",
+											"from": [ 0.4, 0.4, -3.3 ],
+											"to": [ 1.6, 1.6, -2.4 ],
+											"rotationOrigin": [ 0.4, 0.4, -3.3 ],
+											"faces": {
+												"north": { "texture": "#aged-side", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+												"east": { "texture": "#aged-side", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+												"west": { "texture": "#aged-side", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+												"up": { "texture": "#aged-side", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+												"down": { "texture": "#aged-side", "uv": [ 0.0, 0.0, 1.0, 0.5 ] }
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "thread4",
+							"from": [ -0.2, -0.1672, 1.9977 ],
+							"to": [ 0.0, 0.0328, 4.0977 ],
+							"rotationOrigin": [ -0.1, -0.0672, 1.9977 ],
+							"rotationX": -176.0,
+							"rotationY": 12.0,
+							"faces": {
+								"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+								"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
+								"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 2.0 ] }
+							},
+							"children": [
+								{
+									"name": "thread3",
+									"from": [ 0.3327, -0.7, -1.565 ],
+									"to": [ 0.5327, -0.5, 0.335 ],
+									"rotationOrigin": [ 0.4327, -0.6, -1.565 ],
+									"rotationX": -23.4588,
+									"rotationY": -11.0336,
+									"rotationZ": 175.2523,
+									"faces": {
+										"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+										"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+										"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
+										"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 1.5 ] }
+									}
+								},
+								{
+									"name": "thread2",
+									"from": [ 1.2607, -0.8, -2.0834 ],
+									"to": [ 1.4607, -0.6, -0.9834 ],
+									"rotationOrigin": [ 1.3607, -0.7, -2.0834 ],
+									"rotationX": -9.0755,
+									"rotationY": -56.8849,
+									"rotationZ": 177.3417,
+									"faces": {
+										"north": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"east": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+										"south": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"west": { "texture": "#rope", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+										"up": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+										"down": { "texture": "#rope", "uv": [ 0.0, 0.0, 0.5, 1.0 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": [
+		{
+			"name": "Balanced-Spindle-SpinSit",
+			"code": "balanced-spindle-spinsit",
+			"quantityframes": 225,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Spindle Origin": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"thread": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"Spindle Origin": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -25.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"Spindle Origin": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -40.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Spindle Origin": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -65.0 }
+					}
+				},
+				{
+					"frame": 40,
+					"elements": {
+						"Spindle Origin": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -80.0 }
+					}
+				},
+				{
+					"frame": 60,
+					"elements": {
+						"Spindle Origin": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -95.0 }
+					}
+				},
+				{
+					"frame": 70,
+					"elements": {
+
+					}
+				},
+				{
+					"frame": 80,
+					"elements": {
+						"Spindle Origin": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -110.0 }
+					}
+				},
+				{
+					"frame": 90,
+					"elements": {
+						"Spindle Origin": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -135.0 }
+					}
+				},
+				{
+					"frame": 100,
+					"elements": {
+						"Spindle Origin": { "offsetX": 0.2, "offsetY": -0.5, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -150.0 }
+					}
+				},
+				{
+					"frame": 120,
+					"elements": {
+
+					}
+				},
+				{
+					"frame": 136,
+					"elements": {
+						"Spindle Origin": { "offsetX": 0.3, "offsetY": -0.7, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -150.0 }
+					}
+				},
+				{
+					"frame": 140,
+					"elements": {
+						"Spindle Origin": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -165.0 }
+					}
+				},
+				{
+					"frame": 160,
+					"elements": {
+						"Spindle Origin": { "offsetX": 0.3, "offsetY": -0.7, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -165.0 }
+					}
+				},
+				{
+					"frame": 170,
+					"elements": {
+						"Spindle Origin": { "offsetX": 0.6, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -250.0 }
+					}
+				},
+				{
+					"frame": 180,
+					"elements": {
+						"Spindle Origin": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -250.0 }
+					}
+				},
+				{
+					"frame": 200,
+					"elements": {
+						"Spindle Origin": { "offsetX": 0.5, "offsetY": 0.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -300.0 }
+					}
+				},
+				{
+					"frame": 205,
+					"elements": {
+						"Spindle Origin": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -300.0 }
+					}
+				},
+				{
+					"frame": 220,
+					"elements": {
+						"thread": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1440.0 }
+					}
+				},
+				{
+					"frame": 224,
+					"elements": {
+						"Spindle Origin": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -360.0, "rotShortestDistanceZ": true }
+					}
+				}
+			]
+		},
+
+	]
+}

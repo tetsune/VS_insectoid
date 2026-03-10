@@ -1,0 +1,119 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/villager-female",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"headtexture": "entity/humanoid/villagerclothes/head/shepherd"
+	},
+	"elements": [
+		{
+			"name": "hidehat",
+			"stepParentName": "Head",
+			"from": [ 0.0, 4.1, 0.0 ],
+			"to": [ 5.5, 5.1, 5.0 ],
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 3.0, 4.1, 2.5 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "main",
+					"from": [ -0.35, -0.6, -0.35 ],
+					"to": [ 5.85, 1.4, 5.35 ],
+					"autoUnwrap": false,
+					"uv": [ 0.0, 8.5 ],
+					"rotationOrigin": [ 0.0, 0.0, 2.5 ],
+					"faces": {
+						"north": { "texture": "#headtexture", "uv": [ 0.0, 14.0, 6.0, 16.0 ] },
+						"east": { "texture": "#headtexture", "uv": [ 18.0, 14.0, 23.5, 16.0 ] },
+						"south": { "texture": "#headtexture", "uv": [ 11.5, 14.0, 17.5, 16.0 ] },
+						"west": { "texture": "#headtexture", "uv": [ 6.0, 14.0, 11.5, 16.0 ] },
+						"up": { "texture": "#headtexture", "uv": [ 18.0, 0.0, 24.0, 5.5 ] },
+						"down": { "texture": "#headtexture", "uv": [ 12.0, 0.0, 18.0, 5.5 ] }
+					},
+					"children": [
+						{
+							"name": "W",
+							"from": [ 0.0, 2.0, 0.75 ],
+							"to": [ 1.0, 6.0, 4.85 ],
+							"autoUnwrap": false,
+							"uv": [ 6.0, 6.5 ],
+							"rotationOrigin": [ 0.0, 2.0, 2.8 ],
+							"rotationZ": -15.0,
+							"faces": {
+								"north": { "texture": "#headtexture", "uv": [ 5.0, 10.0, 6.0, 14.0 ] },
+								"east": { "texture": "#headtexture", "uv": [ 6.0, 10.0, 10.0, 14.0 ] },
+								"south": { "texture": "#headtexture", "uv": [ 10.0, 10.0, 11.0, 14.0 ] },
+								"west": { "texture": "#headtexture", "uv": [ 6.0, 10.0, 10.0, 14.0 ] },
+								"up": { "texture": "#headtexture", "uv": [ 6.0, 9.0, 10.0, 10.0 ], "rotation": 90 }
+							}
+						},
+						{
+							"name": "N",
+							"from": [ 0.75, 2.0, 0.0 ],
+							"to": [ 5.35, 6.0, 1.0 ],
+							"autoUnwrap": false,
+							"uv": [ 7.0, 3.0 ],
+							"rotationOrigin": [ 1.0, 2.0, 0.0 ],
+							"rotationX": 15.0,
+							"faces": {
+								"north": { "texture": "#headtexture", "uv": [ 1.0, 1.0, 5.5, 5.0 ] },
+								"east": { "texture": "#headtexture", "uv": [ 0.0, 1.0, 1.0, 5.0 ] },
+								"south": { "texture": "#headtexture", "uv": [ 1.0, 1.0, 5.5, 5.0 ] },
+								"west": { "texture": "#headtexture", "uv": [ 5.5, 1.0, 6.5, 5.0 ] },
+								"up": { "texture": "#headtexture", "uv": [ 1.0, 0.0, 5.5, 1.0 ] }
+							}
+						},
+						{
+							"name": "S",
+							"from": [ 0.85, 2.0, 4.7 ],
+							"to": [ 5.45, 6.0, 5.7 ],
+							"autoUnwrap": false,
+							"uv": [ 6.5, 2.5 ],
+							"rotationOrigin": [ 1.0, 2.0, 5.7 ],
+							"rotationX": -15.0,
+							"faces": {
+								"north": { "texture": "#headtexture", "uv": [ 12.5, 10.0, 17.0, 14.0 ] },
+								"east": { "texture": "#headtexture", "uv": [ 17.0, 10.0, 18.0, 14.0 ] },
+								"south": { "texture": "#headtexture", "uv": [ 12.5, 10.0, 17.0, 14.0 ] },
+								"west": { "texture": "#headtexture", "uv": [ 11.5, 10.0, 12.5, 14.0 ] },
+								"up": { "texture": "#headtexture", "uv": [ 12.5, 9.0, 17.0, 10.0 ] }
+							}
+						},
+						{
+							"name": "E",
+							"from": [ 5.2, 2.0, 0.75 ],
+							"to": [ 6.2, 6.0, 4.85 ],
+							"autoUnwrap": false,
+							"uv": [ 3.5, 0.5 ],
+							"rotationOrigin": [ 6.2, 2.0, 2.8 ],
+							"rotationZ": 15.0,
+							"faces": {
+								"north": { "texture": "#headtexture", "uv": [ 23.0, 10.0, 24.0, 14.0 ] },
+								"east": { "texture": "#headtexture", "uv": [ 19.0, 10.0, 23.0, 14.0 ] },
+								"south": { "texture": "#headtexture", "uv": [ 18.0, 10.0, 19.0, 14.0 ] },
+								"west": { "texture": "#headtexture", "uv": [ 19.0, 10.0, 23.0, 14.0 ] },
+								"up": { "texture": "#headtexture", "uv": [ 19.0, 9.0, 23.0, 10.0 ], "rotation": 90 }
+							}
+						},
+						{
+							"name": "top",
+							"from": [ 1.5, 4.7, 1.5 ],
+							"to": [ 4.5, 5.7, 4.0 ],
+							"uv": [ 19.5, 1.5 ],
+							"rotationOrigin": [ 3.1, 5.2, 2.8 ],
+							"faces": {
+								"up": { "texture": "#headtexture", "uv": [ 19.5, 1.5, 22.5, 4.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

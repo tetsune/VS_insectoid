@@ -1,0 +1,795 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"bug-body": [32,76],
+		"bug-wing": [16,16]
+	},
+	"textures": {
+		"bug-wing": "parts/wings/wings1"
+	},
+	"elements": [
+		{
+			"name": "Wings_Moff",
+			"stepParentName": "Wings",
+			"from": [ -0.26, -1.51, -1.5 ],
+			"to": [ 1.74, 3.49, 1.7 ],
+			"climateColorMap": "",
+			"seasonColorMap": "",
+			"renderPass": 0,
+			"uv": [ 8.0, 12.5 ],
+			"rotationOrigin": [ 1.19, -1.31, 1.1 ],
+			"rotationZ": 17.5,
+			"faces": {
+				"north": { "texture": "#bug-wing", "uv": [ 3.0, 0.0, 0.0, 6.0 ], "autoUv": false, "snapUv": false },
+				"east": { "texture": "#bug-wing", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "autoUv": false, "snapUv": false },
+				"south": { "texture": "#bug-wing", "uv": [ 0.0, 0.0, 3.0, 6.0 ], "autoUv": false, "snapUv": false },
+				"west": { "texture": "#bug-wing", "uv": [ 4.0, 0.0, 8.0, 6.0 ], "autoUv": false, "snapUv": false },
+				"up": { "texture": "#bug-wing", "uv": [ 0.0, 6.0, 4.0, 3.0 ], "autoUv": false, "snapUv": false },
+				"down": { "texture": "#bug-wing", "uv": [ 0.0, 6.0, 4.0, 3.0 ], "rotation": 90, "autoUv": false, "snapUv": false }
+			},
+			"children": [
+				{
+					"name": "LMoff",
+					"from": [ 1.8209, -1.4696, 2.6329 ],
+					"to": [ 13.8209, 4.5304, 2.8329 ],
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 0,
+					"uv": [ 8.0, 12.5 ],
+					"rotationOrigin": [ 1.8209, 0.2304, 2.7329 ],
+					"rotationY": -22.5,
+					"rotationZ": 10.0,
+					"faces": {
+						"north": { "texture": "#bug-wing", "uv": [ 0.0, 12.0, 3.0, 6.5 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"east": { "texture": "#bug-wing", "uv": [ 10.0, 10.0, 10.5, 16.0 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#bug-wing", "uv": [ 3.0, 6.0, 6.0, 12.0 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#bug-wing", "uv": [ 10.0, 10.0, 10.5, 16.0 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#bug-wing", "uv": [ 10.0, 10.0, 10.5, 16.0 ], "autoUv": false, "snapUv": false },
+						"down": { "texture": "#bug-wing", "uv": [ 10.0, 10.0, 10.5, 16.0 ], "autoUv": false, "snapUv": false }
+					},
+					"children": [
+						{
+							"name": "LMoff_1",
+							"from": [ -2.7063, 0.5774, 0.2 ],
+							"to": [ 5.7937, 4.0774, 0.4 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 8.0, 12.5 ],
+							"rotationOrigin": [ -1.7063, 1.2774, 0.3 ],
+							"rotationZ": -65.0,
+							"faces": {
+								"north": { "texture": "#bug-wing", "uv": [ 3.0, 12.0, 6.0, 6.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+								"east": { "texture": "#bug-wing", "uv": [ 10.0, 10.0, 10.5, 16.0 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#bug-wing", "uv": [ 0.0, 6.0, 3.0, 12.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+								"west": { "texture": "#bug-wing", "uv": [ 10.0, 10.0, 10.5, 16.0 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#bug-wing", "uv": [ 10.0, 10.0, 10.5, 16.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#bug-wing", "uv": [ 10.0, 10.0, 10.5, 16.0 ], "autoUv": false, "snapUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "RMoff",
+					"from": [ 1.2043, -1.5936, 0.5682 ],
+					"to": [ 13.2043, 4.4064, 0.7682 ],
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 0,
+					"uv": [ 8.0, 12.5 ],
+					"rotationOrigin": [ 1.2043, 0.1064, 0.6682 ],
+					"rotationY": 22.5,
+					"rotationZ": 10.0,
+					"faces": {
+						"north": { "texture": "#bug-wing", "uv": [ 6.0, 6.0, 3.0, 12.0 ], "autoUv": false, "snapUv": false },
+						"east": { "texture": "#bug-wing", "uv": [ 10.5, 10.0, 10.0, 16.0 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#bug-wing", "uv": [ 0.0, 6.5, 3.0, 12.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"west": { "texture": "#bug-wing", "uv": [ 10.5, 10.0, 10.0, 16.0 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#bug-wing", "uv": [ 10.0, 16.0, 10.5, 10.0 ], "autoUv": false, "snapUv": false },
+						"down": { "texture": "#bug-wing", "uv": [ 10.0, 16.0, 10.5, 10.0 ], "autoUv": false, "snapUv": false }
+					},
+					"children": [
+						{
+							"name": "RMoff_1",
+							"from": [ -2.7063, 0.5774, -0.2 ],
+							"to": [ 5.7937, 4.0774, 0.0 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 8.0, 12.5 ],
+							"rotationOrigin": [ -1.7063, 1.2774, -0.1 ],
+							"rotationZ": -65.0,
+							"faces": {
+								"north": { "texture": "#bug-wing", "uv": [ 0.0, 12.0, 3.0, 6.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+								"east": { "texture": "#bug-wing", "uv": [ 10.5, 10.0, 10.0, 16.0 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#bug-wing", "uv": [ 3.0, 6.0, 6.0, 12.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+								"west": { "texture": "#bug-wing", "uv": [ 10.5, 10.0, 10.0, 16.0 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#bug-wing", "uv": [ 10.0, 16.0, 10.5, 10.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#bug-wing", "uv": [ 10.0, 16.0, 10.5, 10.0 ], "autoUv": false, "snapUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": [
+		{
+			"name": "Walk",
+			"code": "walk",
+			"quantityframes": 25,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Wings_Moff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LMoff_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 5,
+					"elements": {
+						"LMoff_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
+						"RMoff_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 }
+					}
+				},
+				{
+					"frame": 7,
+					"elements": {
+						"Wings_Moff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": -5.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": -5.0 }
+					}
+				},
+				{
+					"frame": 13,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 15.0, "rotationZ": 5.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": -15.0, "rotationZ": 5.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 19,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Sprint",
+			"code": "sprint",
+			"quantityframes": 24,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 2,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 4,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 6,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 8,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 12,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 18,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 22,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Jump",
+			"code": "jump",
+			"quantityframes": 20,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 8,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 18,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": -30.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 30.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 19,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 8.3333, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Glide",
+			"code": "glide",
+			"quantityframes": 40,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RMoff": { "rotationX": -50.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 50.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"LMoff_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 2,
+					"elements": {
+						"LMoff": { "rotationX": 50.0, "rotationY": -52.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": -50.0, "rotationY": 52.0, "rotationZ": 0.0 },
+						"LMoff_1": { "rotationX": 0.0, "rotationY": -5.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 4,
+					"elements": {
+						"LMoff": { "rotationX": 50.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": -50.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LMoff_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 6,
+					"elements": {
+						"LMoff": { "rotationX": 50.0, "rotationY": -52.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": -50.0, "rotationY": 52.0, "rotationZ": 0.0 },
+						"LMoff_1": { "rotationX": 0.0, "rotationY": -5.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 8,
+					"elements": {
+						"LMoff": { "rotationX": 50.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": -50.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LMoff_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"LMoff": { "rotationX": 50.0, "rotationY": -52.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": -50.0, "rotationY": 52.0, "rotationZ": 0.0 },
+						"LMoff_1": { "rotationX": 0.0, "rotationY": -5.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 12,
+					"elements": {
+						"RMoff": { "rotationX": -50.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LMoff_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Creativefly",
+			"code": "creativefly",
+			"quantityframes": 40,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 2,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 4,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 6,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 8,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 12,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 18,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": -60.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 22,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": -70.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 70.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 24,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 26,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 28,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 32,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 34,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 36,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 38,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Land",
+			"code": "land",
+			"quantityframes": 15,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 6,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 11,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 13,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "HeavyImpact",
+			"code": "heavyimpact",
+			"quantityframes": 42,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 3,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": -30.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 30.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 5,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 7,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 25.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": -25.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 23,
+					"elements": {
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "SneakWalk",
+			"code": "sneakwalk",
+			"quantityframes": 40,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LMoff": { "rotationX": 30.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": -30.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "SneakIdle",
+			"code": "sneakidle",
+			"quantityframes": 35,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RMoff": { "rotationX": -30.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 30.0, "rotationY": -50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 17,
+					"elements": {
+						"LMoff": { "rotationX": 30.0, "rotationY": -55.0, "rotationZ": 0.0 },
+						"RMoff": { "rotationX": -30.0, "rotationY": 55.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Swim",
+			"code": "swim",
+			"quantityframes": 55,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RMoff": { "rotationX": -30.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 30.0, "rotationY": -50.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "SwimIdle",
+			"code": "swimidle",
+			"quantityframes": 55,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LMoff": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RMoff": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": -45.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"RMoff": { "rotationX": -45.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 45.0, "rotationY": 10.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Idle1",
+			"code": "idle1",
+			"quantityframes": 50,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 9,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 17,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 18,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 22,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 24,
+					"elements": {
+						"RMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LMoff": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		}
+	]
+}

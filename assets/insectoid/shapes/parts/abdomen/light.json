@@ -1,0 +1,80 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"bug-abdomen": [32,32],
+		"bug-eye": [8,8]
+	},
+	"textures": {
+		"bug-eye": "eyes/bitter-lemon",
+		"bug-abdomen": "parts/abdomen/abdomen1"
+	},
+	"elements": [
+		{
+			"name": "Abdomen_Light",
+			"stepParentName": "Abdomen",
+			"from": [ -1.11, -3.63, -3.0 ],
+			"to": [ 7.89, 2.37, 3.0 ],
+			"climateColorMap": "",
+			"seasonColorMap": "",
+			"renderPass": 0,
+			"autoUnwrap": false,
+			"uv": [ 0.5, 15.5 ],
+			"rotationOrigin": [ -1.41, 0.41, 0.0 ],
+			"rotationZ": 17.5,
+			"faces": {
+				"north": { "texture": "#bug-abdomen", "uv": [ 8.0, 8.0, 0.0, 16.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#bug-abdomen", "uv": [ 24.0, 16.0, 32.0, 24.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#bug-abdomen", "uv": [ 0.0, 8.0, 8.0, 16.0 ], "autoUv": false, "snapUv": false },
+				"west": { "texture": "#bug-abdomen", "uv": [ 8.0, 8.0, 16.0, 16.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#bug-abdomen", "uv": [ 16.0, 8.0, 8.0, 0.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#bug-abdomen", "uv": [ 16.0, 16.0, 8.0, 24.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "Abdomen_Light_Top",
+					"from": [ 8.43, 0.9625, 0.6 ],
+					"to": [ 15.23, 5.7625, 5.4 ],
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 0,
+					"autoUnwrap": false,
+					"uv": [ 0.0, 8.0 ],
+					"rotationOrigin": [ 7.5302, 4.4088, 3.0 ],
+					"rotationZ": -1.5,
+					"faces": {
+						"north": { "texture": "#bug-abdomen", "uv": [ 8.0, 24.0, 0.0, 29.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#bug-abdomen", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"south": { "texture": "#bug-abdomen", "uv": [ 0.0, 24.0, 8.0, 29.0 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#bug-abdomen", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"up": { "texture": "#bug-abdomen", "uv": [ 6.5, 6.0, 16.5, 2.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#bug-abdomen", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false }
+					}
+				},
+				{
+					"name": "Abdomen_Light_Bulb",
+					"from": [ 7.8446, 0.1247, 0.7 ],
+					"to": [ 17.4446, 4.7247, 5.3 ],
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 0,
+					"autoUnwrap": false,
+					"uv": [ 0.5, 15.5 ],
+					"rotationOrigin": [ 6.8439, 3.4709, 3.0 ],
+					"rotationZ": 2.5,
+					"faces": {
+						"north": { "texture": "#bug-eye", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "glow": 200, "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#bug-eye", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "glow": 200, "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#bug-eye", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "glow": 200, "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#bug-eye", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "glow": 200, "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"up": { "texture": "#bug-eye", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "glow": 200, "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#bug-eye", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "glow": 200, "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		}
+	]}

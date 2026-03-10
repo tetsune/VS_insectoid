@@ -1,0 +1,63 @@
+{
+	"editor": {
+		"backDropShape": "",
+		"collapsedPaths": "Root/bandN/toothR1,Root/bandN/toothL1",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 4,
+	"textureSizes": {
+		"squire-bracers": [24,4]
+	},
+	"textures": {
+		"squire-bracers": "entity/humanoid/seraphclothes/arm/squire-bracers"
+	},
+	"elements": [
+		{
+			"name": "hidelowerarm",
+			"stepParentName": "LowerArmL",
+			"from": [ 1.3, 1.3, 1.17 ],
+			"to": [ 1.3, 1.3, 1.17 ],
+			"uv": [ 999.0, 999.0 ],
+			"rotationOrigin": [ 1.3, 1.3, 1.17 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "bandL",
+					"stepParentName": "LowerArmL",
+					"from": [ 3.03, 0.65, -0.21 ],
+					"to": [ 6.41, 3.9, 3.02 ],
+					"unwrapMode": 3,
+					"uv": [ 2.0, 1.0 ],
+					"rotationOrigin": [ 3.035, 0.65, -0.205 ],
+					"rotationY": -90.0,
+					"rotationZ": 0.1,
+					"faces": {
+						"north": { "texture": "#squire-bracers", "uv": [ 8.5, 1.0, 11.0, 3.5 ], "autoUv": false },
+						"east": { "texture": "#squire-bracers", "uv": [ 6.5, 1.0, 8.5, 3.5 ], "autoUv": false },
+						"south": { "texture": "#squire-bracers", "uv": [ 4.0, 1.0, 6.5, 3.5 ], "autoUv": false },
+						"west": { "texture": "#squire-bracers", "uv": [ 2.0, 1.0, 4.0, 3.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "bandR",
+					"stepParentName": "LowerArmR",
+					"from": [ -0.065, 0.65, 3.1 ],
+					"to": [ 3.315, 3.9, 6.33 ],
+					"unwrapMode": 1,
+					"uv": [ 13.0, 1.0 ],
+					"rotationOrigin": [ -0.065, 0.65, 3.105 ],
+					"rotationY": 90.0,
+					"rotationZ": 0.1,
+					"faces": {
+						"north": { "texture": "#squire-bracers", "uv": [ 15.0, 1.0, 17.5, 3.5 ], "autoUv": false },
+						"east": { "texture": "#squire-bracers", "uv": [ 13.0, 1.0, 15.0, 3.5 ], "autoUv": false },
+						"south": { "texture": "#squire-bracers", "uv": [ 19.5, 1.0, 22.0, 3.5 ], "autoUv": false },
+						"west": { "texture": "#squire-bracers", "uv": [ 17.5, 1.0, 19.5, 3.5 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

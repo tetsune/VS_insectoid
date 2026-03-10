@@ -1,0 +1,111 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/villager-female",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 20,
+	"textureHeight": 20,
+	"textureSizes": {
+	},
+	"textures": {
+		"headtexture": "entity/humanoid/villagerclothes/head/peasantred"
+	},
+	"elements": [
+		{
+			"name": "hidehat",
+			"stepParentName": "Head",
+			"from": [ 0.0, 4.0, 0.0 ],
+			"to": [ 5.5, 5.0, 5.0 ],
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 3.0, 4.0, 2.5 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "main",
+					"from": [ -0.35, -0.6, -0.35 ],
+					"to": [ 5.85, 1.5, 5.35 ],
+					"autoUnwrap": false,
+					"uv": [ 0.0, 8.5 ],
+					"rotationOrigin": [ 0.0, 0.0, 2.5 ],
+					"faces": {
+						"north": { "texture": "#headtexture", "uv": [ 14.0, 2.0, 20.0, 4.0 ] },
+						"east": { "texture": "#headtexture", "uv": [ 14.5, 4.0, 20.0, 6.0 ] },
+						"south": { "texture": "#headtexture", "uv": [ 14.0, 6.0, 20.0, 8.0 ] },
+						"west": { "texture": "#headtexture", "uv": [ 14.5, 0.0, 20.0, 2.0 ] },
+						"up": { "texture": "#headtexture", "uv": [ 0.0, 0.0, 6.0, 5.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#headtexture", "uv": [ 14.0, 14.5, 20.0, 20.0 ] }
+					},
+					"children": [
+						{
+							"name": "mid",
+							"from": [ 0.1, 2.0, 0.3 ],
+							"to": [ 6.1, 4.0, 5.3 ],
+							"autoUnwrap": false,
+							"uv": [ 0.0, 6.5 ],
+							"rotationOrigin": [ 6.1, 2.0, 2.7 ],
+							"rotationZ": 10.0,
+							"faces": {
+								"north": { "texture": "#headtexture", "uv": [ 0.0, 6.0, 6.0, 8.0 ] },
+								"east": { "texture": "#headtexture", "uv": [ 6.5, 8.0, 11.5, 10.0 ] },
+								"south": { "texture": "#headtexture", "uv": [ 6.0, 6.0, 12.0, 8.0 ] },
+								"west": { "texture": "#headtexture", "uv": [ 0.0, 8.0, 5.0, 10.0 ] },
+								"up": { "texture": "#headtexture", "uv": [ 6.0, 0.0, 12.0, 5.0 ] }
+							},
+							"children": [
+								{
+									"name": "top",
+									"from": [ 0.1, 2.0, 0.2 ],
+									"to": [ 5.6, 4.0, 4.7 ],
+									"autoUnwrap": false,
+									"uv": [ 0.0, 11.0 ],
+									"rotationOrigin": [ 5.6, 2.0, 2.7 ],
+									"rotationZ": 10.0,
+									"faces": {
+										"north": { "texture": "#headtexture", "uv": [ 0.0, 10.5, 5.5, 12.5 ] },
+										"east": { "texture": "#headtexture", "uv": [ 0.5, 16.5, 5.0, 18.5 ] },
+										"south": { "texture": "#headtexture", "uv": [ 0.0, 14.5, 5.5, 16.5 ] },
+										"west": { "texture": "#headtexture", "uv": [ 0.5, 12.5, 5.0, 14.5 ] },
+										"up": { "texture": "#headtexture", "uv": [ 5.5, 15.5, 11.0, 20.0 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "flapN",
+							"from": [ 1.5, -2.5, 0.0 ],
+							"to": [ 5.0, 0.0, 0.5 ],
+							"autoUnwrap": false,
+							"uv": [ 8.5, 11.0 ],
+							"rotationOrigin": [ 1.5, 0.0, 0.0 ],
+							"rotationX": 10.0,
+							"faces": {
+								"north": { "texture": "#headtexture", "uv": [ 6.0, 12.5, 9.5, 15.0 ] },
+								"east": { "texture": "#headtexture", "uv": [ 5.5, 12.5, 6.0, 15.0 ] },
+								"south": { "texture": "#headtexture", "uv": [ 6.0, 10.0, 9.5, 12.5 ] },
+								"west": { "texture": "#headtexture", "uv": [ 9.5, 12.5, 10.0, 15.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"down": { "texture": "#headtexture", "uv": [ 6.0, 15.0, 9.5, 15.5 ] }
+							}
+						},
+						{
+							"name": "flapS",
+							"from": [ 1.5, -2.5, 5.1 ],
+							"to": [ 5.0, 0.0, 5.6 ],
+							"autoUnwrap": false,
+							"uv": [ 10.5, 11.0 ],
+							"rotationOrigin": [ 1.5, 0.0, 5.6 ],
+							"rotationX": -10.0,
+							"faces": {
+								"north": { "texture": "#headtexture", "uv": [ 16.0, 8.0, 19.5, 10.5 ] },
+								"east": { "texture": "#headtexture", "uv": [ 19.5, 10.5, 20.0, 13.0 ] },
+								"south": { "texture": "#headtexture", "uv": [ 16.0, 10.5, 19.5, 13.0 ] },
+								"west": { "texture": "#headtexture", "uv": [ 15.5, 10.5, 16.0, 13.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"down": { "texture": "#headtexture", "uv": [ 16.0, 13.0, 19.5, 13.5 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

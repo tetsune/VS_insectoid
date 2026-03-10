@@ -1,0 +1,801 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"bug-body": [32,76],
+		"bug-wing": [16,16]
+	},
+	"textures": {
+		"bug-wing": "parts/wings/wings1"
+	},
+	"elements": [
+		{
+			"name": "Wings_Bee",
+			"stepParentName": "Wings",
+			"from": [ -1.4, -2.25, -2.0 ],
+			"to": [ 1.6, 3.75, 2.0 ],
+			"climateColorMap": "",
+			"seasonColorMap": "",
+			"renderPass": 0,
+			"autoUnwrap": false,
+			"uv": [ 8.0, 12.5 ],
+			"rotationOrigin": [ 1.2, 0.7, 0.0 ],
+			"rotationZ": 17.5,
+			"faces": {
+				"north": { "texture": "#bug-wing", "uv": [ 4.0, 0.0, 6.0, 6.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#bug-wing", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#bug-wing", "uv": [ 6.0, 0.0, 8.0, 6.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#bug-wing", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+				"up": { "texture": "#bug-wing", "uv": [ 4.0, 3.0, 8.0, 0.0 ], "rotation": 270, "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#bug-wing", "uv": [ 4.0, 3.0, 8.0, 6.0 ], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "LBee",
+					"from": [ 3.0, 0.0, 3.0 ],
+					"to": [ 10.5, 6.0, 3.0 ],
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 0,
+					"autoUnwrap": false,
+					"uv": [ 8.0, 12.5 ],
+					"rotationOrigin": [ 3.0, 1.7, 3.0 ],
+					"rotationY": -32.5,
+					"rotationZ": 7.0,
+					"faces": {
+						"north": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"east": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"south": { "texture": "#bug-wing", "uv": [ 8.0, 6.0, 0.0, 16.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#bug-wing", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"up": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"down": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "LBee_1",
+							"from": [ -0.5585, -0.01, 0.219 ],
+							"to": [ 5.4415, 3.99, 0.219 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"autoUnwrap": false,
+							"uv": [ 8.0, 12.5 ],
+							"rotationOrigin": [ 0.0, 0.7, 0.1 ],
+							"rotationZ": -25.0,
+							"faces": {
+								"north": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+								"east": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+								"south": { "texture": "#bug-wing", "uv": [ 12.0, 0.0, 8.0, 6.0 ], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+								"up": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+								"down": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "RBee",
+					"from": [ 3.0, 0.0, 1.0 ],
+					"to": [ 10.5, 6.0, 1.0 ],
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 0,
+					"autoUnwrap": false,
+					"uv": [ 8.0, 12.5 ],
+					"rotationOrigin": [ 3.0, 1.7, 1.0 ],
+					"rotationY": 32.5,
+					"rotationZ": 7.0,
+					"faces": {
+						"north": { "texture": "#bug-wing", "uv": [ 16.0, 6.0, 8.0, 16.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"south": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"west": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"up": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+						"down": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "RBee_1",
+							"from": [ -0.5585, -0.01, -0.219 ],
+							"to": [ 5.4415, 3.99, -0.219 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"autoUnwrap": false,
+							"uv": [ 8.0, 12.5 ],
+							"rotationOrigin": [ 0.0, 0.7, 0.1 ],
+							"rotationZ": -25.0,
+							"faces": {
+								"north": { "texture": "#bug-wing", "uv": [ 12.0, 6.0, 16.0, 0.0 ], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+								"south": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+								"west": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+								"up": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false },
+								"down": { "texture": "#bug-wing", "uv": [ 0.0, 1.0, 0.0, 1.0 ], "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": [
+		{
+			"name": "Walk",
+			"code": "walk",
+			"quantityframes": 25,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Wings_Bee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LBee_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 5,
+					"elements": {
+						"LBee_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
+						"RBee_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 }
+					}
+				},
+				{
+					"frame": 7,
+					"elements": {
+						"Wings_Bee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": -5.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": -5.0 }
+					}
+				},
+				{
+					"frame": 13,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 15.0, "rotationZ": 5.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": -15.0, "rotationZ": 5.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 19,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Sprint",
+			"code": "sprint",
+			"quantityframes": 24,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 2,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 4,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 6,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 8,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 12,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 18,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 22,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Jump",
+			"code": "jump",
+			"quantityframes": 20,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 8,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 18,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": -30.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 30.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 19,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Glide",
+			"code": "glide",
+			"quantityframes": 40,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RBee": { "rotationX": -50.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 50.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"LBee_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 2,
+					"elements": {
+						"LBee": { "rotationX": 50.0, "rotationY": -52.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": -50.0, "rotationY": 52.0, "rotationZ": 0.0 },
+						"LBee_1": { "rotationX": 0.0, "rotationY": -5.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 4,
+					"elements": {
+						"LBee": { "rotationX": 50.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": -50.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LBee_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 6,
+					"elements": {
+						"LBee": { "rotationX": 50.0, "rotationY": -52.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": -50.0, "rotationY": 52.0, "rotationZ": 0.0 },
+						"LBee_1": { "rotationX": 0.0, "rotationY": -5.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 8,
+					"elements": {
+						"LBee": { "rotationX": 50.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": -50.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LBee_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"LBee": { "rotationX": 50.0, "rotationY": -52.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": -50.0, "rotationY": 52.0, "rotationZ": 0.0 },
+						"LBee_1": { "rotationX": 0.0, "rotationY": -5.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 12,
+					"elements": {
+						"RBee": { "rotationX": -50.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LBee_1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Creativefly",
+			"code": "creativefly",
+			"quantityframes": 40,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 2,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 4,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 6,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 8,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 12,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 18,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": -60.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 22,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": -70.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 70.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 24,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 26,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 28,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 32,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 34,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 36,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 38,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Land",
+			"code": "land",
+			"quantityframes": 15,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 6,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 11,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 13,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": -20.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "HeavyImpact",
+			"code": "heavyimpact",
+			"quantityframes": 42,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 3,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": -30.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 30.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 5,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 20.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 7,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 25.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": -25.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 23,
+					"elements": {
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "SneakWalk",
+			"code": "sneakwalk",
+			"quantityframes": 40,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LBee": { "rotationX": 30.0, "rotationY": -50.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": -30.0, "rotationY": 50.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "SneakIdle",
+			"code": "sneakidle",
+			"quantityframes": 35,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RBee": { "rotationX": -30.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 30.0, "rotationY": -50.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 17,
+					"elements": {
+						"LBee": { "rotationX": 30.0, "rotationY": -55.0, "rotationZ": 0.0 },
+						"RBee": { "rotationX": -30.0, "rotationY": 55.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Swim",
+			"code": "swim",
+			"quantityframes": 55,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RBee": { "rotationX": -30.0, "rotationY": 50.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 30.0, "rotationY": -50.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "SwimIdle",
+			"code": "swimidle",
+			"quantityframes": 55,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"LBee": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"RBee": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": -45.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"RBee": { "rotationX": -45.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 45.0, "rotationY": 10.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Idle1",
+			"code": "idle1",
+			"quantityframes": 50,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 9,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 14,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 17,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 18,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 22,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 10.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": -10.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 24,
+					"elements": {
+						"RBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LBee": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		}
+	]
+}

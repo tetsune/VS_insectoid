@@ -1,0 +1,58 @@
+{
+	"editor": {
+		"backDropShape": "insectoid-dummy",
+		"collapsedPaths": "Root/bandN/toothR1,Root/bandN/toothL1",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"mask": "entity/humanoid/seraphclothes/face/survivor"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"stepParentName": "Head",
+			"from": [ -1.68, 1.92, 2.26 ],
+			"to": [ -1.68, 1.92, 2.26 ],
+			"uv": [ 999.0, 999.0 ],
+			"rotationOrigin": [ -1.68, 1.92, 2.26 ],
+			"rotationZ": 3.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Mask",
+					"from": [ 0.24, -3.6, -2.82 ],
+					"to": [ 7.2, 0.6, 3.3 ],
+					"renderPass": 1,
+					"unwrapMode": 4,
+					"uv": [ 1.5, 4.0 ],
+					"rotationOrigin": [ 0.24, -3.6, -2.88 ],
+					"faces": {
+						"north": { "texture": "#mask", "uv": [ 1.5, 4.0, 7.0, 7.5 ], "autoUv": false },
+						"east": { "texture": "#mask", "uv": [ 17.5, 4.0, 22.5, 7.5 ], "autoUv": false },
+						"south": { "texture": "#mask", "uv": [ 12.0, 4.0, 17.5, 7.5 ], "autoUv": false },
+						"west": { "texture": "#mask", "uv": [ 7.0, 4.0, 12.0, 7.5 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Bottom",
+							"from": [ 0.0, 1.2, 0.0 ],
+							"to": [ 6.96, 1.2, 6.12 ],
+							"unwrapMode": 6,
+							"unwrapRotation": 1,
+							"uv": [ 18.0, 0.5 ],
+							"rotationOrigin": [ 0.0, 1.2, 0.0 ],
+							"faces": {
+								"down": { "texture": "#mask", "uv": [ 18.0, 0.5, 23.0, 6.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

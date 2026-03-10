@@ -1,0 +1,114 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"bug-extra": [16,16]
+	},
+	"textures": {
+		"bug-extra": "insectoid:parts/extra/extra1"
+	},
+	"elements": [
+		{
+			"name": "Extra_chelicerae",
+			"stepParentName": "Head",
+			"from": [ 2.85, 2.45, 2.0 ],
+			"to": [ 2.85, 2.45, 2.0 ],
+			"uv": [ 999.0, 999.0 ],
+			"rotationOrigin": [ -0.3, 0.5, 2.5 ],
+			"rotationZ": 5.0,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "LChelicerae",
+					"from": [ -4.339, -2.82, 1.4 ],
+					"to": [ -2.839, -0.82, 2.9 ],
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 0,
+					"uv": [ 11.0, 5.0 ],
+					"rotationOrigin": [ -2.2391, -2.122, 1.4 ],
+					"rotationZ": -7.5,
+					"faces": {
+						"north": { "texture": "#bug-extra", "uv": [ 12.5, 6.0, 15.5, 8.0 ], "autoUv": false, "snapUv": false },
+						"east": { "texture": "#bug-extra", "uv": [ 10.5, 10.0, 12.5, 12.0 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#bug-extra", "uv": [ 7.5, 10.0, 9.5, 12.0 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#bug-extra", "uv": [ 8.0, 10.0, 10.0, 12.0 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#bug-extra", "uv": [ 8.5, 8.0, 10.5, 10.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"down": { "texture": "#bug-extra", "uv": [ 10.5, 12.0, 12.5, 15.0 ], "rotation": 90, "autoUv": false, "snapUv": false }
+					},
+					"children": [
+						{
+							"name": "LChelicerae_1",
+							"from": [ -0.4051, 0.8069, 0.1 ],
+							"to": [ 0.5949, 2.3069, 1.1 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 11.0, 5.0 ],
+							"rotationOrigin": [ 1.6948, 1.5, 0.1 ],
+							"rotationZ": 70.0,
+							"faces": {
+								"north": { "texture": "#bug-extra", "uv": [ 6.0, 12.0, 4.0, 15.0 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#bug-extra", "uv": [ 0.0, 12.0, 2.0, 15.0 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#bug-extra", "uv": [ 4.0, 12.0, 6.0, 15.0 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#bug-extra", "uv": [ 2.0, 12.0, 4.0, 15.0 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#bug-extra", "uv": [ 2.0, 12.0, 4.0, 14.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+								"down": { "texture": "#bug-extra", "uv": [ 2.0, 10.0, 4.0, 12.0 ], "rotation": 90, "autoUv": false, "snapUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "RChelicerae",
+					"from": [ -4.339, -2.815, -1.9 ],
+					"to": [ -2.839, -0.815, -0.4 ],
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 0,
+					"uv": [ 11.0, 5.0 ],
+					"rotationOrigin": [ -2.2391, -2.122, -0.4 ],
+					"rotationZ": -7.5,
+					"faces": {
+						"north": { "texture": "#bug-extra", "uv": [ 10.0, 10.0, 8.0, 12.0 ], "autoUv": false, "snapUv": false },
+						"east": { "texture": "#bug-extra", "uv": [ 12.5, 10.0, 10.5, 12.0 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#bug-extra", "uv": [ 15.5, 6.0, 12.5, 8.0 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#bug-extra", "uv": [ 10.0, 10.0, 8.0, 12.0 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#bug-extra", "uv": [ 10.5, 8.0, 8.5, 10.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"down": { "texture": "#bug-extra", "uv": [ 12.5, 12.0, 10.5, 15.0 ], "rotation": 90, "autoUv": false, "snapUv": false }
+					},
+					"children": [
+						{
+							"name": "RChelicerae_1",
+							"from": [ -0.4051, 0.8069, 0.4 ],
+							"to": [ 0.5949, 2.3069, 1.4 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 11.0, 5.0 ],
+							"rotationOrigin": [ 1.6948, 1.5, 1.4 ],
+							"rotationZ": 70.0,
+							"faces": {
+								"north": { "texture": "#bug-extra", "uv": [ 6.0, 12.0, 4.0, 15.0 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#bug-extra", "uv": [ 2.0, 12.0, 0.0, 15.0 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#bug-extra", "uv": [ 4.0, 12.0, 6.0, 15.0 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#bug-extra", "uv": [ 4.0, 12.0, 2.0, 15.0 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#bug-extra", "uv": [ 4.0, 12.0, 2.0, 14.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+								"down": { "texture": "#bug-extra", "uv": [ 4.0, 10.0, 2.0, 12.0 ], "rotation": 90, "autoUv": false, "snapUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

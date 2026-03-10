@@ -1,0 +1,72 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"bug-extra": [16,16]
+	},
+	"textures": {
+		"bug-extra": "insectoid:parts/extra/extra1"
+	},
+	"elements": [
+		{
+			"name": "Extra_mandible_group",
+			"stepParentName": "Head",
+			"from": [ 2.7, 2.55, 2.0 ],
+			"to": [ 2.7, 2.55, 2.0 ],
+			"uv": [ 999.0, 999.0 ],
+			"rotationOrigin": [ 0.7, 1.0, 2.5 ],
+			"rotationZ": 5.0,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 1.5, 0.5, 2.0, 1.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "RMandible",
+					"from": [ -4.1999, -2.693, -2.8 ],
+					"to": [ -1.1999, -0.693, -1.6 ],
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 0,
+					"uv": [ 11.0, 5.0 ],
+					"rotationOrigin": [ -2.1, -2.0, -1.8 ],
+					"rotationY": 22.5,
+					"faces": {
+						"north": { "texture": "#bug-extra", "uv": [ 10.5, 10.0, 7.5, 12.0 ], "autoUv": false, "snapUv": false },
+						"east": { "texture": "#bug-extra", "uv": [ 14.5, 8.0, 12.5, 10.0 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#bug-extra", "uv": [ 15.5, 10.0, 12.5, 12.0 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#bug-extra", "uv": [ 12.5, 10.0, 10.5, 12.0 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#bug-extra", "uv": [ 12.5, 7.0, 10.5, 10.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"down": { "texture": "#bug-extra", "uv": [ 12.5, 12.0, 10.5, 15.0 ], "rotation": 90, "autoUv": false, "snapUv": false }
+					}
+				},
+				{
+					"name": "LMandible",
+					"from": [ -4.1999, -2.693, 2.5 ],
+					"to": [ -1.1999, -0.693, 3.7 ],
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 0,
+					"uv": [ 11.0, 5.0 ],
+					"rotationOrigin": [ -2.1, -2.0, 2.5 ],
+					"rotationY": -22.5,
+					"faces": {
+						"north": { "texture": "#bug-extra", "uv": [ 12.5, 10.0, 15.5, 12.0 ], "autoUv": false, "snapUv": false },
+						"east": { "texture": "#bug-extra", "uv": [ 12.5, 8.0, 14.5, 10.0 ], "autoUv": false, "snapUv": false },
+						"south": { "texture": "#bug-extra", "uv": [ 7.5, 10.0, 10.5, 12.0 ], "autoUv": false, "snapUv": false },
+						"west": { "texture": "#bug-extra", "uv": [ 10.5, 10.0, 12.5, 12.0 ], "autoUv": false, "snapUv": false },
+						"up": { "texture": "#bug-extra", "uv": [ 10.5, 7.0, 12.5, 10.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"down": { "texture": "#bug-extra", "uv": [ 10.5, 12.0, 12.5, 15.0 ], "rotation": 90, "autoUv": false, "snapUv": false }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,97 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/villager-female",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 20,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"armguard": "entity/humanoid/villagerclothes/arm/guard"
+	},
+	"elements": [
+		{
+			"name": "hidelowerarm",
+			"stepParentName": "LowerTorso",
+			"from": [ 0.0, 0.0, 3.0 ],
+			"to": [ 1.0, 1.0, 4.0 ],
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 0.0, 0.0, 3.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "BracerL",
+					"stepParentName": "LowerArmL",
+					"from": [ -0.09, 1.5, -0.09 ],
+					"to": [ 2.63, 6.0, 2.13 ],
+					"autoUnwrap": false,
+					"uv": [ 11.0, 0.5 ],
+					"rotationOrigin": [ 0.1, 1.5, 1.0 ],
+					"faces": {
+						"north": { "texture": "#armguard", "uv": [ 17.5, 3.5, 20.0, 8.0 ] },
+						"east": { "texture": "#armguard", "uv": [ 15.5, 3.5, 17.5, 8.0 ] },
+						"south": { "texture": "#armguard", "uv": [ 13.0, 3.5, 15.5, 8.0 ] },
+						"west": { "texture": "#armguard", "uv": [ 11.0, 3.5, 13.0, 8.0 ] },
+						"up": { "texture": "#armguard", "uv": [ 13.0, 0.0, 15.0, 2.5 ], "rotation": 90 },
+						"down": { "texture": "#armguard", "uv": [ 18.0, 0.0, 20.0, 2.5 ], "rotation": 90 }
+					},
+					"children": [
+						{
+							"name": "mittenfrill-l",
+							"from": [ 0.1, 4.0, 2.0 ],
+							"to": [ 2.6, 5.5, 2.2 ],
+							"autoUnwrap": false,
+							"uv": [ 0.0, 1.5 ],
+							"rotationOrigin": [ 1.1, 4.0, 2.2 ],
+							"rotationX": 22.5,
+							"faces": {
+								"north": { "texture": "#armguard", "uv": [ 3.5, 2.0, 6.0, 3.5 ] },
+								"east": { "texture": "#armguard", "uv": [ 3.0, 2.0, 3.5, 3.5 ] },
+								"south": { "texture": "#armguard", "uv": [ 0.5, 2.0, 3.0, 3.5 ] },
+								"west": { "texture": "#armguard", "uv": [ 0.0, 2.0, 0.5, 3.5 ] },
+								"up": { "texture": "#armguard", "uv": [ 6.5, 1.0, 9.0, 1.5 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "BracerR",
+					"stepParentName": "LowerArmR",
+					"from": [ -0.09, 1.5, -0.09 ],
+					"to": [ 2.63, 6.0, 2.13 ],
+					"autoUnwrap": false,
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 1.4, 1.5, 1.0 ],
+					"faces": {
+						"north": { "texture": "#armguard", "uv": [ 2.0, 3.5, 4.5, 8.0 ] },
+						"east": { "texture": "#armguard", "uv": [ 0.0, 3.5, 2.0, 8.0 ] },
+						"south": { "texture": "#armguard", "uv": [ 6.5, 3.5, 9.0, 8.0 ] },
+						"west": { "texture": "#armguard", "uv": [ 4.5, 3.5, 6.5, 8.0 ] },
+						"up": { "texture": "#armguard", "uv": [ 10.5, 0.0, 12.5, 2.5 ], "rotation": 90 },
+						"down": { "texture": "#armguard", "uv": [ 15.5, 0.0, 17.5, 2.5 ], "rotation": 90 }
+					},
+					"children": [
+						{
+							"name": "mittenfrill-r",
+							"from": [ 0.1, 4.0, 0.0 ],
+							"to": [ 2.6, 5.5, 0.2 ],
+							"autoUnwrap": false,
+							"uv": [ 0.0, 0.0 ],
+							"rotationOrigin": [ 0.1, 4.0, 0.0 ],
+							"rotationX": -22.5,
+							"faces": {
+								"north": { "texture": "#armguard", "uv": [ 0.5, 0.0, 3.0, 1.5 ] },
+								"east": { "texture": "#armguard", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
+								"south": { "texture": "#armguard", "uv": [ 3.5, 0.0, 6.0, 1.5 ] },
+								"west": { "texture": "#armguard", "uv": [ 3.0, 0.0, 3.5, 1.5 ] },
+								"up": { "texture": "#armguard", "uv": [ 6.5, 0.0, 9.0, 0.5 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

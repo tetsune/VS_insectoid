@@ -1,0 +1,136 @@
+{
+	"editor": {
+		"backDropShape": "insectoid-faceless",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+		"cerise-embroidered-reindeer-herder-waistband": [8,8]
+	},
+	"textures": {
+		"cerise-embroidered-reindeer-herder-waistband": "entity/humanoid/seraphclothes/waist/cerise-embroidered-reindeer-herder-waistband"
+	},
+	"elements": [
+		{
+			"name": "Waist",
+			"stepParentName": "LowerTorsoAttachment",
+			"from": [ 0.0, 2.0, 0.1 ],
+			"to": [ 5.2, 2.5, 5.9 ],
+			"rotationOrigin": [ 3.0, 2.0, 3.4 ],
+			"rotationZ": -7.5,
+			"faces": {
+				"north": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 1.5, 3.5, 6.5, 4.0 ] },
+				"east": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 0.5, 2.0, 6.0, 2.5 ] },
+				"south": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 1.5, 3.5, 6.5, 4.0 ] },
+				"west": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 0.5, 0.5, 6.0, 1.0 ] }
+			},
+			"children": [
+				{
+					"name": "W-Top",
+					"from": [ -0.2, 0.5, 0.0 ],
+					"to": [ 0.8, 1.0, 5.8 ],
+					"rotationOrigin": [ -0.2, 0.5, 0.0 ],
+					"faces": {
+						"north": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 6.0, 2.5, 7.0, 3.0 ] },
+						"south": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 6.5, 0.0, 7.5, 0.5 ] },
+						"west": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 0.5, 0.0, 6.0, 0.5 ] },
+						"up": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 0.0, 1.0, 5.5, 2.0 ], "rotation": 90 },
+						"down": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 1.0, 1.0, 6.5, 2.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "W-Down",
+					"from": [ -0.2, -0.5, -0.1 ],
+					"to": [ 0.8, 0.0, 5.9 ],
+					"rotationOrigin": [ -0.2, -0.5, 3.4 ],
+					"faces": {
+						"north": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 6.0, 2.5, 7.0, 3.0 ] },
+						"south": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 6.5, 0.0, 7.5, 0.5 ] },
+						"west": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 0.5, 0.0, 6.5, 0.5 ] },
+						"up": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 0.0, 1.0, 6.0, 2.0 ], "rotation": 90 },
+						"down": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 1.0, 1.0, 7.0, 2.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "E-Down",
+					"from": [ 4.4, -0.5, -0.2 ],
+					"to": [ 5.4, 0.0, 5.8 ],
+					"rotationOrigin": [ 4.4, -0.5, 3.3 ],
+					"faces": {
+						"north": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 6.0, 2.5, 7.0, 3.0 ] },
+						"east": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 0.5, 0.0, 6.5, 0.5 ] },
+						"south": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 6.5, 0.0, 7.5, 0.5 ] },
+						"up": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 0.0, 1.0, 6.0, 2.0 ], "rotation": 90 },
+						"down": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 1.0, 1.0, 7.0, 2.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "E-Top",
+					"from": [ 4.4, 0.5, 0.0 ],
+					"to": [ 5.4, 1.0, 6.0 ],
+					"rotationOrigin": [ 4.4, 0.5, 3.5 ],
+					"faces": {
+						"north": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 6.0, 2.5, 7.0, 3.0 ] },
+						"east": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 0.5, 0.0, 6.5, 0.5 ] },
+						"south": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 6.5, 0.0, 7.5, 0.5 ] },
+						"up": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 0.0, 1.0, 6.0, 2.0 ], "rotation": 90 },
+						"down": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 1.0, 1.0, 7.0, 2.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "S-Down",
+					"from": [ 0.8, -0.5, 4.8 ],
+					"to": [ 4.6, 0.0, 5.8 ],
+					"rotationOrigin": [ 0.8, -0.5, 4.8 ],
+					"faces": {
+						"east": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 2.0, 0.0, 3.0, 0.5 ] },
+						"south": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 2.5, 0.0, 6.0, 0.5 ] },
+						"west": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 3.0, 1.0, 6.5, 2.0 ] },
+						"down": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 4.5, 1.0, 8.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "S-Top",
+					"from": [ 0.8, 0.5, 5.0 ],
+					"to": [ 4.6, 1.0, 6.0 ],
+					"rotationOrigin": [ 0.8, 0.5, 5.0 ],
+					"faces": {
+						"east": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 2.0, 0.0, 3.0, 0.5 ] },
+						"south": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 2.5, 0.0, 6.0, 0.5 ] },
+						"west": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 3.0, 1.0, 6.5, 2.0 ] },
+						"down": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 4.5, 1.0, 8.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "N-Down",
+					"from": [ 0.8, -0.5, 0.0 ],
+					"to": [ 4.6, 0.0, 1.0 ],
+					"rotationOrigin": [ 0.8, -0.5, 0.0 ],
+					"faces": {
+						"north": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 1.0, 0.0, 4.5, 0.5 ] },
+						"east": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 2.0, 0.0, 3.0, 0.5 ] },
+						"west": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 3.0, 1.0, 6.5, 2.0 ] },
+						"down": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 4.5, 1.0, 8.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "N-Top",
+					"from": [ 0.8, 0.5, 0.0 ],
+					"to": [ 4.6, 1.0, 1.0 ],
+					"rotationOrigin": [ 0.8, 0.5, -0.5 ],
+					"faces": {
+						"north": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 1.0, 0.0, 4.5, 0.5 ] },
+						"east": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 2.0, 0.0, 3.0, 0.5 ] },
+						"west": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 3.0, 1.0, 6.5, 2.0 ] },
+						"down": { "texture": "#cerise-embroidered-reindeer-herder-waistband", "uv": [ 4.5, 1.0, 8.0, 2.0 ] }
+					}
+				}
+			]
+		}
+	]}
