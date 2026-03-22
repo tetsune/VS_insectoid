@@ -5,7 +5,7 @@
 			"Icon": "insectoid:icons/insectoid",
 		"GroupIcon": "insectoid:icons/insectoid",
 		"ShapePath": "insectoid:insectoid-faceless",
-		"BaseShapeCode": "insectoid:insectoid-armor",
+		"BaseShapeCode": "playermodellib:digitigrade",
 		"ExclusiveClasses": ["insectoid-hunter","insectoid-scavenger","insectoid-guard","insectoid-tinkerer","insectoid-weaver","insectoid-digger"],
 		"SizeRange": [ 0.25, 2 ],
 			"ScaleColliderWithSizeHorizontally": true,
