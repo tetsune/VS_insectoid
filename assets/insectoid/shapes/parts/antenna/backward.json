@@ -10,6 +10,7 @@
 		"bug-body": [32,76]
 	},
 	"textures": {
+		"bug-body": "entity/skins/skin1"
 	},
 	"elements": [
 		{
@@ -35,7 +36,6 @@
 					"children": [
 						{
 							"name": "L_back",
-							"stepParentName": "",
 							"from": [ -0.4237, -0.0836, -0.4 ],
 							"to": [ 0.3763, 2.7164, 0.4 ],
 							"climateColorMap": "",
