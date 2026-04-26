@@ -5,8 +5,7 @@
 		"attributes": {
 			"walkspeed": 0.2,
 			"armorWalkSpeedAffectedness": 1.2,
-			"jumpHeightMul": 0.25,
-			"maxhealthExtraPoints": -2.0,
+			"jumpHeightMul": 0.25
 		}
 	},
 	{
@@ -30,15 +29,23 @@
 		}
 	},
 	{
-		"code": "insectoid-shell",
+		"code": "insectoid-exoskeleton",
 		"type": "mixed",
 		"attributes": {
-			"maxhealthExtraPoints": 8.0,
-			"healingeffectivness": -0.5,
+			"maxhealthExtraPoints": 4.0,
 			"fireDamageFactor": -0.2,
 			"bluntDamageFactor": -0.2,
 			"slashingDamageFactor": -0.3,
 			"piercingDamageFactor": -0.3,
+		}
+	},
+		{
+		"code": "insectoid-shell",
+		"type": "mixed",
+		"attributes": {
+			"maxhealthExtraPoints": 2.0,
+			"healingeffectivness": -0.1,
+			"walkspeed": -0.1
 		}
 	},
 	{
@@ -64,9 +71,9 @@
 		"code": "insectoid-naturalpropagator",
 		"type": "positive",
 		"attributes": {
-			"forageDropRate": 0.5,
-			"wildCropDropRate": 0.5,
-			"farmDropRate": 0.5
+			"forageDropRate": 0.1,
+			"wildCropDropRate": 0.2,
+			"farmDropRate": 0.1
 		}
 	},
 	{
@@ -88,11 +95,11 @@
 		"code": "insectoid-carnivore",
 		"type": "mixed",
 		"attributes": {
-			"proteinNutritionFactor": 1.2,
-			"fruitNutritionFactor": -0.9,
-			"vegetableNutritionFactor": -0.9,
-			"grainNutritionFactor": -0.9,
-			"dairyNutritionFactor": -0.5
+			"proteinNutritionFactor": 0.5,
+			"fruitNutritionFactor": -0.8,
+			"vegetableNutritionFactor": -0.6,
+			"grainNutritionFactor": -0.6,
+			"dairyNutritionFactor": -0.3
 		}
 	},
 	{
@@ -107,8 +114,8 @@
 		"type": "mixed",
 		"attributes": {
 			"proteinNutritionFactor": -0.9,
-			"fruitNutritionFactor": 1.0,
-			"vegetableNutritionFactor": 1.0,
+			"fruitNutritionFactor": 0.3,
+			"vegetableNutritionFactor": 0.4,
 			"grainNutritionFactor": 0.3,
 			"dairyNutritionFactor": -0.5
 		}

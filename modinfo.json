@@ -1,0 +1,18 @@
+{
+  "type": "content",
+  "name": "Insectoids",
+  "modid": "insectoid",
+  "version": "0.0.48",
+
+  "description": "Buggy player models, but like the good kind",
+  "authors": [ "Tetsune" ],
+  "contributors": [ "FluffiestFloofer", "Arlendo", "jss2a98aj" ],
+	
+  "dependencies": {
+    "playermodellib": "1.10.11"
+  },
+
+  "side" : "universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true
+}

@@ -1,39 +1,82 @@
 [
 	{
-	"file": "insectoid:config/customplayermodels/insectoid.json",
-	"op": "addmerge",
-	"path": "/insectoid/SkinnableParts/-",
-	"dependsOn": [{ "modid": "antlershorns" }],
-	"value": {
-			"code": "antlers",
-			"type": "shape",
-			"shapeTemplate": {
-				"base": "antlershorns:entity/humanoid/seraphskinparts/head/{code}"
-			},
-			"variants": [
-				{"code": "none"},
-				{"code": "angora07"},
-				{"code": "caribou04"},
-				{"code": "chital05"},
-				{"code": "elk04"},
-				{"code": "fallow07"},
-				{"code": "guemal05"},
-				{"code": "ibexalp05"},
-				{"code": "ibexnub09"},
-				{"code": "markhor08"},
-				{"code": "marsh07"},
-				{"code": "moose05"},
-				{"code": "mountain06"},
-				{"code": "muskox05"},
-				{"code": "nubian04"},
-				{"code": "pampas07"},
-				{"code": "takingold05"},
-				{"code": "turdag05"},
-				{"code": "valais08"},
-				{"code": "bighornfemale"},
-				{"code": "bighornmale"},
-				{"code": "whitetail05"}
-			]
-		}
-	}
+    "op": "add",
+    "path": "/insectoid/SkinnableParts/-",
+    "dependsOn": [{ "modid": "antlershorns" }],
+    "value": {
+      "code": "antlers",
+      "type": "shape",
+      "shapeTemplate": {
+        "base": "antlershorns:entity/humanoid/seraphskinparts/head/{code}"
+      },
+      "variants": [
+        {
+          "code": "none"
+        },
+        {
+          "code": "angora07"
+        },
+        {
+          "code": "caribou04"
+        },
+        {
+          "code": "chital05"
+        },
+        {
+          "code": "elk04"
+        },
+        {
+          "code": "fallow07"
+        },
+        {
+          "code": "guemal05"
+        },
+        {
+          "code": "ibexalp05"
+        },
+        {
+          "code": "ibexnub09"
+        },
+        {
+          "code": "markhor08"
+        },
+        {
+          "code": "marsh07"
+        },
+        {
+          "code": "moose05"
+        },
+        {
+          "code": "mountain06"
+        },
+        {
+          "code": "muskox05"
+        },
+        {
+          "code": "nubian04"
+        },
+        {
+          "code": "pampas07"
+        },
+        {
+          "code": "takingold05"
+        },
+        {
+          "code": "turdag05"
+        },
+        {
+          "code": "valais08"
+        },
+        {
+          "code": "bighornfemale"
+        },
+        {
+          "code": "bighornmale"
+        },
+        {
+          "code": "whitetail05"
+        }
+
+      ]
+    }
 ]

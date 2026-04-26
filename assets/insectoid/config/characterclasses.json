@@ -17,7 +17,7 @@
   {
 		"enabled": true,
 		"code": "insectoid-scavenger",
-		"traits": ["insectoid-naturalpropagator","pilferer","furtive","improviser","insectoid-agile","ravenous","insectoid-omnivore"],
+		"traits": ["pilferer","furtive","improviser","insectoid-agile","ravenous","insectoid-omnivore"],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbodyover-raw-hide-mantle" },
 			{ "type": "item", "code": "game:clothes-shoulder-survivor" },
@@ -32,7 +32,7 @@
   {
 		"enabled": true,
 		"code": "insectoid-guard",
-		"traits": ["soldier","insectoid-shell","merciless","hardy","nearsighted","heavyhanded","insectoid-herbivore"],
+		"traits": ["soldier","merciless","nearsighted","insectoid-shell","heavyhanded","insectoid-herbivore"],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-blackguard-shirt" },
 			{ "type": "item", "code": "game:clothes-lowerbody-blackguard-leggings" },
@@ -58,7 +58,7 @@
   {
 		"enabled": true,
 		"code": "insectoid-weaver",
-		"traits": ["clothier","mender","insectoid-silk","insectoid-mender","insectoid-naturalpropagator","insectoid-omnivore"],
+		"traits": ["clothier","mender","insectoid-silk","weak","kind","insectoid-omnivore"],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-head-shepherds-cowl" },
 			{ "type": "item", "code": "game:clothes-upperbodyover-tailor-jacket" },
@@ -73,7 +73,7 @@
   {
 		"enabled": true,
 		"code": "insectoid-digger",
-		"traits": ["technical","nearsighted","insectoid-digger","insectoid-shell","insectoid-naturalpropagator","insectoid-nocturnal","insectoid-herbivore"],
+		"traits": ["technical","nearsighted","insectoid-digger","insectoid-nocturnal","ravenous","insectoid-herbivore"],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-shoulder-miner" },
 			{ "type": "item", "code": "game:clothes-upperbodyover-miner" },
