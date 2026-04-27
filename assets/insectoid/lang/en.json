@@ -3,9 +3,11 @@
   
   "insectoid:playermodel-insectoid": "Insectoid",
   "insectoid:playermodel-insectoid-cosmetic": "Insectoid",
+  "insectoid:playermodel-insectoid-lepidoptera": "Lepidopteroid",
 
   "insectoid:modeldesc-insectoid": "A strange, insect-like creature of unknown origin. They appear to have adapted to a variety of environments.",
   "insectoid:modeldesc-insectoid-cosmetic": "Appears to be a strange, insect-like creature of unknown origin.",
+  "insectoid:modeldesc-insectoid-lepidoptera": "A large, winged insectoid with a gentle nature.",
 
   "game:skinpart-insectoid-basecolor": "Base color",
   "game:skinpart-insectoid-basecolor-skin1": "Glacial Blue",
@@ -311,6 +313,7 @@
   "game:trait-insectoid-agile": "<font color=\"#eeee84\">• Agile</font> ",
   "game:trait-insectoid-predator": "<font color=\"#eeee84\">• Predator</font> ",
   "game:trait-insectoid-shell": "<font color=\"#eeee84\">• Hard Shell</font> ",
+  "game:trait-insectoid-exoskeleton": "<font color=\"#eeee84\">• Exoskeleton</font> ",
   "game:trait-insectoid-naturalhunter": "<font color=\"#84ff84\">• Natural Hunter</font> ",
   "game:trait-insectoid-carnivore": "<font color=\"#99c9f9\">• Carnivore</font> ",
   "game:trait-insectoid-omnivore": "<font color=\"#99c9f9\">• Omnivore</font> ",
@@ -322,10 +325,11 @@
   "game:trait-insectoid-silk": "<font color=\"#84ff84\">• Spinnerets</font> ",
   "game:trait-insectoid-mender": "<font color=\"#eeee84\">• Natural Healer</font> ",
   
-  "game:charattribute-maxhealthExtraPoints--8": "-8 health points",
-  "game:charattribute-maxhealthExtraPoints-8": "+8 health points",
+  "game:charattribute-maxhealthExtraPoints--4": "-4 health points",
+  "game:charattribute-maxhealthExtraPoints-4": "+4 health points",
   "game:charattribute-maxhealthExtraPoints--5": "-5 health points",
   "game:charattribute-maxhealthExtraPoints--2": "-2 health points",
+  "game:charattribute-maxhealthExtraPoints-2": "2 health points",
   
   "game:charattribute-hungerrate--0.9": "-90% hunger rate",
   
@@ -463,14 +467,20 @@
 
   "game:charattribute-fruitNutritionFactor-1": "+100% nutrition from fruits",
   "game:charattribute-fruitNutritionFactor--0.9": "-90% nutrition from fruits",
+  "game:charattribute-fruitNutritionFactor--0.3": "-30% nutrition from fruits",
+  "game:charattribute-fruitNutritionFactor--0.8": "-80% nutrition from fruits",
   
   "game:charattribute-vegetableNutritionFactor-1": "+100% nutrition from vegetables",
   "game:charattribute-vegetableNutritionFactor--0.9": "-90% nutrition from vegetables",
+  "game:charattribute-vegetableNutritionFactor--0.4": "-40% nutrition from vegetables",
+  "game:charattribute-vegetableNutritionFactor--0.6": "-60% nutrition from vegetables",
   
   "game:charattribute-grainNutritionFactor-0.3": "+30% nutrition from grain",
   "game:charattribute-grainNutritionFactor--0.9": "-90% nutrition from grain",
+  "game:charattribute-grainNutritionFactor--0.3": "-30% nutrition from grain",
   "game:charattribute-grainNutritionFactor-1.0": "+100% nutrition from grain",
 
+  "game:charattribute-dairyNutritionFactor--0.3": "-30% nutrition from dairy",
   "game:charattribute-dairyNutritionFactor--0.5": "-50% nutrition from dairy",
   "game:charattribute-dairyNutritionFactor-1": "100% nutrition from dairy",
 
@@ -534,6 +544,7 @@
 
   "game:charattribute-farmDropRate--0.2": "-20% farm crop drop rate",
   "game:charattribute-farmDropRate-0.5": "+50% farm crop drop rate",
+  "game:charattribute-farmDropRate-0.1": "+10% farm crop drop rate",
 
   "game:charattribute-wildCropDropRate--0.5": "-50% wild crop drop rate",
   
@@ -547,7 +558,7 @@
   "game:charattribute-hungerrate-0.2": "+20% hunger rate",
 
   "game:charattribute-warmthBonus-12": "+12°C temperature resistance",
-  "game:charattribute-healingeffectivness--0.5": "-50% healing effectivness",
+  "game:charattribute-healingeffectivness--0.1": "-10% healing effectivness",
   "game:charattribute-healDamageFactor--0.5": "-50% healing received",
   "game:charattribute-fireDamageFactor-1": "+100% fire damage received"
 }
